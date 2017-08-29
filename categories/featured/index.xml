@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Featured on Travis Beckham</title>
+    <link>http://travisbeckham.com/categories/featured/</link>
+    <description>Recent content in Featured on Travis Beckham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 13 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://travisbeckham.com/categories/featured/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Minted Component Library</title>
+      <link>http://travisbeckham.com/projects/minted-component-library/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://travisbeckham.com/projects/minted-component-library/</guid>
+      <description>As Minted Wedding Websites moved from the legacy Hitched Up app to React, it gave me to opportunity to create a responsive component library from the ground up. This library has allowed our team build consistently, launch new features at a faster pace, and reduce internal miscommunication.      The building blocks are broken down into four categories:   Foundation contains the abstract properties such as font definitions, colors, grid structure, and spacing.</description>
+    </item>
+    
+  </channel>
+</rss>

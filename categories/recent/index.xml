@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent on Travis Beckham</title>
+    <link>http://travisbeckham.com/categories/recent/</link>
+    <description>Recent content in Recent on Travis Beckham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 12 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://travisbeckham.com/categories/recent/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Minted Wedding Websites</title>
+      <link>http://travisbeckham.com/projects/minted-wedding-websites/</link>
+      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://travisbeckham.com/projects/minted-wedding-websites/</guid>
+      <description>                    </description>
+    </item>
+    
+    <item>
+      <title>Destination Hotels</title>
+      <link>http://travisbeckham.com/projects/destination-hotels/</link>
+      <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://travisbeckham.com/projects/destination-hotels/</guid>
+      <description>                  </description>
+    </item>
+    
+    <item>
+      <title>Visit KC</title>
+      <link>http://travisbeckham.com/projects/visit-kc/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://travisbeckham.com/projects/visit-kc/</guid>
+      <description>            </description>
+    </item>
+    
+  </channel>
+</rss>

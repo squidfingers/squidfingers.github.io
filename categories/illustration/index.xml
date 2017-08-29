@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Illustration on Travis Beckham</title>
+    <link>http://travisbeckham.com/categories/illustration/</link>
+    <description>Recent content in Illustration on Travis Beckham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 03 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://travisbeckham.com/categories/illustration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MMGY - Google Glass</title>
+      <link>http://travisbeckham.com/projects/mmgy-google-glass/</link>
+      <pubDate>Tue, 03 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://travisbeckham.com/projects/mmgy-google-glass/</guid>
+      <description>       </description>
+    </item>
+    
+    <item>
+      <title>Creepfest</title>
+      <link>http://travisbeckham.com/projects/creepfest/</link>
+      <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://travisbeckham.com/projects/creepfest/</guid>
+      <description>        </description>
+    </item>
+    
+    <item>
+      <title>Westport Holidays</title>
+      <link>http://travisbeckham.com/projects/westport-holidays/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://travisbeckham.com/projects/westport-holidays/</guid>
+      <description>           </description>
+    </item>
+    
+  </channel>
+</rss>
