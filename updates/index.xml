@@ -16,7 +16,7 @@
       <pubDate>Wed, 30 Aug 2017 12:30:00 -0600</pubDate>
       
       <guid>http://travisbeckham.com/updates/2017-08-30/</guid>
-      <description> If you&#39;re just learning Hugo like me, you may want to start with Go&#39;s template documentation. The conditional sytax tripped me up for a minute. If you&#39;re accustomed to writing conditionals like this: if ($x == $y) if ($x &amp;amp;&amp;amp; $y) if ($x == $y || $x == $z)  This is how it would look in a Go template: {{ if eq $x $y }} {{ if and $x $y }} {{ if or (eq $x $y) (eq $x $z) }} </description>
+      <description>If you&#39;re just learning Hugo like me, you may want to start with Go&#39;s template documentation. The conditional sytax tripped me up for a minute. If you&#39;re accustomed to writing conditionals like this: if ($x == $y) if ($x &amp;amp;&amp;amp; $y) if ($x == $y || $x == $z)  This is how it would look in a Go template: {{ if eq $x $y }} {{ if and $x $y }} {{ if or (eq $x $y) (eq $x $z) }}  In a Go template, eq is a function that you pass arguments to, not a comparison operator like you would use in JavaScript.</description>
     </item>
     
     <item>
