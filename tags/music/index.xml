@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music on Travis Beckham</title>
+    <link>http://travisbeckham.com/tags/music/</link>
+    <description>Recent content in Music on Travis Beckham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 06 Sep 2017 10:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="http://travisbeckham.com/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://travisbeckham.com/updates/2017-09-06/</link>
+      <pubDate>Wed, 06 Sep 2017 10:00:00 -0600</pubDate>
+      
+      <guid>http://travisbeckham.com/updates/2017-09-06/</guid>
+      <description> Getting the day started with &#34;+/-&#34; by Buke and Gase. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://travisbeckham.com/updates/2017-08-31/</link>
+      <pubDate>Thu, 31 Aug 2017 09:45:00 -0600</pubDate>
+      
+      <guid>http://travisbeckham.com/updates/2017-08-31/</guid>
+      <description>  The War on Drugs has a new album out, and I&#39;m loving it. They are going to be in Chicago on my birthday... mmm, maybe I should grab some tickets. Listen on Spotfiy.   </description>
+    </item>
+    
+  </channel>
+</rss>
