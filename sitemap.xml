@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://travisbeckham.com/updates/2017-09-11/</loc>
+    <lastmod>2017-09-11T10:15:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://travisbeckham.com/updates/2017-09-07-2/</loc>
     <lastmod>2017-09-07T12:30:00-06:00</lastmod>
   </url>
@@ -104,7 +109,7 @@
   
   <url>
     <loc>http://travisbeckham.com/</loc>
-    <lastmod>2017-09-07T12:30:00-06:00</lastmod>
+    <lastmod>2017-09-11T10:15:00-06:00</lastmod>
   </url>
   
   <url>
@@ -164,13 +169,13 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/tags/illustration/</loc>
+    <loc>http://travisbeckham.com/categories/illustration/</loc>
     <lastmod>2017-01-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/categories/illustration/</loc>
+    <loc>http://travisbeckham.com/tags/illustration/</loc>
     <lastmod>2017-01-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -178,6 +183,12 @@
   <url>
     <loc>http://travisbeckham.com/tags/music/</loc>
     <lastmod>2017-09-06T10:00:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/photos/</loc>
+    <lastmod>2017-09-11T10:15:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -206,7 +217,7 @@
   
   <url>
     <loc>http://travisbeckham.com/updates/</loc>
-    <lastmod>2017-09-07T12:30:00-06:00</lastmod>
+    <lastmod>2017-09-11T10:15:00-06:00</lastmod>
   </url>
   
   <url>
