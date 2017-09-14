@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Product Design on Travis Beckham</title>
+    <link>http://travisbeckham.com/tags/product-design/</link>
+    <description>Recent content in Product Design on Travis Beckham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 14 Sep 2017 10:15:00 -0600</lastBuildDate>
+    
+	<atom:link href="http://travisbeckham.com/tags/product-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://travisbeckham.com/updates/2017-09-14/</link>
+      <pubDate>Thu, 14 Sep 2017 10:15:00 -0600</pubDate>
+      
+      <guid>http://travisbeckham.com/updates/2017-09-14/</guid>
+      <description>Zenith has introduced the new Defy Lab watch, which they say is the most accurate mechanical watch ever made. It runs at a frequency five-times greater than a standard mechanical watch and has a 60-hour power reserve. I&#39;m also loving the material it&#39;s made from, which is called aeronith. It&#39;s an ultra-light aluminum composite that looks a bit like concrete. The price? $31,000. See a video overview from aBlogtoWatch.</description>
+    </item>
+    
+  </channel>
+</rss>
