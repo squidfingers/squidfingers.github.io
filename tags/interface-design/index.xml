@@ -5,10 +5,19 @@
     <link>http://travisbeckham.com/tags/interface-design/</link>
     <description>Recent content in Interface Design on Travis Beckham</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Sep 2017 08:45:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 21 Sep 2017 10:30:00 -0600</lastBuildDate>
     
 	<atom:link href="http://travisbeckham.com/tags/interface-design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>http://travisbeckham.com/updates/2017-09-21/</link>
+      <pubDate>Thu, 21 Sep 2017 10:30:00 -0600</pubDate>
+      
+      <guid>http://travisbeckham.com/updates/2017-09-21/</guid>
+      <description> Mapbox has an interesting idea that helps people decide where to go based on direction/time, not literal geography. The map directions are only displayed once a destination is selected. </description>
+    </item>
     
     <item>
       <title></title>
