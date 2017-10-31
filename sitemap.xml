@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://travisbeckham.com/updates/2017-10-31/</loc>
+    <lastmod>2017-10-31T11:15:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://travisbeckham.com/updates/2017-10-23/</loc>
     <lastmod>2017-10-23T14:50:00-06:00</lastmod>
   </url>
@@ -134,7 +139,7 @@
   
   <url>
     <loc>http://travisbeckham.com/</loc>
-    <lastmod>2017-10-23T14:50:00-06:00</lastmod>
+    <lastmod>2017-10-31T11:15:00-06:00</lastmod>
   </url>
   
   <url>
@@ -188,13 +193,13 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/categories/illustration/</loc>
-    <lastmod>2017-01-03T00:00:00+00:00</lastmod>
+    <loc>http://travisbeckham.com/tags/illustration/</loc>
+    <lastmod>2017-10-31T11:15:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/tags/illustration/</loc>
+    <loc>http://travisbeckham.com/categories/illustration/</loc>
     <lastmod>2017-01-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -248,7 +253,7 @@
   
   <url>
     <loc>http://travisbeckham.com/updates/</loc>
-    <lastmod>2017-10-23T14:50:00-06:00</lastmod>
+    <lastmod>2017-10-31T11:15:00-06:00</lastmod>
   </url>
   
   <url>
