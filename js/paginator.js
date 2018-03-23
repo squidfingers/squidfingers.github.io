@@ -8,7 +8,7 @@
         nextClassName      : 'next',
         moreClassName      : 'more',
         moreText           : 'Load More',
-        loaderClassName    : 'loading',
+        loaderClassName    : 'loader',
         loaderText         : 'Loading...',
         doneClassName      : 'done',
         doneText           : 'Nothing more to see.'
