@@ -309,12 +309,6 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/categories/</loc>
-    <lastmod>2017-01-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://travisbeckham.com/tags/code/</loc>
     <lastmod>2017-08-30T12:30:00-06:00</lastmod>
     <priority>0</priority>
@@ -404,12 +398,6 @@
   <url>
     <loc>http://travisbeckham.com/categories/recent/</loc>
     <lastmod>2017-01-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
