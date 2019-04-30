@@ -331,7 +331,7 @@
   
   <url>
     <loc>http://travisbeckham.com/tags/design/</loc>
-    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -413,6 +413,12 @@
   <url>
     <loc>http://travisbeckham.com/categories/recent/</loc>
     <lastmod>2017-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/ui/</loc>
+    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
