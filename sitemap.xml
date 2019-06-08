@@ -253,67 +253,67 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/minted-component-library/</loc>
+    <loc>http://travisbeckham.com/recent-projects/minted-component-library/</loc>
     <lastmod>2017-01-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/minted-wedding-websites/</loc>
+    <loc>http://travisbeckham.com/recent-projects/minted-wedding-websites/</loc>
     <lastmod>2017-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/destination-hotels/</loc>
+    <loc>http://travisbeckham.com/recent-projects/destination-hotels/</loc>
     <lastmod>2017-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/visit-kc/</loc>
+    <loc>http://travisbeckham.com/recent-projects/visit-kc/</loc>
     <lastmod>2017-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/enterprise/</loc>
+    <loc>http://travisbeckham.com/archived-projects/enterprise/</loc>
     <lastmod>2017-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/davenport-hotel-collection/</loc>
+    <loc>http://travisbeckham.com/archived-projects/davenport-hotel-collection/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/surf-or-sound/</loc>
+    <loc>http://travisbeckham.com/archived-projects/surf-or-sound/</loc>
     <lastmod>2017-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/sixt/</loc>
+    <loc>http://travisbeckham.com/archived-projects/sixt/</loc>
     <lastmod>2017-01-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/udr/</loc>
+    <loc>http://travisbeckham.com/archived-projects/udr/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/mcdonalds/</loc>
+    <loc>http://travisbeckham.com/archived-projects/mcdonalds/</loc>
     <lastmod>2017-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/mmgy-google-glass/</loc>
+    <loc>http://travisbeckham.com/illustration/mmgy-google-glass/</loc>
     <lastmod>2017-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/creepfest/</loc>
+    <loc>http://travisbeckham.com/illustration/creepfest/</loc>
     <lastmod>2017-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/westport-holidays/</loc>
+    <loc>http://travisbeckham.com/illustration/westport-holidays/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -327,9 +327,8 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/categories/archive/</loc>
+    <loc>http://travisbeckham.com/archived-projects/</loc>
     <lastmod>2017-01-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -369,12 +368,6 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/categories/featured/</loc>
-    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://travisbeckham.com/tags/frontend/</loc>
     <lastmod>2017-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -391,9 +384,8 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/categories/illustration/</loc>
+    <loc>http://travisbeckham.com/illustration/</loc>
     <lastmod>2017-01-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -421,20 +413,14 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/projects/</loc>
-    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://travisbeckham.com/tags/quotes/</loc>
     <lastmod>2017-12-21T08:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/categories/recent/</loc>
-    <lastmod>2017-01-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>http://travisbeckham.com/recent-projects/</loc>
+    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
