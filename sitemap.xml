@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://travisbeckham.com/updates/2019-09-16/</loc>
+    <lastmod>2019-09-16T16:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://travisbeckham.com/updates/2019-09-11/</loc>
     <lastmod>2019-09-11T12:45:00-05:00</lastmod>
   </url>
@@ -349,7 +354,7 @@
   
   <url>
     <loc>http://travisbeckham.com/</loc>
-    <lastmod>2019-09-11T12:45:00-05:00</lastmod>
+    <lastmod>2019-09-16T16:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -467,12 +472,12 @@
   
   <url>
     <loc>http://travisbeckham.com/updates/</loc>
-    <lastmod>2019-09-11T12:45:00-05:00</lastmod>
+    <lastmod>2019-09-16T16:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://travisbeckham.com/tags/ux/</loc>
-    <lastmod>2019-06-06T15:45:00-05:00</lastmod>
+    <lastmod>2019-09-16T16:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
