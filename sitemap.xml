@@ -391,8 +391,14 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/tags/design/</loc>
+    <loc>http://travisbeckham.com/tags/collaborated-on-visual-design/</loc>
     <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/design/</loc>
+    <lastmod>2017-01-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -478,6 +484,12 @@
   <url>
     <loc>http://travisbeckham.com/tags/ux/</loc>
     <lastmod>2019-09-16T16:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/visual-design/</loc>
+    <lastmod>2017-01-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
