@@ -1,6 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://travisbeckham.com/</loc>
+    <lastmod>2020-03-08T11:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/updates/2020-03-08/</loc>
+    <lastmod>2020-03-08T11:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/design/</loc>
+    <lastmod>2020-03-08T11:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/updates/</loc>
+    <lastmod>2020-03-08T11:00:00-05:00</lastmod>
+  </url>
   
   <url>
     <loc>http://travisbeckham.com/updates/2019-11-08/</loc>
@@ -13,7 +33,17 @@
   </url>
   
   <url>
+    <loc>http://travisbeckham.com/tags/ux/</loc>
+    <lastmod>2019-09-16T16:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://travisbeckham.com/updates/2019-09-11/</loc>
+    <lastmod>2019-09-11T12:45:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/music/</loc>
     <lastmod>2019-09-11T12:45:00-05:00</lastmod>
   </url>
   
@@ -23,7 +53,22 @@
   </url>
   
   <url>
+    <loc>http://travisbeckham.com/tags/drawings-for-lars/</loc>
+    <lastmod>2019-07-28T10:15:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/illustration/</loc>
+    <lastmod>2019-07-28T10:15:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://travisbeckham.com/updates/2019-07-17/</loc>
+    <lastmod>2019-07-17T21:15:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/animation/</loc>
     <lastmod>2019-07-17T21:15:00-05:00</lastmod>
   </url>
   
@@ -33,7 +78,22 @@
   </url>
   
   <url>
+    <loc>http://travisbeckham.com/tags/photos/</loc>
+    <lastmod>2019-07-13T09:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://travisbeckham.com/updates/2019-06-17/</loc>
+    <lastmod>2019-06-17T21:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/product-design/</loc>
+    <lastmod>2019-06-17T21:30:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/watches/</loc>
     <lastmod>2019-06-17T21:30:00-05:00</lastmod>
   </url>
   
@@ -54,6 +114,16 @@
   
   <url>
     <loc>http://travisbeckham.com/updates/2019-05-09/</loc>
+    <lastmod>2019-05-09T14:45:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/books/</loc>
+    <lastmod>2019-05-09T14:45:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/code/</loc>
     <lastmod>2019-05-09T14:45:00-05:00</lastmod>
   </url>
   
@@ -203,7 +273,17 @@
   </url>
   
   <url>
+    <loc>http://travisbeckham.com/tags/entertainment/</loc>
+    <lastmod>2017-12-22T11:15:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://travisbeckham.com/updates/2017-12-21/</loc>
+    <lastmod>2017-12-21T08:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/quotes/</loc>
     <lastmod>2017-12-21T08:00:00-06:00</lastmod>
   </url>
   
@@ -244,6 +324,11 @@
   
   <url>
     <loc>http://travisbeckham.com/updates/2017-09-21/</loc>
+    <lastmod>2017-09-21T10:30:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/interface-design/</loc>
     <lastmod>2017-09-21T10:30:00-06:00</lastmod>
   </url>
   
@@ -298,8 +383,28 @@
   </url>
   
   <url>
+    <loc>http://travisbeckham.com/recent-projects/</loc>
+    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/ui/</loc>
+    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://travisbeckham.com/recent-projects/minted-wedding-websites/</loc>
     <lastmod>2017-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/visual-design/</loc>
+    <lastmod>2017-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/collaborated-on-visual-design/</loc>
+    <lastmod>2017-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -310,6 +415,11 @@
   <url>
     <loc>http://travisbeckham.com/recent-projects/visit-kc/</loc>
     <lastmod>2017-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/archived-projects/</loc>
+    <lastmod>2017-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -338,8 +448,23 @@
   </url>
   
   <url>
+    <loc>http://travisbeckham.com/tags/backend/</loc>
+    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/frontend/</loc>
+    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://travisbeckham.com/archived-projects/mcdonalds/</loc>
     <lastmod>2017-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/illustration/</loc>
+    <lastmod>2017-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -358,150 +483,11 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/</loc>
-    <lastmod>2019-11-08T15:45:00-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://travisbeckham.com/about/</loc>
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/tags/animation/</loc>
-    <lastmod>2019-07-17T21:15:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/archived-projects/</loc>
-    <lastmod>2017-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/backend/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/books/</loc>
-    <lastmod>2019-05-09T14:45:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/code/</loc>
-    <lastmod>2019-05-09T14:45:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/collaborated-on-visual-design/</loc>
-    <lastmod>2017-01-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/design/</loc>
-    <lastmod>2017-01-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/drawings-for-lars/</loc>
-    <lastmod>2019-07-28T10:15:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/entertainment/</loc>
-    <lastmod>2017-12-22T11:15:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/frontend/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://travisbeckham.com/history/</loc>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/illustration/</loc>
-    <lastmod>2019-07-28T10:15:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/illustration/</loc>
-    <lastmod>2017-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/interface-design/</loc>
-    <lastmod>2017-09-21T10:30:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/music/</loc>
-    <lastmod>2019-09-11T12:45:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/photos/</loc>
-    <lastmod>2019-07-13T09:00:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/product-design/</loc>
-    <lastmod>2019-06-17T21:30:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/quotes/</loc>
-    <lastmod>2017-12-21T08:00:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/recent-projects/</loc>
-    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/ui/</loc>
-    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/updates/</loc>
-    <lastmod>2019-11-08T15:45:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/ux/</loc>
-    <lastmod>2019-09-16T16:00:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/visual-design/</loc>
-    <lastmod>2017-01-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/watches/</loc>
-    <lastmod>2019-06-17T21:30:00-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
