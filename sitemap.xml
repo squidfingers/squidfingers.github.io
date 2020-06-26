@@ -454,12 +454,7 @@
   
   <url>
     <loc>http://travisbeckham.com/archived-projects/</loc>
-    <lastmod>2017-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/archived-projects/enterprise/</loc>
-    <lastmod>2017-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -473,28 +468,8 @@
   </url>
   
   <url>
-    <loc>http://travisbeckham.com/archived-projects/sixt/</loc>
-    <lastmod>2017-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://travisbeckham.com/archived-projects/udr/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/backend/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/tags/frontend/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://travisbeckham.com/archived-projects/mcdonalds/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -508,7 +483,17 @@
   </url>
   
   <url>
+    <loc>http://travisbeckham.com/tags/backend/</loc>
+    <lastmod>2017-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://travisbeckham.com/illustration/creepfest/</loc>
+    <lastmod>2017-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://travisbeckham.com/tags/frontend/</loc>
     <lastmod>2017-01-02T00:00:00+00:00</lastmod>
   </url>
   
