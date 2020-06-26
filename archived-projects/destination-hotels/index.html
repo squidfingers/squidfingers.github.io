@@ -5,7 +5,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Illustration / Travis Beckham</title>
+        <title>Destination Hotels / Travis Beckham</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:200,300,700" rel="stylesheet">
         <link href="/css/app.css?v=20200625" rel="stylesheet" type="text/css">
@@ -17,7 +17,7 @@
     </head>
     <body>
 
-        <header id="page-header" class="page-header">
+        <header id="page-header" class="page-header condensed">
             <div class="container-fluid">
                 <div class="row">
                     <div class="brand">
@@ -52,36 +52,95 @@
             <div class="container-fluid">
                 
 
-<div class="project-type illustration">
+<div class="project-header">
+    <div class="pager">
+        <ul>
+            <li class="previous">
+                
+                <svg data-src="/img/ui/arrow-left.svg"></svg>
+                
+            </li>
+            <li class="next">
+                
+                <a id="nextPage" href="/archived-projects/visit-kc/" title="Visit KC"><svg data-src="/img/ui/arrow-right.svg"></svg></a>
+                
+            </li>
+        </ul>
+    </div>
+    <div class="project-title">
+        <h2>
+            Destination Hotels
+        </h2>
+        <h5>
+            UX, Collaborated on Visual Design
+        </h5>
+    </div>
+</div>
+
+<div class="project-content">
     
-    <div class="project-listing">
-        
-            <figure class="project-link">
-    <a href="/illustration/mmgy-google-glass/">
-        <img src="/img/projects/mmgy-google-glass/tn.jpg" alt="MMGY - Google Glass">
-    </a>
-    <figcaption>MMGY - Google Glass</figcaption>
-</figure>
+<div class="col-sm-12">
+    <img src="/img/projects/destination-hotels/01.jpg" alt="Image 1" class="border">
+</div>
 
-        
-            <figure class="project-link">
-    <a href="/illustration/creepfest/">
-        <img src="/img/projects/creepfest/tn.jpg" alt="Creepfest">
-    </a>
-    <figcaption>Creepfest</figcaption>
-</figure>
+<div class="col-sm-6">
+    <img src="/img/projects/destination-hotels/02.jpg" alt="Image 2" class="border">
+</div>
+<div class="col-sm-6">
+    <img src="/img/projects/destination-hotels/03.jpg" alt="Image 3" class="border">
+</div>
 
-        
-            <figure class="project-link">
-    <a href="/illustration/westport-holidays/">
-        <img src="/img/projects/westport-holidays/tn.jpg" alt="Westport Holidays">
-    </a>
-    <figcaption>Westport Holidays</figcaption>
-</figure>
+<div class="col-sm-4">
+    <img src="/img/projects/destination-hotels/04.jpg" alt="Image 4" class="border">
+</div>
+<div class="col-sm-4">
+    <img src="/img/projects/destination-hotels/05.jpg" alt="Image 5" class="border">
+</div>
+<div class="col-sm-4">
+    <img src="/img/projects/destination-hotels/06.jpg" alt="Image 6" class="border">
+</div>
 
+<div class="col-6 col-sm-3">
+    <img src="/img/projects/destination-hotels/07.jpg" alt="Image 7" class="border">
+</div>
+<div class="col-6 col-sm-3">
+    <img src="/img/projects/destination-hotels/08.jpg" alt="Image 8" class="border">
+</div>
+<div class="col-6 col-sm-3">
+    <img src="/img/projects/destination-hotels/09.jpg" alt="Image 9" class="border">
+</div>
+<div class="col-6 col-sm-3">
+    <img src="/img/projects/destination-hotels/10.jpg" alt="Image 10" class="border">
+</div>
+
+</div>
+
+<div class="next-project">
+    <div class="content">
+        
+        <a href="/archived-projects/visit-kc/" class="next-project-btn" role="button">Next: Visit KC</a>
         
     </div>
 </div>
+
+<script type="text/javascript">
+    
+    document.addEventListener('keydown', function(e) {
+        var leftArrow, rightArrow;
+        switch (e.keyCode) {
+        case 37:
+            leftArrow = true;
+            break;
+        case 39:
+            rightArrow = true;
+            break;
+        }
+        if (leftArrow || rightArrow) {
+            var a = document.getElementById(leftArrow ? 'previousPage' : 'nextPage');
+            window.location = a ? a.href : '/';
+        }
+    });
+</script>
 
 
 
@@ -90,18 +149,6 @@
 
         
 
-        
-        
-        <div class="page-footer">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="content">
-                        <h3>Let's talk</h3>
-                        <p><a href="mailto:howdytravis@gmail.com">howdytravis@gmail.com</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
         
 
         <script type="text/javascript" src="/js/menu.js?v=20181117"></script>
