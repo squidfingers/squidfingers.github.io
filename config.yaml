@@ -1,7 +1,6 @@
 ---
 baseURL: "http://travisbeckham.com/"
 title: "Travis Beckham"
-publishDir: "../squidfingers.github.io"
 paginate: 10
 disableKinds: ["RSS","taxonomyTerm"]
 params:
