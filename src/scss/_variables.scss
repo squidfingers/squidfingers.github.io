@@ -1,0 +1,61 @@
+// Colors
+
+$black:                         #000;
+$gray-600:                      #575757;
+$gray-500:                      #ABABAB;
+$gray-400:                      #E6E6E6;
+$gray-300:                      #F8F8F8;
+$gray-200:                      #FCFCFC;
+
+// Component Colors
+
+$link-color:                    $black;
+$link-hover-color:              $black;
+$link-active-color:             $black;
+
+$blockquote-bg-color:           $gray-200;
+$blockquote-border-color:       $black;
+$blockquote-footer-text-color:  $black;
+
+$code-bg-color:                 $gray-200;
+$code-text-color:               $gray-500;
+$code-str-color:                $gray-600;// string content
+$code-kwd-color:                $gray-600;// keyword
+$code-com-color:                $gray-600;// comment
+$code-typ-color:                $gray-600;// type name
+$code-lit-color:                $gray-600;// literal value
+$code-pun-color:                $gray-600;// punctuation
+$code-tag-color:                $gray-600;// markup tag name
+$code-atn-color:                $gray-600;// markup attribute name
+$code-atv-color:                $gray-600;// markup attribute value
+$code-var-color:                $black;// variable name
+$code-fun-color:                $gray-600;// function name
+
+$btn-bg-color:                  $black;
+$btn-bg-hover-color:            lighten($black, 10%);
+$btn-bg-active-color:           lighten($black, 15%);
+$btn-text-color:                $gray-200;
+$btn-bg-color-disabled:         $gray-500;
+$btn-text-color-disabled:       $gray-200;
+
+$border-color:                  rgba(0,0,0,0.1);
+
+// Typography
+
+$font-family-base:              'Barlow', Helvetica, Arial, sans-serif;
+
+$font-size-root:                18px;
+$font-size-small:               0.75rem;
+$font-size-base:                1rem;
+$font-size-large:               1.5rem;
+$font-size-jumbo:               2rem;
+
+$font-weight-light:             200;
+$font-weight-normal:            300;
+$font-weight-bold:              500;
+
+$line-height-base:              1.5;
+
+// Spacer
+
+$spacer:                        1.2rem;

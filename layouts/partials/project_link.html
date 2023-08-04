@@ -1,0 +1,6 @@
+<figure class="project-link">
+    <a href="{{ .RelPermalink }}">
+        <img src="{{ .Site.Params.projectImgDir }}{{ .Params.slug }}/{{ .Site.Params.thumbnailBaseName }}.{{ .Params.thumbnailFileType }}" alt="{{ safeHTMLAttr .Title }}">
+    </a>
+    <figcaption>{{ .Title }}</figcaption>
+</figure>

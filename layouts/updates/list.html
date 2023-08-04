@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<div id="updates" class="updates">
+    {{ range .Paginator.Pages }}
+    {{ .Render "update" }}
+    {{ end }}
+</div>
+
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+<div class="updates-paginator">
+    <div class="row">
+        <div class="content">
+            <ul id="paginator" class="paginator">
+                <li class="previous">
+                    {{ if .Paginator.HasPrev }}
+                    <a href="{{ .Paginator.Prev.URL }}">Newer</a>
+                    {{ else }}
+                    <span>Newer</span>
+                    {{ end }}
+                </li>
+                <li class="next">
+                    {{ if .Paginator.HasNext }}
+                    <a href="{{ .Paginator.Next.URL }}">Older</a>
+                    {{ else }}
+                    <span>Older</span>
+                    {{ end }}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+<script type="text/javascript" src="/js/paginator.js?v=20181117"></script>
+
+{{ end }}

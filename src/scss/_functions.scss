@@ -1,0 +1,3 @@
+@function spacer($n, $s: $spacer) {
+    @return ($s * $n);
+}

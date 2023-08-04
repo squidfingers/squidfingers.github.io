@@ -1,0 +1,12 @@
+<div class="project-type recent-projects">
+    {{ if .IsHome }}
+    <h3>
+        Other Recent Projects
+    </h3>
+    {{ end }}
+    <div class="project-listing">
+        {{ range where .Site.RegularPages "Section" "recent-projects" }}
+            {{ partial "project_link.html" . }}
+        {{ end }}
+    </div>
+</div>

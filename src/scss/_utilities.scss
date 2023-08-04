@@ -1,0 +1,43 @@
+.responsive-img {
+    @include make-responsive-img;
+}
+
+.sr-only {
+    @include make-sr-only;
+}
+
+.border {
+    @include make-border;
+}
+
+/*
+Adapted from bootstrap/scss/utilities/_spacing.scss
+*/
+//@each $breakpoint in map-keys($grid-breakpoints) {
+    //@include media-breakpoint-up($breakpoint) {
+        $infix: "";//breakpoint-infix($breakpoint, $grid-breakpoints);
+        @each $prop, $abbrev in (margin: m, padding: p) {
+            @for $i from 0 to 4 {
+                .#{$abbrev}#{$infix}-#{$i}   { #{$prop}:        spacer($i) !important; }
+                .#{$abbrev}-t#{$infix}-#{$i} { #{$prop}-top:    spacer($i) !important; }
+                .#{$abbrev}-r#{$infix}-#{$i} { #{$prop}-right:  spacer($i) !important; }
+                .#{$abbrev}-b#{$infix}-#{$i} { #{$prop}-bottom: spacer($i) !important; }
+                .#{$abbrev}-l#{$infix}-#{$i} { #{$prop}-left:   spacer($i) !important; }
+                .#{$abbrev}-x#{$infix}-#{$i} {
+                    #{$prop}-right: spacer($i) !important;
+                    #{$prop}-left:  spacer($i) !important;
+                }
+                .#{$abbrev}-y#{$infix}-#{$i} {
+                    #{$prop}-top:    spacer($i) !important;
+                    #{$prop}-bottom: spacer($i) !important;
+                }
+            }
+        }
+    //}
+//}
+
+.m-grid-gutter   { margin:        $grid-gutter-width !important; }
+.m-t-grid-gutter { margin-top:    $grid-gutter-width !important; }
+.m-r-grid-gutter { margin-right:  $grid-gutter-width !important; }
+.m-b-grid-gutter { margin-bottom: $grid-gutter-width !important; }
+.m-l-grid-gutter { margin-left:   $grid-gutter-width !important; }

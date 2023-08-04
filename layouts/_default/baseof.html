@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ with .Title }}{{ . }} / {{ end }}{{ .Site.Title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/css/app.css?v=20230303" rel="stylesheet" type="text/css">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="/img/icons/favicon-64.ico">
+        <link rel="icon" type="image/png" href="/img/icons/favicon-196.png">
+        <link rel="apple-touch-icon" href="/img/icons/favicon-152.png">
+        <meta name="msapplication-TileColor" content="#000000">
+        <meta name="msapplication-TileImage" content="/img/icons/favicon-144.png">
+    </head>
+    <body>
+
+        <header id="page-header" class="page-header{{ if and (or (eq .Type "recent-projects") (eq .Type "archived-projects")) (eq .Kind "page") }} condensed{{ end }}">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="brand">
+                        <h1>
+                            <a href="/">
+                                <span class="name">Travis Beckham</span>
+                                <span class="role">UX and system design</span>
+                            </a>
+                        </h1>
+                    </div>
+                    <nav id="main-nav" class="main-nav">
+                        <ul>
+                            <li>
+                                <a href="/"{{ if or .IsHome (eq .Type "recent-projects") (eq .Type "archived-projects") }} class="selected"{{ end }}>Projects</a>
+                            </li>
+                            <li>
+                                <a href="/about/"{{ if eq .Type "about" }} class="selected"{{ end }}>About</a>
+                            </li>
+                            <li>
+                                <a href="/history/"{{ if eq .Type "history" }} class="selected"{{ end }}>History</a>
+                            </li>
+                            <li>
+                                <a href="/updates/"{{ if eq .Type "updates" }} class="selected"{{ end }}>Updates</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="page-main">
+            <div class="container-fluid">
+                {{ block "main" . }}
+                {{ end }}
+            </div>
+        </main>
+
+        {{/* Placed outside of .page-main so it can be full width */}}
+        {{ if .IsHome }}
+        {{ partial "latest_update" . }}
+        {{ end }}
+
+        {{/* Only show footer on home, about, and history */}}
+        {{ if (or .IsHome (eq .Type "about") (eq .Type "history")) }}
+        {{/* Just not on project pages -> if not (and (or (eq .Type "recent-projects") (eq .Type "archived-projects")) (eq .Kind "page")) */}}
+        <div class="page-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="content">
+                        <h3>Let's talk</h3>
+                        <p><a href="mailto:howdytravis@gmail.com">howdytravis@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+
+        <script type="text/javascript" src="/js/menu.js?v=20181117"></script>
+        <script type="text/javascript" src="/js/svg-injector.min.js"></script>
+        <script type="text/javascript">
+            new SVGInjector().inject(document.querySelectorAll('svg[data-src]'));
+        </script>
+
+    </body>
+</html>

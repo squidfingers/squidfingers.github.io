@@ -1,0 +1,11 @@
+---
+baseURL: "http://travisbeckham.com/"
+title: "Travis Beckham"
+publishDir: "../squidfingers.github.io"
+paginate: 10
+disableKinds: ["RSS","taxonomyTerm"]
+params:
+  projectImgDir: "/img/projects/"
+  thumbnailBaseName: "tn"
+  datetimeFormat: "Jan 2, 2006 @ 3:04pm"
+...

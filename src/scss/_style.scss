@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+    font-size: $font-size-root;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: $gray-300;
+    color: $black;
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    font-weight: $font-weight-normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: spacer(1);
+    color: $black;
+    font-family: $font-family-base;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: $font-weight-light;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: $font-weight-light;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: $font-weight-light;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: $font-weight-light;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: $font-weight-normal;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: $font-weight-normal;
+}
+
+p, ul, ol, figure {
+    margin-top: 0;
+    margin-bottom: spacer(1);
+    color: $black;
+    font-family: $font-family-base;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+}
+
+figcaption {
+    color: $black;
+    font-family: $font-family-base;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+}
+
+ul, ol {
+    padding-left: spacer(1);
+
+    ul, ol {
+        margin-bottom: 0;
+    }
+}
+
+a {
+    color: $link-color;
+    text-decoration: underline;
+
+    &:hover {
+        color: $link-hover-color;
+    }
+
+    &:active {
+        color: $link-active-color;
+    }
+}
+
+strong {
+    font-weight: $font-weight-bold;
+}
+
+blockquote {
+    margin: 0 0 spacer(1);
+    padding: spacer(1);
+    padding-left: spacer(1.3);
+    background-color: $blockquote-bg-color;
+    border-left: solid 5px $blockquote-border-color;
+    box-shadow: 0 0 20px rgba(0,0,0,0.03);
+
+    &, p {
+        font-size: 1.2rem;
+        font-weight: $font-weight-normal;
+        line-height: 1.5;
+    }
+
+    footer {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: $blockquote-footer-text-color;
+
+        &:before {
+            content: '\2014 \00A0';
+        }
+    }
+
+    &:before,
+    &:after {
+        content: "";
+    }
+}
+
+pre {
+    overflow: auto;
+    padding: spacer(1);
+    background-color: $code-bg-color;
+}
+
+code {
+    color: $code-text-color;
+    .str { color: $code-str-color; }
+    .kwd { color: $code-kwd-color; }
+    .com { color: $code-com-color; }
+    .typ { color: $code-typ-color; }
+    .lit { color: $code-lit-color; }
+    .pun { color: $code-pun-color; }
+    .tag { color: $code-tag-color; }
+    .atn { color: $code-atn-color; }
+    .atv { color: $code-atv-color; }
+    .var { color: $code-var-color; }
+    .fun { color: $code-fun-color; }
+}
