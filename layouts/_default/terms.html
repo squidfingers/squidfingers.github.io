@@ -1,5 +1,15 @@
 {{ define "main" }}
 
-{{/* Taxonomy Terms disabled in config */}}
+<!--
+<div class="terms">
+    <div class="content">
+        <ul>
+        {{ range .Site.Taxonomies.tags }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+        {{ end }}
+        </ul>
+    </div>
+</div>
+-->
 
 {{ end }}

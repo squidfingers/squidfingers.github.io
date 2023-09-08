@@ -2,7 +2,9 @@
 baseURL: "http://travisbeckham.com/"
 title: "Travis Beckham"
 paginate: 10
-disableKinds: ["RSS","taxonomyTerm"]
+disableKinds: ["RSS"]
+taxonomies:
+  tag: tags
 params:
   projectImgDir: "/img/projects/"
   thumbnailBaseName: "tn"
