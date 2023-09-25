@@ -241,10 +241,10 @@ $toggle-menu-breakpoint: 'lg';
         @include media-breakpoint-up(sm) {
             a {// display logo
                 padding-left: 70px;
-                min-height: 48px;
+                min-height: 44px;
                 background-image: url(/img/ui/logo.png);
                 background-repeat: no-repeat;
-                background-size: 50px 48px;
+                background-size: 50px 44px;
                 background-position: left center;
             }
         }
@@ -259,8 +259,8 @@ $toggle-menu-breakpoint: 'lg';
 
             a {// increase logo size
                 padding-left: 130px;
-                min-height: 77px;
-                background-size: 80px 77px;
+                min-height: 70px;
+                background-size: 80px 70px;
             }
         }
     }
