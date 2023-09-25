@@ -1,6 +1,6 @@
 ---
-baseURL: "http://travisbeckham.com/"
-title: "Travis Beckham"
+baseURL: "http://everythingisabox.com/"
+title: "Everything is a box"
 paginate: 10
 disableKinds: ["RSS"]
 taxonomies:
