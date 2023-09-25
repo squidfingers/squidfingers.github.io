@@ -31,6 +31,8 @@
 </div>
 {{ end }}
 
-<script type="text/javascript" src="/js/paginator.js?v=20181117"></script>
+{{ with resources.Get "js/paginator.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ .RelPermalink }}"></script>
+{{ end }}
 
 {{ end }}
