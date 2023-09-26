@@ -1,1 +1,1 @@
-{{- .Site.Params.projectImgDir }}{{ .Page.Params.slug }}/{{ .Get 0 -}}
+{{- .Site.Params.projectImgDir }}{{ .Page.Title | urlize }}/{{ .Get 0 -}}
