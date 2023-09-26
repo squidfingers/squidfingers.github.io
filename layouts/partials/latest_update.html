@@ -1,12 +1,12 @@
 <div class="latest-update">
-    <div class="container-fluid">
-        <div class="updates">
-            {{ range first 1 (where .Site.RegularPages "Section" "updates") }}
-            {{ .Render "update" }}
-            {{ end }}
-            <div class="more-updates">
-                <a href="/updates/">More Updates</a>
-            </div>
-        </div>
+  <div class="container-fluid">
+    <div class="updates">
+      {{ range first 1 (where .Site.RegularPages "Section" "updates") }}
+      {{ .Render "update" }}
+      {{ end }}
+      <div class="more-updates">
+        <a href="/updates/">More Updates</a>
+      </div>
     </div>
+  </div>
 </div>

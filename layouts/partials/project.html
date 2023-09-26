@@ -1,61 +1,61 @@
 <div class="project-header">
-    <div class="pager">
-        <ul>
-            <li class="previous">
-                {{ if .NextInSection }}
-                <a id="previousPage" href="{{ .NextInSection.RelPermalink }}" title="{{ safeHTMLAttr .NextInSection.Title }}"><svg data-src="/img/ui/arrow-left.svg"></svg></a>
-                {{ else }}
-                <svg data-src="/img/ui/arrow-left.svg"></svg>
-                {{ end }}
-            </li>
-            <li class="next">
-                {{ if .PrevInSection }}
-                <a id="nextPage" href="{{ .PrevInSection.RelPermalink }}" title="{{ safeHTMLAttr .PrevInSection.Title }}"><svg data-src="/img/ui/arrow-right.svg"></svg></a>
-                {{ else }}
-                <svg data-src="/img/ui/arrow-right.svg"></svg>
-                {{ end }}
-            </li>
-        </ul>
-    </div>
-    <div class="project-title">
-        <h2>
-            {{ .Title }}
-        </h2>
-        <h5>
-            {{ delimit .Params.tags ", " }}
-        </h5>
-    </div>
+  <div class="pager">
+    <ul>
+      <li class="previous">
+        {{ if .NextInSection }}
+        <a id="previousPage" href="{{ .NextInSection.RelPermalink }}" title="{{ safeHTMLAttr .NextInSection.Title }}"><svg data-src="/img/ui/arrow-left.svg"></svg></a>
+        {{ else }}
+        <svg data-src="/img/ui/arrow-left.svg"></svg>
+        {{ end }}
+      </li>
+      <li class="next">
+        {{ if .PrevInSection }}
+        <a id="nextPage" href="{{ .PrevInSection.RelPermalink }}" title="{{ safeHTMLAttr .PrevInSection.Title }}"><svg data-src="/img/ui/arrow-right.svg"></svg></a>
+        {{ else }}
+        <svg data-src="/img/ui/arrow-right.svg"></svg>
+        {{ end }}
+      </li>
+    </ul>
+  </div>
+  <div class="project-title">
+    <h2>
+      {{ .Title }}
+    </h2>
+    <h5>
+      {{ delimit .Params.tags ", " }}
+    </h5>
+  </div>
 </div>
 
 <div class="project-content">
-    {{ .Content }}
+  {{ .Content }}
 </div>
 
 <div class="next-project">
-    <div class="content">
-        {{ if .PrevInSection }}
-        <a href="{{ .PrevInSection.RelPermalink }}" class="next-project-btn" role="button">Next: {{ .PrevInSection.Title }}</a>
-        {{ else }}
-        <a href="/" class="back">Back to All Projects</a>
-        {{ end }}
-    </div>
+  <div class="content">
+    {{ if .PrevInSection }}
+    <a href="{{ .PrevInSection.RelPermalink }}" class="next-project-btn" role="button">Next: {{ .PrevInSection.Title }}</a>
+    {{ else }}
+    <a href="/" class="back">Back to All Projects</a>
+    {{ end }}
+  </div>
 </div>
 
 <script type="text/javascript">
-    // Navigate projects by left/right arrow keys
-    document.addEventListener('keydown', function(e) {
-        var leftArrow, rightArrow;
-        switch (e.keyCode) {
-        case 37:
-            leftArrow = true;
-            break;
-        case 39:
-            rightArrow = true;
-            break;
-        }
-        if (leftArrow || rightArrow) {
-            var a = document.getElementById(leftArrow ? 'previousPage' : 'nextPage');
-            window.location = a ? a.href : '/';
-        }
-    });
+  // Navigate projects by left/right arrow keys
+  document.addEventListener('keydown', function(e) {
+    var leftArrow, rightArrow;
+    switch (e.keyCode) {
+    case 37:
+      leftArrow = true;
+      break;
+    case 39:
+      rightArrow = true;
+      break;
+    }
+    if (leftArrow || rightArrow) {
+      var a = document.getElementById(leftArrow ? 'previousPage' : 'nextPage');
+      window.location = a ? a.href : '/';
+    }
+  });
 </script>

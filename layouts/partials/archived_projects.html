@@ -1,12 +1,12 @@
 <div class="project-type archived-projects">
-    {{ if .IsHome }}
-    <h3>
-        Older Projects <span>that I still find interesting</span>
-    </h3>
+  {{ if .IsHome }}
+  <h3>
+    Older Projects <span>that I still find interesting</span>
+  </h3>
+  {{ end }}
+  <div class="project-listing">
+    {{ range where .Site.RegularPages "Section" "archived-projects" }}
+      {{ partial "project_link.html" . }}
     {{ end }}
-    <div class="project-listing">
-        {{ range where .Site.RegularPages "Section" "archived-projects" }}
-            {{ partial "project_link.html" . }}
-        {{ end }}
-    </div>
+  </div>
 </div>

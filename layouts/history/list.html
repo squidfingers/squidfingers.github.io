@@ -1,34 +1,34 @@
 {{ define "main" }}
 
 <div class="timeline">
-    <div class="content">
-        <img src="{{ .Params.timeline_src }}" alt="Timeline">
-    </div>
+  <div class="content">
+    <img src="{{ .Params.timeline_src }}" alt="Timeline">
+  </div>
 </div>
 
 <div class="jobs">
-    {{ range .Params.jobs }}
-    <div class="job">
-        <div class="job-description">
-            <h3>
-                {{ .title }}
-            </h3>
-            <h2>
-                {{ .name }}
-            </h2>
-            {{- if .description }}
-            <p>
-                {{ .description }}
-            </p>
-            {{ end }}
-        </div>
-        <div class="job-range">
-            <h5>
-                {{ htmlUnescape .dateRange }}
-            </h5>
-        </div>
+  {{ range .Params.jobs }}
+  <div class="job">
+    <div class="job-description">
+      <h3>
+        {{ .title }}
+      </h3>
+      <h2>
+        {{ .name }}
+      </h2>
+      {{- if .description }}
+      <p>
+        {{ .description }}
+      </p>
+      {{ end }}
     </div>
-    {{ end }}
+    <div class="job-range">
+      <h5>
+        {{ htmlUnescape .dateRange }}
+      </h5>
+    </div>
+  </div>
+  {{ end }}
 </div>
 
 {{ end }}

@@ -1,9 +1,9 @@
 <div class="update">
-    <div>
-        {{ .Content }}
-    </div>
-    <h5 class="date">
-        <a href="{{ .RelPermalink }}">{{ .Date.Format .Site.Params.datetimeFormat }}</a>
-    </h5>
-    {{ partial "tag_list.html" . }}
+  <div>
+    {{ .Content }}
+  </div>
+  <h5 class="date">
+    <a href="{{ .RelPermalink }}">{{ .Date.Format .Site.Params.datetimeFormat }}</a>
+  </h5>
+  {{ partial "tag_list.html" . }}
 </div>

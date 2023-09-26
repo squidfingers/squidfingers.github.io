@@ -5,17 +5,17 @@ tags:
 ---
 
 <p>
-    If you're just learning Hugo like me, you may want to start with <a href="https://tip.golang.org/pkg/text/template/">Go's template documentation</a>. The conditional sytax tripped me up for a minute. If you're accustomed to writing conditionals like this:
+  If you're just learning Hugo like me, you may want to start with <a href="https://tip.golang.org/pkg/text/template/">Go's template documentation</a>. The conditional sytax tripped me up for a minute. If you're accustomed to writing conditionals like this:
 </p>
 <pre><code><span class="kwd">if</span> (<span class="var">$x</span> <span class="pun">==</span> <span class="var">$y</span>)
 <span class="kwd">if</span> (<span class="var">$x</span> <span class="pun">&amp;&amp;</span> <span class="var">$y</span>)
 <span class="kwd">if</span> (<span class="var">$x</span> <span class="pun">==</span> <span class="var">$y</span> <span class="pun">||</span> <span class="var">$x</span> <span class="pun">==</span> <span class="var">$z</span>)</code></pre>
 <p>
-    This is how it would look in a Go template:
+  This is how it would look in a Go template:
 </p>
 <pre><code>{{ <span class="kwd">if</span> <span class="fun">eq</span> <span class="var">$x</span> <span class="var">$y</span> }}
 {{ <span class="kwd">if</span> <span class="fun">and</span> <span class="var">$x</span> <span class="var">$y</span> }}
 {{ <span class="kwd">if</span> <span class="fun">or</span> (<span class="fun">eq</span> <span class="var">$x</span> <span class="var">$y</span>) (<span class="fun">eq</span> <span class="var">$x</span> <span class="var">$z</span>) }}</code></pre>
 <p>
-    In a Go template, <code><span class="fun">eq</span></code> is a function that you pass arguments to, not a comparison operator like you would use in JavaScript.
+  In a Go template, <code><span class="fun">eq</span></code> is a function that you pass arguments to, not a comparison operator like you would use in JavaScript.
 </p>
