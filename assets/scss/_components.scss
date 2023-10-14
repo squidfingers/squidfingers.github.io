@@ -825,7 +825,7 @@ $toggle-menu-breakpoint: 'lg';
     h3 {
       margin-bottom: 0.2rem;
     }
-    h5 {
+    h4 {
       @include make-base-text;
     }
     @include media-breakpoint-up(md) {
