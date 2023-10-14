@@ -7,23 +7,24 @@
   <div class="jobs">
     {{ range .Params.jobs }}
       <div class="job">
+        <div class="job-logo">
+          <img src="{{ .logo }}" alt="{{ .name }}">
+        </div>
         <div class="job-description">
-          <h3>
-            {{ .title }}
-          </h3>
           <h2>
             {{ .name }}
           </h2>
-          {{- with .description }}
+          <h3>
+            {{ .title }}
+          </h3>
+          <h5>
+            {{ htmlUnescape .dateRange }}
+          </h5>
+          {{ with .description }}
             <p>
               {{ . }}
             </p>
           {{ end }}
-        </div>
-        <div class="job-range">
-          <h5>
-            {{ htmlUnescape .dateRange }}
-          </h5>
         </div>
       </div>
     {{ end }}

@@ -798,26 +798,38 @@ $toggle-menu-breakpoint: 'lg';
     padding-top: 0;
     border-top: none;
   }
+  .job-logo {
+    @include make-col-ready;
+
+    img {
+      display: block;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 2rem;
+    }
+    @include media-breakpoint-up(md) {
+      @include make-col(4);
+
+      img {
+        margin-bottom: 0;
+      }
+    }
+  }
   .job-description {
     @include make-col-ready;
 
-    h3 {
+    h2 {
       @include make-base-text;
+      margin-bottom: 0;
+    }
+    h3 {
       margin-bottom: 0.2rem;
     }
-    @include media-breakpoint-up(md) {
-      @include make-col(8);
-    }
-  }
-  .job-range {
-    @include make-col-ready;
-
     h5 {
       @include make-base-text;
     }
     @include media-breakpoint-up(md) {
-      @include make-col(4);
-      text-align: right;
+      @include make-col(8);
     }
   }
 }
