@@ -34,12 +34,10 @@
   &:focus {
     outline: 0;
   }
-
   &:hover {
     color: $btn-text-color;
     background-color: $btn-bg-hover-color;
   }
-
   &:active {
     color: $btn-text-color;
     background-color: $btn-bg-active-color;
@@ -55,7 +53,6 @@
     color: $btn-text-color-disabled;
     background-color: $btn-bg-color-disabled;
   }
-
   &:active {
     color: $btn-text-color-disabled;
     background-color: $btn-bg-color-disabled;

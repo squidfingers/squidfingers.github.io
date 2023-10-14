@@ -1,4 +1,4 @@
-(function(){
+window.addEventListener('DOMContentLoaded', function(event) {
 
   var params = {
     contentId          : 'updates',
@@ -105,4 +105,4 @@
       }, false);
     }
   }
-}());
+}, false);

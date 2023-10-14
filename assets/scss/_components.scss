@@ -6,7 +6,6 @@
   &.btn-block {
     @include make-btn-block;
   }
-
   &.btn-lg {
     @include make-btn-lg;
   }
@@ -28,13 +27,11 @@
       margin-bottom: 0;
     }
   }
-
   .content {
     padding: spacer(2);
     padding-bottom: spacer(1);
     background-color: #fff;
   }
-
   @include media-breakpoint-up(lg) {
     flex-direction: row;
 
@@ -43,7 +40,6 @@
       border-top: none;
       border-right: solid 1px $border-color;
     }
-
     .content {
       flex-basis: 50%;
       display: flex;
@@ -55,7 +51,6 @@
     .image {
       flex-basis: 70%;
     }
-
     .content {
       flex-basis: 30%;
     }
@@ -93,36 +88,30 @@
     padding-left: 0;
     list-style-type: none;
   }
-
   li {
     &:first-of-type {
       margin-right: spacer(1);
     }
   }
-
   svg {
     display: block;
     width: 30px;
     height: 30px;
   }
-
   polygon {
     fill: $gray-500;
   }
-
   a {
     text-decoration: none;
 
     polygon {
       fill: $link-color;
     }
-
     &:hover {
       polygon {
         fill: $link-hover-color;
       }
     }
-
     &:active {
       polygon {
         fill: $link-active-color;
@@ -146,7 +135,6 @@ ul.paginator {// fallback
       @include make-btn;
       @include make-btn-disabled;
     }
-
     a {
       @include make-btn;
     }
@@ -173,7 +161,6 @@ div.paginator {// created by paginator.js
     padding-right: $grid-gutter-width;
     padding-left: $grid-gutter-width;
   }
-
   @include media-breakpoint-up(lg) {
     padding-right: ($grid-gutter-width * 2);
     padding-left: ($grid-gutter-width * 2);
@@ -191,7 +178,6 @@ $toggle-menu-breakpoint: 'lg';
   @include media-breakpoint-up($toggle-menu-breakpoint) {
     padding: spacer(3) 0;
   }
-
   .container-fluid {
     @include media-breakpoint-down(md) {// one breakpoint down from $toggle-menu-breakpoint
       // reset to Bootstrap's default so the main-nav's background color will go to the edge of the viewport.
@@ -199,7 +185,6 @@ $toggle-menu-breakpoint: 'lg';
       padding-left: ($grid-gutter-width / 2);
     }
   }
-
   .row {
     align-items: center;
     flex-direction: column-reverse;// pull main-nav above brand
@@ -208,7 +193,6 @@ $toggle-menu-breakpoint: 'lg';
       flex-direction: row;// return to regular flow
     }
   }
-
   .brand {
     @include make-col-ready;
 
@@ -218,7 +202,6 @@ $toggle-menu-breakpoint: 'lg';
       margin-bottom: 0;
       padding-top: spacer(3);
     }
-
     a {
       display: flex;
       flex-direction: column;
@@ -227,17 +210,14 @@ $toggle-menu-breakpoint: 'lg';
       color: $black;
       text-decoration: none;
     }
-
     .name {
       display: block;
       font-size: 2rem;
     }
-
     .role {
       @include make-base-text;
       color: $gray-500;
     }
-
     @include media-breakpoint-up(sm) {
       a {// display logo
         padding-left: 70px;
@@ -248,7 +228,6 @@ $toggle-menu-breakpoint: 'lg';
         background-position: left center;
       }
     }
-
     @include media-breakpoint-up($toggle-menu-breakpoint) {
       @include make-col(8);
 
@@ -256,7 +235,6 @@ $toggle-menu-breakpoint: 'lg';
         padding-top: 0;
         justify-content: left;
       }
-
       a {// increase logo size
         padding-left: 130px;
         min-height: 70px;
@@ -264,7 +242,6 @@ $toggle-menu-breakpoint: 'lg';
       }
     }
   }
-
   .main-nav {
     @include make-col-ready;
     padding-top: spacer(3);
@@ -279,11 +256,9 @@ $toggle-menu-breakpoint: 'lg';
       padding-left: 0;
       list-style-type: none;
     }
-
     li {
       margin-bottom: spacer(1);
     }
-
     a {
       display: block;
       color: $gray-500;
@@ -294,7 +269,6 @@ $toggle-menu-breakpoint: 'lg';
         color: $gray-200;
       }
     }
-
     @include media-breakpoint-up($toggle-menu-breakpoint) {
       @include make-col(4);
 
@@ -323,7 +297,6 @@ $toggle-menu-breakpoint: 'lg';
         &:hover {
           border-bottom: solid 2px $gray-400;
         }
-
         &.selected, &.selected:hover {
           color: $black;
           border-bottom: solid 2px $gray-400;
@@ -331,14 +304,12 @@ $toggle-menu-breakpoint: 'lg';
       }
     }
   }
-
   &.condensed {
     padding-bottom: spacer(1.6);
 
     @include media-breakpoint-up($toggle-menu-breakpoint) {
       padding: spacer(1.6);
     }
-
     .brand {
       @include media-breakpoint-up($toggle-menu-breakpoint) {
         a {
@@ -348,7 +319,6 @@ $toggle-menu-breakpoint: 'lg';
         }
       }
     }
-
     .brand {
       h1 {
         padding-top: spacer(1.6);
@@ -379,7 +349,6 @@ $toggle-menu-breakpoint: 'lg';
     background-position: left center;
     background-size: 24px 24px;
   }
-
   // hide menu bar larger breakpoints
   @include media-breakpoint-up(lg) {
     display: none;
@@ -393,7 +362,6 @@ $toggle-menu-breakpoint: 'lg';
   &.show {// ClassName toggled by JavaScript
     display: block;
   }
-
   @include media-breakpoint-up(lg) {
     // show main nav on larger breakpoints
     display: block;
@@ -418,18 +386,15 @@ $toggle-menu-breakpoint: 'lg';
     padding-bottom: spacer(4);
     text-align: center;
   }
-
   h3 {
     color: $gray-200;
     font-size: 3rem;
   }
-
   a {
     @include make-underline-on-hover;
     color: $gray-200;
     font-size: $font-size-large;
   }
-
   @include media-breakpoint-up(lg) {
     .content {
       text-align: left;
@@ -453,7 +418,6 @@ $toggle-menu-breakpoint: 'lg';
       @include make-col(10);
     }
   }
-
   .date {
     margin-bottom: spacer(0.5);
     font-size: $font-size-small;
@@ -477,17 +441,14 @@ $toggle-menu-breakpoint: 'lg';
       @include media-breakpoint-up(md) {
         @include make-col(10);
       }
-
       @include media-breakpoint-up(xl) {
         @include make-col(8);
       }
     }
   }
-
   .more {
     @include make-underline-on-hover;
   }
-
   .done {
     color: $gray-500;
   }
@@ -504,7 +465,6 @@ $toggle-menu-breakpoint: 'lg';
       display: flex;
       flex-direction: column;
     }
-
     .date {
       order: -1;
       margin-bottom: spacer(1);
@@ -537,7 +497,6 @@ $toggle-menu-breakpoint: 'lg';
     margin-top: 0;
     margin-bottom: spacer(5);
   }
-
   > .content {
     @include make-col-ready;
 
@@ -546,11 +505,9 @@ $toggle-menu-breakpoint: 'lg';
       font-size: $font-size-large;
       font-weight: $font-weight-light;
     }
-
     @include media-breakpoint-up(md) {
       //@include make-col(10);
     }
-
     @include media-breakpoint-up(lg) {
       font-size: $font-size-jumbo;
     }
@@ -593,7 +550,6 @@ $toggle-menu-breakpoint: 'lg';
       &:hover {
         opacity: 0.7;
       }
-
       @include media-breakpoint-up(sm) {
         font-size: 1.3rem;// custom size so it fits nicely on tablet
       }
@@ -661,24 +617,20 @@ $toggle-menu-breakpoint: 'lg';
   //  h3 {
   //    display: none;
   //  }
-  //
   //  .project-link {
   //    @include media-breakpoint-up(sm) {
   //      @include make-col(12);
   //    }
-  //
   //    figcaption {
   //      font-size: $font-size-large;
   //    }
   //  }
   //}
-
   &.recent-projects, &.archived-projects {// Exclude .latest-project
     .project-link {
       @include media-breakpoint-up(xs) {
         @include make-col(6);
       }
-
       @include media-breakpoint-up(md) {
         @include make-col(4);
       }
@@ -702,7 +654,6 @@ $toggle-menu-breakpoint: 'lg';
       justify-content: flex-end;
     }
   }
-
   .project-title {
     @include make-col-ready;
     @include make-col(8);
@@ -712,7 +663,6 @@ $toggle-menu-breakpoint: 'lg';
       @include make-base-text;
       margin-bottom: 0.2rem;
     }
-
     h5 {
       margin-bottom: 0;
       color: $gray-500;
@@ -742,7 +692,6 @@ $toggle-menu-breakpoint: 'lg';
     @include media-breakpoint-up(md) {
       @include make-col(10);
     }
-
     @include media-breakpoint-up(lg) {
       @include make-col(8);
     }
@@ -800,7 +749,6 @@ $toggle-menu-breakpoint: 'lg';
     @include media-breakpoint-up(md) {
       @include make-col(10);
     }
-
     @include media-breakpoint-up(lg) {
       @include make-col(8);
     }
@@ -826,7 +774,6 @@ $toggle-menu-breakpoint: 'lg';
   @include media-breakpoint-down(md) {
     @include make-sr-only;
   }
-
   > .content {
     @include make-col-ready;
     padding: spacer(1);
@@ -851,7 +798,6 @@ $toggle-menu-breakpoint: 'lg';
     padding-top: 0;
     border-top: none;
   }
-
   .job-description {
     @include make-col-ready;
 
@@ -859,7 +805,6 @@ $toggle-menu-breakpoint: 'lg';
       @include make-base-text;
       margin-bottom: 0.2rem;
     }
-
     @include media-breakpoint-up(md) {
       @include make-col(8);
     }
@@ -870,7 +815,6 @@ $toggle-menu-breakpoint: 'lg';
     h5 {
       @include make-base-text;
     }
-
     @include media-breakpoint-up(md) {
       @include make-col(4);
       text-align: right;

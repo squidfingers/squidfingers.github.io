@@ -2,17 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ with .Title }}{{ . }} / {{ end }}{{ .Site.Title }}</title>
+    <title>{{ with .Title }}{{ . }} / {{ end }}{{ site.Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ $cssOpts := dict "transpiler" "libsass" "targetPath" "css/app.css" }}
     {{ with resources.Get "scss/app.scss" | toCSS $cssOpts | resources.Minify | resources.Fingerprint }}
       <link rel="stylesheet" type="text/css" href="{{ .RelPermalink }}">
     {{ end }}
-    <link rel="icon" sizes="16x16 32x32 64x64" href="/img/icons/favicon-64.ico">
-    <link rel="icon" type="image/png" href="/img/icons/favicon-196.png">
-    <link rel="apple-touch-icon" href="/img/icons/favicon-152.png">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-TileImage" content="/img/icons/favicon-144.png">
+    {{ with resources.Get "js/menu.js" | resources.Minify | resources.Fingerprint }}
+      <script src="{{ .RelPermalink }}"></script>
+    {{ end }}
+    {{ block "head" . }}
+    {{ end }}
   </head>
   <body>
 
@@ -56,31 +56,23 @@
 
     {{/* Placed outside of .page-main so it can be full width */}}
     {{ if .IsHome }}
-    {{ partial "latest_update" . }}
+      {{ partial "latest_update" . }}
     {{ end }}
 
     {{/* Only show footer on home, about, and history */}}
     {{ if (or .IsHome (eq .Type "about") (eq .Type "history")) }}
-    {{/* Just not on project pages -> if not (and (or (eq .Type "recent-projects") (eq .Type "archived-projects")) (eq .Kind "page")) */}}
-    <div class="page-footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="content">
-            <h3>Let's chat</h3>
-            <p><a href="mailto:howdytravis@gmail.com">howdytravis@gmail.com</a></p>
+      {{/* Just not on project pages -> if not (and (or (eq .Type "recent-projects") (eq .Type "archived-projects")) (eq .Kind "page")) */}}
+      <div class="page-footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="content">
+              <h3>Let's chat</h3>
+              <p><a href="mailto:howdytravis@gmail.com">howdytravis@gmail.com</a></p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     {{ end }}
-
-    {{ $menu := resources.Get "js/menu.js" }}
-    {{ $svgInjector := resources.Get "js/svg-injector.js" }}
-    {{ $js := slice $menu $svgInjector | resources.Concat "js/main.js" | resources.Minify | resources.Fingerprint }}
-    <script src="{{ $js.RelPermalink }}"></script>
-    <script type="text/javascript">
-      new SVGInjector().inject(document.querySelectorAll('svg[data-src]'));
-    </script>
 
   </body>
 </html>

@@ -1,4 +1,4 @@
-(function(){
+window.addEventListener('DOMContentLoaded', function(event) {
   // Menu Bar & Nav Toggle (see .menu-bar and .main-nav in app.css)
   var mainNav = document.getElementById('main-nav');
   var pageHeader = document.getElementById('page-header');
@@ -28,4 +28,4 @@
   <div class="menu-bar"><a href="#">Menu</a></div>
   <header id="page-header"...
   */
-}());
+}, false);

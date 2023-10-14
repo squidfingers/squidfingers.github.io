@@ -1,23 +1,21 @@
 {{ define "main" }}
-
-<div class="about">
-  <div class="content">
-    <img src="{{ .Params.photo_src }}" alt="Hello">
-    <div class="about-summary">
-      {{ .Params.summary | markdownify }}
+  <div class="about">
+    <div class="content">
+      <img src="{{ .Params.photo_src }}" alt="Hello">
+      <div class="about-summary">
+        {{ .Params.summary | markdownify }}
+      </div>
+      {{ range .Params.quotes }}
+        <blockquote>
+          <p>
+            {{ .quote }}
+          </p>
+          <footer>
+            {{ .name }}<br>
+            {{ .title }}
+          </footer>
+        </blockquote>
+      {{ end }}
     </div>
-    {{ range .Params.quotes }}
-    <blockquote>
-      <p>
-        {{ .quote }}
-      </p>
-      <footer>
-        {{ .name }}<br>
-        {{ .title }}
-      </footer>
-    </blockquote>
-    {{ end }}
   </div>
-</div>
-
 {{ end }}

@@ -89,7 +89,6 @@ a {
   &:hover {
     color: $link-hover-color;
   }
-
   &:active {
     color: $link-active-color;
   }
@@ -112,7 +111,6 @@ blockquote {
     font-weight: $font-weight-normal;
     line-height: 1.5;
   }
-
   footer {
     font-size: 1rem;
     line-height: 1.4;
@@ -122,7 +120,6 @@ blockquote {
       content: '\2014 \00A0';
     }
   }
-
   &:before,
   &:after {
     content: "";

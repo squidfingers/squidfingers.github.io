@@ -3,7 +3,15 @@
     {{ .Content }}
   </div>
   <h5 class="date">
-    <a href="{{ .RelPermalink }}">{{ .Date.Format .Site.Params.datetimeFormat }}</a>
+    <a href="{{ .RelPermalink }}">{{ .Date.Format site.Params.datetimeFormat }}</a>
   </h5>
-  {{ partial "tag_list.html" . }}
+  {{ with .Params.tags }}
+    <ul class="tag-list">
+      {{ range . }}
+        <li>
+          <a href="/tags/{{ . | urlize }}/">{{ . }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
 </div>
