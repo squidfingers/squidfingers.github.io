@@ -2,9 +2,9 @@
   <div class="terms">
     <div class="content">
       <ul>
-        {{ range site.Taxonomies.tags }}
+        {{ range where site.Taxonomies.tags "Section" "updates" }}
           <li>
-            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
           </li>
         {{ end }}
       </ul>
