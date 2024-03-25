@@ -1,0 +1,10 @@
+{{ with .Site.GetPage "/featured-project" }}
+  <div class="feature-project">
+    <figure>
+      <img src="{{ site.Params.projectImgDir }}{{ .Title | urlize }}/{{ site.Params.thumbnailBaseName }}.{{ .Params.thumbnailFileType }}" alt="{{ .Title }}">
+      <figcaption>
+        {{ .Summary }}
+      </figcaption>
+    </figure>
+  </div>
+{{ end }}

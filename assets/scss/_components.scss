@@ -514,12 +514,12 @@ $toggle-menu-breakpoint: 'lg';
   }
 }
 
-/* Upcoming Projects */
+/* Feature Project */
 
-.upcoming-projects {
+.feature-project {
   @include make-row;
 
-  .project {
+  figure {
     @include make-col-ready;
     position: relative;
     margin: 0;// remove figure defaults
