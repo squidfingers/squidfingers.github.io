@@ -6,7 +6,7 @@
   {{ end }}
   <div class="project-listing">
     {{ range where site.RegularPages "Section" "archived-projects" }}
-      {{ partial "project_link.html" . }}
+      {{ partial "project-link.html" . }}
     {{ end }}
   </div>
 </div>

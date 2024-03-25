@@ -1,24 +1,22 @@
+// https://gwfh.mranftl.com/fonts/inter-tight?subsets=latin
 @font-face {
-  font-family: 'Barlow';
+  font-display: swap;
+  font-family: 'Inter Tight';
   font-style: normal;
   font-weight: 200;
-  src: local(''),
-    url('/fonts/barlow-v11-latin-200.woff2') format('woff2'),
-    url('/fonts/barlow-v11-latin-200.woff') format('woff');
+  src: url('/fonts/inter-tight-v7-latin-200.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'Barlow';
+  font-display: swap;
+  font-family: 'Inter Tight';
   font-style: normal;
   font-weight: 300;
-  src: local(''),
-    url('/fonts/barlow-v11-latin-300.woff2') format('woff2'),
-    url('/fonts/barlow-v11-latin-300.woff') format('woff');
+  src: url('/fonts/inter-tight-v7-latin-300.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'Barlow';
+  font-display: swap;
+  font-family: 'Inter Tight';
   font-style: normal;
   font-weight: 500;
-  src: local(''),
-    url('/fonts/barlow-v11-latin-500.woff2') format('woff2'),
-    url('/fonts/barlow-v11-latin-500.woff') format('woff');
+  src: url('/fonts/inter-tight-v7-latin-500.woff2') format('woff2');
 }

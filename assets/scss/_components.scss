@@ -485,9 +485,9 @@ $toggle-menu-breakpoint: 'lg';
   }
 }
 
-/* Introduction */
+/* Intro */
 
-.introduction {
+.intro {
   @include make-row;
   justify-content: center;
   margin-top: -(spacer(2));
@@ -507,6 +507,7 @@ $toggle-menu-breakpoint: 'lg';
     }
     @include media-breakpoint-up(md) {
       //@include make-col(10);
+      text-align: center;
     }
     @include media-breakpoint-up(lg) {
       font-size: $font-size-jumbo;

@@ -1,10 +1,10 @@
 {{ define "main" }}
-  <div class="introduction">
+  <div class="intro">
     <p class="content">
-      {{ .Params.introduction }}
+      {{ .Params.intro }}
     </p>
   </div>
-  {{ with .Params.featured_project }}
+  {{ with .Params.featured }}
     <div class="featured-project">
       <figure>
         <img src="{{ .image }}" alt="{{ .title }}">
@@ -14,6 +14,6 @@
       </figure>
     </div>
   {{ end }}
-  {{/* partial "recent_projects.html" . */}}
-  {{ partial "archived_projects.html" . }}
+  {{/* partial "recent-projects.html" . */}}
+  {{ partial "archived-projects.html" . }}
 {{ end }}
