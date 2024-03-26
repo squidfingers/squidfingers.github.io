@@ -206,8 +206,13 @@ $toggle-menu-breakpoint: 'lg';
       display: flex;
       flex-direction: column;
       justify-content: center;
-      text-align: left;
+      padding-top: 70px;
+      background-image: url(/img/ui/logo.png);
+      background-repeat: no-repeat;
+      background-size: 50px 44px;
+      background-position: top center;
       color: $black;
+      text-align: center;
       text-decoration: none;
     }
     .name {
@@ -219,13 +224,12 @@ $toggle-menu-breakpoint: 'lg';
       color: $gray-500;
     }
     @include media-breakpoint-up(sm) {
-      a {// display logo
+      a {// display logo horizontally
+        padding-top: 0;
         padding-left: 70px;
         min-height: 44px;
-        background-image: url(/img/ui/logo.png);
-        background-repeat: no-repeat;
-        background-size: 50px 44px;
         background-position: left center;
+        text-align: left;
       }
     }
     @include media-breakpoint-up($toggle-menu-breakpoint) {

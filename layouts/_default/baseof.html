@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head class="page-{{ cond .IsHome "home" (.Type | anchorize) }}">
     <meta charset="utf-8">
     <title>{{ with .Title }}{{ . }} / {{ end }}{{ site.Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
