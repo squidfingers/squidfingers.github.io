@@ -129,20 +129,9 @@ blockquote {
 pre {
   overflow: auto;
   padding: spacer(1);
-  background-color: $code-bg-color;
+  background-color: $pre-bg-color;
 }
 
 code {
   color: $code-text-color;
-  .str { color: $code-str-color; }
-  .kwd { color: $code-kwd-color; }
-  .com { color: $code-com-color; }
-  .typ { color: $code-typ-color; }
-  .lit { color: $code-lit-color; }
-  .pun { color: $code-pun-color; }
-  .tag { color: $code-tag-color; }
-  .atn { color: $code-atn-color; }
-  .atv { color: $code-atv-color; }
-  .var { color: $code-var-color; }
-  .fun { color: $code-fun-color; }
 }
