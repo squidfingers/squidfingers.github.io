@@ -1,4 +1,3 @@
----
 baseURL: "http://everythingisabox.com/"
 title: "Everything is a box"
 disableKinds: ["RSS"]
@@ -8,4 +7,3 @@ params:
   projectImgDir: "/img/projects/"
   thumbnailBaseName: "tn"
   datetimeFormat: "Jan 2, 2006 @ 3:04pm"
-...
