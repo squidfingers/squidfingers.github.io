@@ -1,0 +1,10 @@
+.tag-list {
+  display: flex;
+  gap: size(1);
+
+  // @options
+
+  &.tag-list--vertical {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+.job-list {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+
+  .job {
+    margin-bottom: size(6);
+  }
+  & > :last-child {
+    margin-bottom: 0;
+  }
+}
+.job-list__heading {
+  font-size: $font-size-h2;
+  font-weight: $font-weight-light;
+}
+.job-list__timeline {
+  margin-bottom: $gap;
+
+  @media (max-width: breakpoint-max-width("md")) {
+    display: none;
+  }
+}

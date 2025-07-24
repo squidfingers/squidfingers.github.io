@@ -1,0 +1,12 @@
+{{ $media := cond .IsNamedParams (.Get "media") (.Get 0) }}
+<div class="project-card">
+  {{ with $media }}
+    <div class="project-card__media">
+      {{/* Create anchor using link render hook with current page context */}}
+      {{ printf "![%s](%s)" (path.BaseName .) . | $.Page.RenderString }}
+    </div>
+  {{ end }}
+  <div class="project-card__content | prose">
+    {{ .InnerDeindent | $.Page.RenderString (dict "display" "block") }}
+  </div>
+</div>

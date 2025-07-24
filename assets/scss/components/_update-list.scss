@@ -1,0 +1,19 @@
+.update-list {
+  display: flex;
+  flex-direction: column;
+  gap: size(10);
+  
+  & > * {
+    padding-bottom: size(10);
+    border-bottom: dashed 1px $black;
+  }
+  & > :last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+.update-list__heading {
+  padding-bottom: 0;
+  border-bottom: none;
+  font-size: $font-size-lg;
+}

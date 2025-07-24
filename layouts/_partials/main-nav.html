@@ -1,0 +1,15 @@
+<nav class="main-nav">
+  <ul>
+    {{ range site.Menus.main }}
+      {{ $selected := false }}
+      {{ if eq .Name "Projects" }}
+        {{ $selected = or $.Page.IsHome (eq $.Page.Section "projects") }}
+      {{ else }}
+        {{ $selected = or ($.Page.IsMenuCurrent "main" .) ($.Page.HasMenuCurrent "main" .) }}
+      {{ end }}
+      <li{{ if $selected }} class="main-nav--selected"{{ end }}>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>

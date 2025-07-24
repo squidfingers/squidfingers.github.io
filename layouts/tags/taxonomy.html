@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <div class="container-xl">
+    <ul class="tag-list tag-list--vertical">
+      {{ range .Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="tag">
+            {{ .Title  | humanize | title }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

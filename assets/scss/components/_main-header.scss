@@ -1,0 +1,17 @@
+.main-header {
+  padding-top: size(10);
+  padding-bottom: size(10);
+  border-bottom: dashed 1px $black;
+
+  [class^=container] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: size(6);
+
+    @media (min-width: breakpoint-min-width("lg")) {
+      flex-direction: row;
+    }
+  }
+}

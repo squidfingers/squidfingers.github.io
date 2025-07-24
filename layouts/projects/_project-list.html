@@ -1,0 +1,18 @@
+<div class="project-list">
+  <h2 class="project-list__heading">
+    A few things I've worked on recently...
+  </h2>
+  <div class="project-list__grid">
+    {{ range .Pages }}
+      <figure class="project-link">
+        <a href="{{ .RelPermalink }}">
+          {{ with .Resources.GetMatch "images/thumbnail.*" }}
+            {{ $alt := path.BaseName .Title | humanize }}
+              <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+          {{ end }}
+        </a>
+        <figcaption>{{ .LinkTitle }}</figcaption>
+      </figure>
+    {{ end }}
+  </div>
+</div>

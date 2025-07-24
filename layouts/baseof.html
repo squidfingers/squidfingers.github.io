@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ partial "page-title" . }}</title>
+    {{ partial "head-favicon" . }}
+    {{ partial "head-meta" . }}
+    {{ partial "head-fonts" . }}
+    {{ partial "head-css" . }}
+  </head>
+  <body>
+    {{ partial "main-header" . }}
+    <main class="main-content">
+      {{ block "main" . }}
+      {{ end }}
+    </main>
+    {{ partial "main-footer" . }}
+  </body>
+</html>

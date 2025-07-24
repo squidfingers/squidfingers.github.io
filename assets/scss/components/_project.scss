@@ -1,0 +1,25 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: size(10);
+
+  img {
+    @include make-shadow;
+  }
+}
+.project__title {
+  h2 {
+    font-size: $font-size-h2;
+    font-weight: $font-weight-light;
+  }
+  h5 {
+    font-size: $font-size-sm;
+  }
+}
+@media (min-width: breakpoint-min-width("sm")) {
+  .project__pager {
+    .button {
+      @include make-button--lg;
+    }
+  }
+}

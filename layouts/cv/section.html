@@ -1,0 +1,58 @@
+{{ define "main" }}
+  <div class="container-xl">
+    <div class="cv">
+      <div class="about">
+        {{ with .Resources.Get .Params.photo }}
+          <figure>
+            <img src="{{ .RelPermalink }}" alt="Avatar">
+          </figure>
+        {{ end }}
+        <div class="prose">
+          {{ .Content }}
+        </div>
+      </div>
+      <div class="quote-list">
+        <h2 class="quote-list__heading">
+          Recommendations
+        </h2>
+        <div class="prose">
+          {{ range .Params.quotes }}
+            {{/* Use blockquote render hook */}}
+            {{ printf "> %s\n{author=%q, caption=%q}" .content .name .title | $.Page.RenderString }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="job-list">
+        <h2 class="job-list__heading">
+          Experience
+        </h2>
+        {{ with .Resources.Get .Params.timeline }}
+          <figure class="job-list__timeline">
+            <img src="{{ .RelPermalink }}" alt="Timeline">
+          </figure>
+        {{ end }}
+        {{ range .Params.jobs }}
+          <article class="job">
+            {{ with $.Page.Resources.Get .logo }}
+              <figure class="job__logo">
+                <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+              </figure>
+            {{ end }}
+            <div class="job__description">
+              <h2>
+                {{ .name }}
+              </h2>
+              <h3>
+                {{ .title }}
+              </h3>
+              <h4>
+                {{ .dateRange }}
+              </h4>
+              {{ .content | $.Page.RenderString (dict "display" "block") }}
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="robots" content="noindex">
+    {{ with site.GetPage .Params.redirect }}
+      <meta http-equiv="Refresh" content="0; url={{ .Permalink }}">
+    {{ end }}
+  </head>
+  <body>
+  </body>
+</html>

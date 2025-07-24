@@ -1,0 +1,8 @@
+.update-article {
+  display: grid;
+  gap: $gap;
+
+  @media (min-width: breakpoint-min-width("md")) {
+    grid-template-columns: 1fr 2fr;
+  }
+}

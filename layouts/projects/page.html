@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <div class="container-xl">
+    <div class="project">
+      <div class="project__title">
+        <h2>
+          {{ .Title }}
+        </h2>
+        <h5>
+          {{ delimit .Keywords ", " }}
+        </h5>
+      </div>
+      <div class="project_content | prose">
+        {{ .Content }}
+      </div>
+      <nav class="project__pager">
+        {{ $pages := .Parent.RegularPages.ByWeight }}
+        {{ with $pages.Prev . }}
+          <a href="{{ .RelPermalink }}" class="button button--fill button--block">Next: {{ .LinkTitle }} →</a>
+        {{ else }}
+          <a href="/" class="button button--block">Back to home</a>
+        {{ end }}
+      </nav>
+    </div>
+  </div>
+{{ end }}

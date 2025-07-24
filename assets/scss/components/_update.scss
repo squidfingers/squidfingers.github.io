@@ -1,0 +1,29 @@
+.update {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+.update__date {
+  font-size: $font-size-sm;
+
+  a {
+    &:hover {
+      border-bottom: dashed 1px $black;
+    }
+  }
+}
+.update__tag-list {
+  margin-top: -(size(3));
+}
+
+// @options
+
+.update--featured {
+  .update__date {
+    order: -1;
+    font-size: $font-size-lg;
+  }
+  .update__tag-list {
+    margin-top: 0;
+  }
+}
