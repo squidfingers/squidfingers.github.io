@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <div class="container-xl">
+    <div class="update-list">
+      <h2 class="update-list__heading">
+        Tag: {{ .Title | humanize | title }}
+      </h2>
+      {{ range .Pages.ByDate.Reverse }}
+        {{ .Render "_update" }}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

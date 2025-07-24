@@ -1,0 +1,60 @@
+{{ with .Paginator }}
+  {{ if gt .TotalPages 1 }}
+    <nav class="paginator">
+      <ul>
+        {{/* Previous page */}}
+        <li class="paginator__prev">
+          {{ if .HasPrev }}
+            <a href="{{ .Prev.URL }}" class="button button--outline">← Prev</a>
+          {{ else }}
+            <a class="button button--outline button--disabled">← Prev</a>
+          {{ end }}
+        </li>
+        {{/* Page numbers */}}
+        {{ $currentPage := .PageNumber }}
+        {{ $totalPages := .TotalPages }}
+        {{/* Show two pages on either side of the current page */}}
+        {{ $window := 2 }}
+        {{/* Show first page and ellipsis if there are hidden pages at the start */}}
+        {{ if gt $currentPage (add $window 1) }}
+          <li>
+            <a href="{{ .First.URL }}" class="button">1</a>
+          </li>
+          <li class="paginator__elipsis">
+            ...
+          </li>
+        {{ end }}
+        {{/* Display pages around the current page */}}
+        {{ range $i, $p := .Pagers }}
+          {{ $pageNumber := add $i 1 }}
+          {{ if and (ge $pageNumber (sub $currentPage $window)) (le $pageNumber (add $currentPage $window)) }}
+            <li>
+              {{ if eq $pageNumber $currentPage }}
+                <a class="button button--fill">{{ $pageNumber }}</a>
+              {{ else }}
+                <a href="{{ $p.URL }}" class="button">{{ $pageNumber }}</a>
+              {{ end }}
+            </li>
+          {{ end }}
+        {{ end }}
+        {{/* Show last page and ellipsis if there are hidden pages at the end */}}
+        {{ if lt $currentPage (sub $totalPages $window) }}
+          <li class="paginator__elipsis">
+            ...
+          </li>
+          <li>
+            <a href="{{ .Last.URL }}" class="button">{{ $totalPages }}</a>
+          </li>
+        {{ end }}
+        {{/* Next page */}}
+        <li class="paginator__next">
+          {{ if .HasNext }}
+            <a href="{{ .Next.URL }}" class="button button--outline">Next →</a>
+          {{ else }}
+            <a class="button button--outline button--disabled">Next →</a>
+          {{ end }}
+        </li>
+      </ul>
+    </nav>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,69 @@
+.prose {
+  // Only apply bottom margin if element is a direct child of .prose
+  & > {
+    h1, h2, h3, h4, h5, h6,
+    p, ul, ol, dl, blockquote, figure,
+    div {
+      margin-bottom: $gap;
+    }
+    & :last-child {
+      margin-bottom: 0;
+    }
+  }
+  h1, h2, h3, h4, h5, h6 {
+    line-height: $line-height-tight;
+  }
+  h1, h2, h3 {
+    font-weight: $font-weight-light;
+  }
+  h1 {
+    font-size: $font-size-h1;
+  }
+  h2 {
+    font-size: $font-size-h2;
+  }
+  h3 {
+    font-size: $font-size-h3;
+  }
+  h4 {
+    font-size: $font-size-h4;
+  }
+  h5 {
+    font-size: $font-size-h5;
+  }
+  h6 {
+    font-size: $font-size-h6;
+  }
+  ul {
+    list-style-type: square;
+    padding-left: size(2);
+  }
+  blockquote {
+    padding: $gap;
+    background-color: $white;
+    border-left: solid 2px $black;
+
+    p {
+      margin-bottom: $gap;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+    footer {
+      padding-top: $gap;
+    }
+  }
+  a {
+    text-decoration: underline;
+  }
+  strong,
+  b {
+    font-weight: $font-weight-bold;
+  }
+  cite,
+  em,
+  i {
+    font-style: italic;
+  }
+}

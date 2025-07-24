@@ -1,0 +1,26 @@
+.main-nav {
+  ul {
+    display: flex;
+    gap: size(3);
+  }
+  a {
+    display: block;
+
+    &:hover {
+      border-bottom: dashed 1px $black;
+    }
+  }
+  @media (min-width: breakpoint-min-width("sm")) {
+    ul {
+      gap: size(4);
+    }
+  }
+
+  // @options
+
+  .main-nav--selected {
+    a {
+        border-bottom: solid 2px $black;
+    }
+  }
+}

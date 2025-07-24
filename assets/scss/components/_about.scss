@@ -1,0 +1,13 @@
+.about {
+  figure {
+    margin-top: -(size(13));
+    margin-bottom: size(6);
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      clip-path: circle(50% at 50% 50%);
+    }
+  }
+}

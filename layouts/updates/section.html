@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <div class="container-xl">
+    <div class="update-list">
+      {{ range .Paginator.Pages }}
+        {{ .Render "_update" }}
+      {{ end }}
+      {{ partial "components/paginator" . }}
+    </div>
+  </div>
+{{ end }}

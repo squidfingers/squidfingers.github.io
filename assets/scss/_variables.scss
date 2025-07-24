@@ -1,50 +1,60 @@
+// Type
+
+$font-family-base: "IBM Plex Mono", "Helvetica", "Arial", sans-serif;
+$font-family-mono: "IBM Plex Mono", "Consolas", "Monaco", "Andale Mono", "Ubuntu Mono", monospace;
+
+$font-size-sm: 14px;
+$font-size-base: 18px;
+$font-size-lg: 24px;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+
+$line-height-base: 1.5;
+$line-height-tight: 1.2;
+
+$font-size-h1: 32px;
+$font-size-h2: 28px;
+$font-size-h3: 24px;
+$font-size-h4: 20px;
+$font-size-h5: 18px;
+$font-size-h6: 16px;
+
 // Colors
 
-$black:                         #000;
-$gray-600:                      #575757;
-$gray-500:                      #ABABAB;
-$gray-400:                      #E6E6E6;
-$gray-300:                      #F8F8F8;
-$gray-200:                      #FCFCFC;
+$white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$gray-50: rgb(248, 248, 248);
 
-// Component Colors
+// Size
 
-$link-color:                    $black;
-$link-hover-color:              $black;
-$link-active-color:             $black;
+$size-unit: 8px;
+$gap: size(4);
 
-$blockquote-bg-color:           $gray-200;
-$blockquote-border-color:       $black;
-$blockquote-footer-text-color:  $black;
+// Layout
 
-$pre-bg-color:                  $gray-300;
-$code-text-color:               $gray-600;
+$breakpoint-min-widths: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
 
-$btn-bg-color:                  $black;
-$btn-bg-hover-color:            lighten($black, 10%);
-$btn-bg-active-color:           lighten($black, 15%);
-$btn-text-color:                $gray-200;
-$btn-bg-color-disabled:         $gray-500;
-$btn-text-color-disabled:       $gray-200;
+$breakpoint-max-widths: (
+  xs: 575px,
+  sm: 767px,
+  md: 991px,
+  lg: 1199px,
+  xl: 1399px,
+);
 
-$border-color:                  rgba(0,0,0,0.1);
-
-// Typography
-
-$font-family-base:              'Inter Tight', Helvetica, Arial, sans-serif;
-
-$font-size-root:                18px;
-$font-size-small:               0.75rem;
-$font-size-base:                1rem;
-$font-size-large:               1.5rem;
-$font-size-jumbo:               1.75rem;
-
-$font-weight-light:             200;
-$font-weight-normal:            300;
-$font-weight-bold:              500;
-
-$line-height-base:              1.5;
-
-// Spacer
-
-$spacer:                        1.2rem;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);

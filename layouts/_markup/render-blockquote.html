@@ -1,0 +1,18 @@
+<blockquote{{ with .Attributes.cite }} cite="{{ . }}"{{ end }}>
+  {{ .Text }}
+  {{- if or .Attributes.author .Attributes.caption }}
+    <footer>—
+      {{- with .Attributes.author }}{{ . }}{{ end }}
+      {{- if and .Attributes.author .Attributes.caption }}, {{ end }}
+      {{- if .Attributes.caption }}
+        <cite>
+          {{- if .Attributes.cite }}
+            {{ printf "[%s](%s)" .Attributes.caption .Attributes.cite | $.Page.RenderString }}
+          {{- else }}
+            {{ .Attributes.caption }}
+          {{- end }}
+        </cite>
+      {{- end }}
+    </footer>
+  {{- end }}
+</blockquote>

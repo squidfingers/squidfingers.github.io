@@ -1,0 +1,12 @@
+.four0four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $gap;
+
+  h2 {
+    font-size: $font-size-h2;
+    font-weight: $font-weight-light;
+    text-align: center;
+  }
+}

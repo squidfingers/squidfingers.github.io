@@ -1,0 +1,13 @@
+main:
+  - name: Projects
+    pageRef: /
+    weight: 1
+  - name: About
+    pageRef: /about/
+    weight: 2
+  - name: Career
+    pageRef: /career/
+    weight: 3
+  - name: Updates
+    pageRef: /updates/
+    weight: 4

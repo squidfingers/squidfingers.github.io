@@ -1,0 +1,37 @@
+.job {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+.job__logo {
+  img {
+    max-width: none; // Override
+    width: 200px;
+  }
+}
+.job__description {
+  h2 {
+    margin-bottom: size(1);
+    font-size: $font-size-h4;
+  }
+  h3 {
+    margin-bottom: size(1);
+    font-size: $font-size-h1;
+    font-weight: $font-weight-light;
+    line-height: $line-height-tight;
+  }
+  h4 {
+    margin-bottom: $gap;
+    font-size: $font-size-base;
+  }
+}
+@media (min-width: breakpoint-min-width("md")) {
+  .job {
+    flex-direction: row;
+    gap: size(10);
+    border-top: solid 2px $black;
+  }
+  .job__description {
+    padding-top: size(10);
+  }
+}

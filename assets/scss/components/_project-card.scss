@@ -1,0 +1,27 @@
+.project-card {
+  @include make-shadow;
+  display: grid;
+  background-color: $white;
+  
+  img {
+    @include remove-shadow;
+  }
+  .project-card__media {
+    border-bottom: solid 1px rgba($black, 0.1);
+  }
+  .project-card__content {
+    align-self: center;
+    padding: $gap;
+  }
+  @media (min-width: breakpoint-min-width("lg")) {
+    grid-template-columns: 1fr 1fr;
+
+    .project-card__media {
+      border-bottom: none;
+      border-right: solid 1px rgba($black, 0.1);
+    }
+  }
+  @media (min-width: breakpoint-min-width("xl")) {
+    grid-template-columns: 2fr 1fr;
+  }
+}

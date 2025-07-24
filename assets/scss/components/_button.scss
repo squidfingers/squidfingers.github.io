@@ -1,0 +1,28 @@
+.button,
+button {
+  @include make-button;
+
+  // @options
+
+  &.button--fill {
+    @include make-button--fill;
+  }
+  &.button--outline {
+    @include make-button--outline;
+  }
+  &.button--lg {
+    @include make-button--lg;
+  }
+  &.button--md {
+    @include make-button--md;
+  }
+  &.button--sm {
+    @include make-button--sm;
+  }
+  &.button--block {
+    @include make-button--block;
+  }
+  &.button--disabled {
+    @include make-button--disabled;
+  }
+}

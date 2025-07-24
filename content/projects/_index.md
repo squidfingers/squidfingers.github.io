@@ -1,0 +1,5 @@
+---
+layout: redirect
+params:
+  redirect: /
+---

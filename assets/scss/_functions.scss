@@ -1,3 +1,29 @@
-@function spacer($n, $s: $spacer) {
-  @return ($s * $n);
+// Mix a color with white
+@function tint-color($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+// Mix a color with black
+@function shade-color($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
+
+// Return a size value
+@function size($n) {
+  @return $n * $size-unit;
+}
+
+// Return a breakpoint min-width value
+@function breakpoint-min-width($breakpoint) {
+  @return map-get($breakpoint-min-widths, $breakpoint);
+}
+
+// Return a breakpoint max-width value
+@function breakpoint-max-width($breakpoint) {
+  @return map-get($breakpoint-max-widths, $breakpoint);
+}
+
+// Return a container max-width value
+@function container-max-width($breakpoint) {
+  @return map-get($container-max-widths, $breakpoint);
 }

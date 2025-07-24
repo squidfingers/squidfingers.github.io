@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <div class="home">
+    <div class="container-xl">
+      <div class="intro">
+        {{ .Content }}
+      </div>
+    </div>
+    <div class="container-xl">
+      {{ with .GetPage "/projects/" }}
+        {{ .Render "_project-list" }}
+      {{ end }}
+    </div>
+    <div class="latest-update">
+      <div class="container-xl">
+        {{ range first 1 (where site.RegularPages "Section" "updates") }}
+          <div class="update--featured">
+            {{ .Render "_update" }}
+          </div>
+        {{ end }}
+        <p class="latest-update__more">
+          <a href="/updates/" class="button button--lg">More updates</a>
+        </p>
+      </div>
+    </div>
+  </div>
+{{ end }}

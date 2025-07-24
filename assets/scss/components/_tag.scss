@@ -1,0 +1,15 @@
+.tag {
+  display: inline-block;
+  padding: size(0.25) size(1.25);
+  border: solid 1px $black;
+  border-radius: 999px;
+  font-size: $font-size-sm;
+}
+a.tag {
+  //transition: all .15s ease-in-out;
+
+  &:hover {
+    background-color: $black;
+    color: $white;
+  }
+}

@@ -1,0 +1,15 @@
+.paginator {
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: size(2);
+  }
+  @media (max-width: breakpoint-max-width("xs")) {
+    li:not(.paginator__prev):not(.paginator__next) {
+      display: none;
+    }
+  }
+}
+.paginator__elipsis {
+  padding-top: size(2);
+}

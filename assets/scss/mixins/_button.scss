@@ -1,0 +1,66 @@
+@mixin make-button {
+  display: inline-block;
+  padding: 8.5px 16px;
+  outline-width: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: transparent;
+  color: $black;
+  text-align: center;
+  text-decoration: underline;
+  font-family: $font-family-base;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  cursor: pointer;
+  //transition: background-color 0.2s ease;
+}
+@mixin make-button--fill {
+  color: $white;
+  background-color: $black;
+  text-decoration: none;
+
+  &:focus {
+    outline: 0;
+  }
+  &:hover,
+  &:active {
+    background-color: transparent;
+    outline: solid 2px $black;
+    outline-offset: -2px;
+    color: $black;
+  }
+}
+@mixin make-button--outline {
+  color: $black;
+  background-color: transparent;
+  outline: solid 1px $black;
+  outline-offset: -1px;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    outline: solid 2px $black;
+    outline-offset: -2px;
+  }
+}
+@mixin make-button--lg {
+  padding: 13px 24px;
+  font-size: $font-size-lg;
+}
+@mixin make-button--md {
+  padding: 8.5px 16px;
+  font-size: $font-size-base;
+}
+@mixin make-button--sm {
+  padding: 8px 14px;
+  font-size: $font-size-sm;
+}
+@mixin make-button--block {
+  display: block;
+  width: 100%;
+}
+@mixin make-button--disabled {
+  pointer-events: none;
+  opacity: 0.25;
+}

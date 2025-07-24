@@ -1,0 +1,5 @@
+{{ with resources.Match "fonts/*.woff2" }}
+  {{ range . }}
+    {{ .Publish }}
+  {{ end }}
+{{ end }}

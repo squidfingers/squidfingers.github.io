@@ -1,0 +1,4 @@
+{{ $class := cond .IsNamedParams (.Get "class") (.Get 0) }}
+<div class="grid{{ with $class }} grid--{{ . }}{{ end }}">
+  {{ .InnerDeindent | $.Page.RenderString (dict "display" "block") }}
+</div>
