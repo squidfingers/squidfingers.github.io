@@ -1,0 +1,16 @@
+{{ if hugo.IsProduction }}
+  <script>
+    !function (o) {
+      var w = window;
+      w.SessionRewindConfig = o;
+      var f = document.createElement("script");
+      f.async = 1, f.crossOrigin = "anonymous",
+        f.src = "https://rec.sessionrewind.com/srloader.js";
+      var g = document.getElementsByTagName("head")[0];
+      g.insertBefore(f, g.firstChild);
+    }({
+      apiKey: 'PVpu7JFEc34CTlMh1B4D71xzwrrgOHLO8GYc327U',
+      startRecording: true,
+    });
+  </script>
+{{ end }}
