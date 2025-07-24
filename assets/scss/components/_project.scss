@@ -2,10 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: size(10);
-
-  img {
-    @include make-shadow;
-  }
 }
 .project__title {
   h2 {
@@ -14,6 +10,14 @@
   }
   h5 {
     font-size: $font-size-sm;
+  }
+}
+.project__content {
+  img {
+    @include make-shadow;
+  }
+  & > .project-blurb:last-child {
+    padding-bottom: 0;
   }
 }
 @media (min-width: breakpoint-min-width("sm")) {
