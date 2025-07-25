@@ -1,8 +1,12 @@
 {{ $logo := readFile "/static/images/logo.svg" | htmlUnescape | safeHTML }}
 <div class="main-logo">
-  <a href="/">
+  {{ if .IsHome }}
     {{ $logo }}
-  </a>
+  {{ else }}
+    <a href="/">
+      {{ $logo }}
+    </a>
+  {{ end }}
   <div>
     <h1>Travis Beckham</h1>
     <h2>UX &amp; System Design</h2>
