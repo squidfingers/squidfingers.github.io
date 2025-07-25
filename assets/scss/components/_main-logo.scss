@@ -34,3 +34,7 @@
     }
   }
 }
+
+body:has(.main-logo a:hover) * {
+  outline: 1px solid $black;
+}
