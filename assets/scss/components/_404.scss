@@ -9,4 +9,7 @@
     font-weight: $font-weight-light;
     text-align: center;
   }
+  path, rect {
+    fill: currentColor;
+  }
 }
