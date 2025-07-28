@@ -1,7 +1,7 @@
 .main-header {
   padding-top: $gap-lg;
   padding-bottom: $gap-lg;
-  border-bottom: $border-dashed;
+  background-color: $yellow;
 
   [class^=container] {
     display: flex;

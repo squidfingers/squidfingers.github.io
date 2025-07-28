@@ -8,7 +8,7 @@
 
   a {
     &:hover {
-      border-bottom: dashed 1px $black;
+      text-decoration: underline;
     }
   }
 }
