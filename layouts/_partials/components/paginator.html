@@ -5,9 +5,9 @@
         {{/* Previous page */}}
         <li class="paginator__prev">
           {{ if .HasPrev }}
-            <a href="{{ .Prev.URL }}" class="button button--outline">← Prev</a>
+            <a href="{{ .Prev.URL }}" class="button">← Prev</a>
           {{ else }}
-            <a class="button button--outline button--disabled">← Prev</a>
+            <a class="button button--disabled">← Prev</a>
           {{ end }}
         </li>
         {{/* Page numbers */}}
@@ -49,9 +49,9 @@
         {{/* Next page */}}
         <li class="paginator__next">
           {{ if .HasNext }}
-            <a href="{{ .Next.URL }}" class="button button--outline">Next →</a>
+            <a href="{{ .Next.URL }}" class="button">Next →</a>
           {{ else }}
-            <a class="button button--outline button--disabled">Next →</a>
+            <a class="button button--disabled">Next →</a>
           {{ end }}
         </li>
       </ul>

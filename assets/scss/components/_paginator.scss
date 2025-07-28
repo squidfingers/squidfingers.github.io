@@ -5,6 +5,15 @@
     gap: size(2);
   }
   @media (max-width: breakpoint-max-width("xs")) {
+    .paginator__prev,
+    .paginator__next {
+       flex-basis: 50%;
+
+       .button {
+        @include make-button--outline;
+        @include make-button--block;
+      }
+    }
     li:not(.paginator__prev):not(.paginator__next) {
       display: none;
     }
