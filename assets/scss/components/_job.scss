@@ -17,7 +17,6 @@
   h3 {
     margin-bottom: size(1);
     font-size: $font-size-h1;
-    font-weight: $font-weight-light;
     line-height: $line-height-tight;
   }
   h4 {
@@ -28,10 +27,10 @@
 @media (min-width: breakpoint-min-width("md")) {
   .job {
     flex-direction: row;
-    gap: size(10);
-    border-top: solid 2px $black;
+    gap: $gap-lg;
+    border-top: $border-solid;
   }
   .job__description {
-    padding-top: size(10);
+    padding-top: $gap-lg;
   }
 }

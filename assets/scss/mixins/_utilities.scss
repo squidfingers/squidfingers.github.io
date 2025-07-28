@@ -1,8 +1,0 @@
-@mixin make-shadow {
-  border: $border;
-  box-shadow: 0 0 size(4) rgba($black, 0.04);
-}
-@mixin remove-shadow {
-  border: none;
-  box-shadow: none;
-}

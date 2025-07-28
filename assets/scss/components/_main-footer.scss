@@ -1,25 +1,23 @@
 .main-footer {
-  padding-top: size(10);
-  padding-bottom: size(10);
+  padding-top: $gap-lg;
+  padding-bottom: $gap-lg;
   background-color: $black;
   color: $white;
   text-align: center;
 
   h3 {
     font-size: $font-size-h1;
-    font-weight: $font-weight-light;
   }
   a {
     color: $white;
 
     &:hover {
-      border-bottom: dashed 1px $white;
+      text-decoration: underline;
     }
   }
   @media (min-width: breakpoint-min-width("sm")) {
     h3 {
       font-size: 64px;
-      font-weight: $font-weight-light;
     }
     p {
       font-size: $font-size-lg;

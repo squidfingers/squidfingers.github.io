@@ -13,9 +13,6 @@
   h1, h2, h3, h4, h5, h6 {
     line-height: $line-height-tight;
   }
-  h1, h2, h3 {
-    font-weight: $font-weight-light;
-  }
   h1 {
     font-size: $font-size-h1;
   }
@@ -41,7 +38,7 @@
   blockquote {
     padding: $gap;
     background-color: $white;
-    border-left: solid 2px $black;
+    border-left: $border-solid;
 
     p {
       margin-bottom: $gap;
@@ -65,5 +62,12 @@
   em,
   i {
     font-style: italic;
+  }
+  img {
+    border: $border-solid;
+
+    &.no-border {
+      border: none;
+    }
   }
 }

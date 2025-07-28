@@ -1,12 +1,11 @@
 .project {
   display: flex;
   flex-direction: column;
-  gap: size(10);
+  gap: $gap-lg;
 }
 .project__title {
   h2 {
     font-size: $font-size-h2;
-    font-weight: $font-weight-light;
   }
   h5 {
     font-size: $font-size-sm;
@@ -14,7 +13,7 @@
 }
 .project__content {
   img {
-    @include make-shadow;
+    border: $border-solid;
   }
   & > .project-blurb:last-child {
     padding-bottom: 0;

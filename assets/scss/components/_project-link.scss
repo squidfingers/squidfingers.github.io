@@ -1,6 +1,6 @@
 .project-link {
-  @include make-shadow;
   position: relative;
+  border: $border-solid;
 
   a {
     display: block;

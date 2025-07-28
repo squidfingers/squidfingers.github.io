@@ -6,5 +6,7 @@ tags:
 ---
 
 ![Happy Halloween](happy-halloween-text.png)
+{.no-border}
 
 ![Roundheads](happy-halloween-illustration.png)
+{.no-border}

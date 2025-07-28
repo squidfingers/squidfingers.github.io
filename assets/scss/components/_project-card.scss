@@ -1,13 +1,13 @@
 .project-card {
-  @include make-shadow;
   display: grid;
+  border: $border-solid;
   background-color: $white;
   
   img {
-    @include remove-shadow;
+    border: none;
   }
   .project-card__media {
-    border-bottom: $border;
+    border-bottom: $border-solid;
   }
   .project-card__content {
     align-self: center;
@@ -18,7 +18,7 @@
 
     .project-card__media {
       border-bottom: none;
-      border-right: $border;
+      border-right: $border-solid;
     }
   }
   @media (min-width: breakpoint-min-width("xl")) {

@@ -1,5 +1,10 @@
 .home {
   display: flex;
   flex-direction: column;
-  gap: size(10);
+  gap: $gap-lg;
+
+  @media (min-width: breakpoint-min-width("md")) {
+    padding-top: $gap;
+    gap: $gap-xl;
+  }
 }

@@ -4,9 +4,6 @@
     font-weight: $font-weight-light;
   }
   @media (min-width: breakpoint-min-width("md")) {
-    padding-top: $gap;
-    padding-bottom: $gap;
-
     p {
       font-size: $font-size-h2;
       text-align: center;

@@ -1,11 +1,11 @@
 .update-list {
   display: flex;
   flex-direction: column;
-  gap: size(10);
+  gap: $gap-lg;
   
   & > * {
-    padding-bottom: size(10);
-    border-bottom: dashed 1px $black;
+    padding-bottom: $gap-lg;
+    border-bottom: $border-dashed;
   }
   & > :last-child {
     padding-bottom: 0;

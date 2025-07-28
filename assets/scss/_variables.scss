@@ -30,12 +30,15 @@ $highlighter: rgb(242, 232, 25);
 
 // Styles
 
-$border: solid 1px rgba($black, 0.15);
+$border-dashed: dashed 3px $black;
+$border-solid: solid 3px $black;
 
 // Size
 
 $size-unit: 8px;
 $gap: size(4);
+$gap-lg: size(10);
+$gap-xl: size(16);
 
 // Layout
 

@@ -7,7 +7,7 @@
     display: block;
 
     &:hover {
-      border-bottom: dashed 1px $black;
+      border-bottom: $border-solid;
     }
   }
   @media (min-width: breakpoint-min-width("sm")) {
@@ -20,7 +20,7 @@
 
   .main-nav--selected {
     a {
-        border-bottom: solid 2px $black;
+        border-bottom: $border-solid;
     }
   }
 }

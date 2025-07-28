@@ -1,15 +1,18 @@
 .latest-update {
-  padding-top: size(10);
-  border-top: solid 2px $black;
+  padding-top: $gap-lg;
+  border-top: $border-solid;
 
   & > [class^=container] {
     display: flex;
     flex-direction: column;
-    gap: size(10);
+    gap: $gap-lg;
+  }
+  @media (min-width: breakpoint-min-width("md")) {
+    padding-top: $gap-xl;
   }
 }
 .latest-update__more {
-  padding-top: size(10);
-  border-top: dashed 1px $black;
+  padding-top: $gap-lg;
+  border-top: $border-dashed;
   text-align: center;
 }
