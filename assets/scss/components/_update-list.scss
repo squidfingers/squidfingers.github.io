@@ -3,6 +3,11 @@
   flex-direction: column;
   gap: $gap-lg;
   
+  &__heading {
+    padding-bottom: 0;
+    border-bottom: none;
+    font-size: $font-size-lg;
+  }
   & > * {
     padding-bottom: $gap-lg;
     border-bottom: $border-dashed;
@@ -11,9 +16,4 @@
     padding-bottom: 0;
     border-bottom: none;
   }
-}
-.update-list__heading {
-  padding-bottom: 0;
-  border-bottom: none;
-  font-size: $font-size-lg;
 }

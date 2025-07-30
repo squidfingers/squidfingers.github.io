@@ -1,8 +1,10 @@
-.latest-update__content {
-  margin-bottom: $gap-lg;
-}
-.latest-update__footer {
-  padding-top: $gap-lg;
-  border-top: $border-dashed;
-  text-align: center;
+.latest-update {
+  &__content {
+    margin-bottom: $gap-lg;
+  }
+  &__footer {
+    padding-top: $gap-lg;
+    border-top: $border-dashed;
+    text-align: center;
+  }
 }

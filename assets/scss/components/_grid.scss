@@ -3,25 +3,17 @@
   gap: $gap;
 
   // @options
-  
-  // 2 columns
 
   &.grid--2col {
     @media (min-width: breakpoint-min-width("sm")) {
       grid-template-columns: repeat(2, 1fr);
     }
   }
-
-  // 3 columns
-
   &.grid--3col {
     @media (min-width: breakpoint-min-width("sm")) {
       grid-template-columns: repeat(3, 1fr);
     }
   }
-
-  // 4 columns
-
   &.grid--4col {
     @media (min-width: breakpoint-min-width("sm")) {
       grid-template-columns: repeat(2, 1fr);

@@ -6,17 +6,17 @@
   img {
     border: none;
   }
-  .project-card__media {
+  &__media {
     border-bottom: $border-solid;
   }
-  .project-card__content {
+  &__content {
     align-self: center;
     padding: $gap;
   }
   @media (min-width: breakpoint-min-width("lg")) {
     grid-template-columns: 1fr 1fr;
 
-    .project-card__media {
+    &__media {
       border-bottom: none;
       border-right: $border-solid;
     }

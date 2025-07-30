@@ -3,20 +3,20 @@
   flex-direction: column;
   gap: $gap;
 
-  .job {
-    margin-bottom: size(6);
+  &__heading {
+    font-size: $font-size-h2;
+  }
+  &__timeline {
+    margin-bottom: $gap;
+
+    @media (max-width: breakpoint-max-width("md")) {
+      display: none;
+    }
   }
   & > :last-child {
     margin-bottom: 0;
   }
-}
-.job-list__heading {
-  font-size: $font-size-h2;
-}
-.job-list__timeline {
-  margin-bottom: $gap;
-
-  @media (max-width: breakpoint-max-width("md")) {
-    display: none;
+  .job {
+    margin-bottom: size(6);
   }
 }

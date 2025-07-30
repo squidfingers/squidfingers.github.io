@@ -2,15 +2,12 @@
   p {
     font-size: $font-size-h3;
     font-weight: $font-weight-light;
-  }
-  @media (min-width: breakpoint-min-width("md")) {
-    p {
+
+    @media (min-width: breakpoint-min-width("md")) {
       font-size: $font-size-h2;
       text-align: center;
     }
-  }
-  @media (min-width: breakpoint-min-width("lg")) {
-    p {
+    @media (min-width: breakpoint-min-width("lg")) {
       font-size: $font-size-h1;
     }
   }

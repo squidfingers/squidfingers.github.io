@@ -4,9 +4,12 @@
     justify-content: center;
     gap: size(2);
   }
+  &__elipsis {
+    padding-top: size(2);
+  }
   @media (max-width: breakpoint-max-width("xs")) {
-    .paginator__prev,
-    .paginator__next {
+    &__prev,
+    &__next {
        flex-basis: 50%;
 
        .button {
@@ -18,7 +21,4 @@
       display: none;
     }
   }
-}
-.paginator__elipsis {
-  padding-top: size(2);
 }

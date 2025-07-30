@@ -2,35 +2,35 @@
   display: flex;
   flex-direction: column;
   gap: $gap;
-}
-.job__logo {
-  img {
-    max-width: none; // Override
-    width: 200px;
+
+  &__logo {
+    img {
+      max-width: none; // Override
+      width: 200px;
+    }
   }
-}
-.job__description {
-  h2 {
-    margin-bottom: size(1);
-    font-size: $font-size-h4;
+  &__description {
+    h2 {
+      margin-bottom: size(1);
+      font-size: $font-size-h4;
+    }
+    h3 {
+      margin-bottom: size(1);
+      font-size: $font-size-h1;
+      line-height: $line-height-tight;
+    }
+    h4 {
+      margin-bottom: $gap;
+      font-size: $font-size-base;
+    }
   }
-  h3 {
-    margin-bottom: size(1);
-    font-size: $font-size-h1;
-    line-height: $line-height-tight;
-  }
-  h4 {
-    margin-bottom: $gap;
-    font-size: $font-size-base;
-  }
-}
-@media (min-width: breakpoint-min-width("md")) {
-  .job {
+  @media (min-width: breakpoint-min-width("md")) {
     flex-direction: row;
     gap: $gap-lg;
     border-top: $border-solid;
-  }
-  .job__description {
-    padding-top: $gap-lg;
+
+    &__description {
+      padding-top: $gap-lg;
+    }
   }
 }
