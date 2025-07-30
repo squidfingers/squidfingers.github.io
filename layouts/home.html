@@ -12,13 +12,15 @@
     </div>
     <div class="container-xl">
       <div class="latest-update">
+        <h2 class="latest-update__heading">
+          Latest update
+        </h2>
         {{ range first 1 (where site.RegularPages "Section" "updates") }}
-          <div class="update--featured">
-            <h2>Latest update</h2>
+          <div class="latest-update__content | update--featured">
             {{ .Render "_update" }}
           </div>
         {{ end }}
-        <p class="latest-update__more">
+        <p class="latest-update__footer">
           <a href="/updates/" class="button button--lg">More updates</a>
         </p>
       </div>

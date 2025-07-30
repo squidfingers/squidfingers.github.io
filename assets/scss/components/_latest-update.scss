@@ -1,9 +1,7 @@
-.latest-update {
-  display: flex;
-  flex-direction: column;
-  gap: $gap-lg;
+.latest-update__content {
+  margin-bottom: $gap-lg;
 }
-.latest-update__more {
+.latest-update__footer {
   padding-top: $gap-lg;
   border-top: $border-dashed;
   text-align: center;
