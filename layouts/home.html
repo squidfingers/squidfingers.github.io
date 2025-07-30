@@ -10,10 +10,11 @@
         {{ .Render "_project-list" }}
       {{ end }}
     </div>
-    <div class="latest-update">
-      <div class="container-xl">
+    <div class="container-xl">
+      <div class="latest-update">
         {{ range first 1 (where site.RegularPages "Section" "updates") }}
           <div class="update--featured">
+            <h2>Latest update</h2>
             {{ .Render "_update" }}
           </div>
         {{ end }}

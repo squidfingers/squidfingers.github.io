@@ -1,15 +1,7 @@
 .latest-update {
-  padding-top: $gap-lg;
-  border-top: $border-solid;
-
-  & > [class^=container] {
-    display: flex;
-    flex-direction: column;
-    gap: $gap-lg;
-  }
-  @media (min-width: breakpoint-min-width("md")) {
-    padding-top: $gap-xl;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: $gap-lg;
 }
 .latest-update__more {
   padding-top: $gap-lg;
