@@ -5,6 +5,8 @@
   }
   a {
     display: block;
+    // Add clear border so nav doesn't jump on hover, if no menu items are selected
+    border-bottom: solid 3px transparent;
 
     &:hover {
       border-bottom: $border-solid;
