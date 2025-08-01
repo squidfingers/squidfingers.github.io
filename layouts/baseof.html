@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ partial "page-title" . }}</title>
+    <title>{{ block "title" . }}{{ partial "page-title" . }}{{ end }}</title>
     {{ partial "head-favicon" . }}
     {{ partial "head-meta" . }}
     {{ partial "head-fonts" . }}
