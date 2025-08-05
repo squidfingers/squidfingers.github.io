@@ -1,0 +1,6 @@
+.main-body {
+  // Position above .main-footer
+  position: relative;
+  z-index: 1;
+  background-color: $gray-50;
+}

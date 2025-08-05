@@ -9,11 +9,13 @@
     {{ partial "head-css" . }}
   </head>
   <body>
-    {{ partial "main-header" . }}
-    <main class="main-content">
-      {{ block "main" . }}
-      {{ end }}
-    </main>
+    <div class="main-body">
+      {{ partial "main-header" . }}
+      <main class="main-content">
+        {{ block "main" . }}
+        {{ end }}
+      </main>
+    </div>
     {{ partial "main-footer" . }}
     {{ partial "sessionrewind" . }}
   </body>
