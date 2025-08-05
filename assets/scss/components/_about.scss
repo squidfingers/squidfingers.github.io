@@ -1,5 +1,7 @@
 .about {
   figure {
+    position: relative;
+    z-index: ($header-zindex + 1);
     margin-top: -(size(13));
     margin-bottom: size(6);
 

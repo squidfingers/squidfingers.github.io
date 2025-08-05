@@ -1,0 +1,37 @@
+// Only fix header on lg breakpoint and larger
+@media (min-width: breakpoint-min-width("lg")) {
+  // Only apply styles if javascript is enabled
+  body.js-enabled {
+    padding-top: $header-height;
+
+    .main-header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: $header-zindex;
+      transition: all 0.1s ease-out;
+    }
+    &.scrolled {
+      .main-header {
+        padding-top: size(2);
+        padding-bottom: size(2);
+        background-color: $black;
+      }
+      .main-logo {
+        svg {
+          color: $white;
+          width: 28px;
+          height: 24px;
+        }
+        h1, h2 {
+          display: none;
+        }
+      }
+      .main-nav {
+        a {
+          color: $white;
+        }
+      }
+    }
+  }
+}
