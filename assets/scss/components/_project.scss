@@ -19,6 +19,9 @@
       padding-bottom: 0;
     }
   }
+  &__pager {
+    text-align: center;
+  }
   @media (min-width: breakpoint-min-width("sm")) {
     &__pager {
       .button {
