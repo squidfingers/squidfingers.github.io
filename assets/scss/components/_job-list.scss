@@ -4,7 +4,8 @@
   gap: $gap;
 
   &__heading {
-    font-size: $font-size-h2;
+    font-family: $font-family-display;
+    font-size: $font-size-h1;
   }
   &__timeline {
     margin-bottom: $gap;
