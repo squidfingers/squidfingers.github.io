@@ -1,7 +1,7 @@
 .intro {
   p {
+    font-family: $font-family-display;
     font-size: $font-size-h3;
-    font-weight: $font-weight-light;
 
     @media (min-width: breakpoint-min-width("md")) {
       font-size: $font-size-h2;
