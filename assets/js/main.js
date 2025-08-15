@@ -3,8 +3,8 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 window.addEventListener("scroll", () => {
   if (window.scrollY > 64) {
-    document.body.classList.add("scrolled");
+    document.body.classList.add("js-scrolled");
   } else {
-    document.body.classList.remove("scrolled");
+    document.body.classList.remove("js-scrolled");
   }
 });
