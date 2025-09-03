@@ -1,14 +1,13 @@
 .intro {
   p {
-    font-family: $font-family-display;
-    font-size: $font-size-h2;
+    font-size: $font-size-h3;
 
     @media (min-width: breakpoint-min-width("md")) {
-      font-size: $font-size-h1;
+      font-size: $font-size-h2;
       text-align: center;
     }
     @media (min-width: breakpoint-min-width("lg")) {
-      font-size: 48px;
+      font-size: $font-size-h1;
     }
   }
 }
