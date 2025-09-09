@@ -4,6 +4,8 @@ tags:
   - Photos
 ---
 
+Getting back into an old hobby.
+
 {{< grid "3col" >}}
 
 ![1](01.jpg)
