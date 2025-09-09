@@ -6,4 +6,10 @@ tags:
 
 Mixing an old hobby with a newer one.
 
-![Linocut barn quilt](linocut-barn-quilt.jpg)
+{{< grid "2col" >}}
+
+![1](01.jpg)
+
+![2](02.jpg)
+
+{{< /grid >}}
