@@ -17,13 +17,13 @@ params:
     - name: Buoyant
       title: UX Designer
       content: |-
-        UX lead and system designer for Buoyant Cloud; a multi-cluster dashboard for Linkerd, which automatically keeps Linkerd's control plane and data plane up to date with the latest versions, handles installs, trust anchor rotation, and continuously monitors health metrics to proactively send alerts about potential issues before they escalate.
+        UX lead and system designer for [Buoyant Cloud](/projects/buoyant-cloud/); a multi-cluster dashboard for Linkerd, which automatically keeps Linkerd's control plane and data plane up to date with the latest versions, handles installs, trust anchor rotation, and continuously monitors health metrics to proactively send alerts about potential issues before they escalate.
       dateRange: Oct 2019 → Present
       logo: images/buoyant.png
     - name: Minted
       title: Senior UX Manager
       content: |-
-        Led UX for Minted Wedding Websites, along with other online tools and growth initiatives. Architect and design lead of the Minted Component Library. While at Minted, I learned to carefully balance user needs and business goals to create products that are loved by their customers.
+        Led UX for [Minted Wedding Websites](/projects/minted-wedding-websites/), along with other online tools and [growth initiatives](/projects/minted-guest-management/). Architect and design lead of the [Minted Component Library](/projects/minted-component-library/). While at Minted, I learned to carefully balance user needs and business goals to create products that are loved by their customers.
       dateRange: Feb 2015 → Oct 2019
       logo: images/minted.png
     - name: Hitched Up

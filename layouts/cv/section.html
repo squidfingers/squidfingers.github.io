@@ -48,7 +48,9 @@
               <h4>
                 {{ .dateRange }}
               </h4>
-              {{ .content | $.Page.RenderString (dict "display" "block") }}
+              <div class="prose">
+                {{ .content | $.Page.RenderString (dict "display" "block") }}
+              </div>
             </div>
           </article>
         {{ end }}
