@@ -1,7 +1,10 @@
+@use "../variables";
+@use "../functions";
+
 .pager {
   ul {
     display: flex;
     justify-content: center;
-    gap: size(2);
+    gap: functions.size(2);
   }
 }

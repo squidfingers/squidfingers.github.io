@@ -1,6 +1,8 @@
+@use "../variables";
+
 .project-link {
   position: relative;
-  border: $border-solid;
+  border: variables.$border-solid;
 
   a {
     display: block;
@@ -20,10 +22,10 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba($magenta, 0.85);
-    color: $white;
+    background-color: rgba(variables.$magenta, 0.85);
+    color: variables.$white;
     opacity: 0;
-    font-size: $font-size-lg;
+    font-size: variables.$font-size-lg;
     transition: opacity .15s ease-in-out;
   }
 }

@@ -1,59 +1,62 @@
+@use "../variables";
+@use "../functions";
+
 .prose {
   // Only apply bottom margin if element is a direct child of .prose
   & > {
     h1, h2, h3, h4, h5, h6,
     p, ul, ol, dl, blockquote, figure,
     div {
-      margin-bottom: $gap;
+      margin-bottom: variables.$gap;
     }
     & :last-child {
       margin-bottom: 0;
     }
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: $font-family-display;
-    line-height: $line-height-tight;
+    font-family: variables.$font-family-display;
+    line-height: variables.$line-height-tight;
   }
   h1 {
-    font-size: $font-size-h1;
+    font-size: variables.$font-size-h1;
   }
   h2 {
-    font-size: $font-size-h2;
+    font-size: variables.$font-size-h2;
   }
   h3 {
-    font-size: $font-size-h3;
+    font-size: variables.$font-size-h3;
   }
   h4 {
-    font-size: $font-size-h4;
+    font-size: variables.$font-size-h4;
   }
   h5 {
-    font-size: $font-size-h5;
+    font-size: variables.$font-size-h5;
   }
   h6 {
-    font-size: $font-size-h6;
+    font-size: variables.$font-size-h6;
   }
   ul {
     list-style-type: square;
-    padding-left: size(2);
+    padding-left: functions.size(2);
   }
   blockquote {
-    padding: $gap;
-    background-color: $white;
-    border-left: $border-solid;
+    padding: variables.$gap;
+    background-color: variables.$white;
+    border-left: variables.$border-solid;
 
     p {
-      margin-bottom: $gap;
+      margin-bottom: variables.$gap;
 
       &:last-of-type {
         margin-bottom: 0;
       }
     }
     footer {
-      padding-top: $gap;
+      padding-top: variables.$gap;
     }
   }
   a {
-    color: $magenta;
+    color: variables.$magenta;
     
     &:hover {
       text-decoration: underline;
@@ -61,7 +64,7 @@
   }
   strong,
   b {
-    font-weight: $font-weight-bold;
+    font-weight: variables.$font-weight-bold;
   }
   cite,
   em,
@@ -69,8 +72,8 @@
     font-style: italic;
   }
   img {
-    border: solid 1px rgba($black, 0.1);
-    box-shadow: 0 0 size(6) rgba($black, 0.05);
+    border: solid 1px rgba(variables.$black, 0.1);
+    box-shadow: 0 0 functions.size(6) rgba(variables.$black, 0.05);
 
     &.no-border {
       border: none;

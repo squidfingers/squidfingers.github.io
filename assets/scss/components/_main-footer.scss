@@ -1,34 +1,37 @@
+@use "../variables";
+@use "../functions";
+
 .main-footer {
   position: sticky;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding-top: $gap-lg;
-  padding-bottom: $gap-lg;
-  background-color: $black;
-  color: $yellow;
+  padding-top: variables.$gap-lg;
+  padding-bottom: variables.$gap-lg;
+  background-color: variables.$black;
+  color: variables.$yellow;
   text-align: center;
 
   h3 {
-    font-family: $font-family-display;
-    font-size: $font-size-h1;
+    font-family: variables.$font-family-display;
+    font-size: variables.$font-size-h1;
   }
   a {
-    color: $white;
+    color: variables.$white;
 
     &:hover {
       text-decoration: underline;
     }
   }
-  @media (min-width: breakpoint-min-width("sm")) {
+  @media (min-width: functions.breakpoint-min-width("sm")) {
     h3 {
       font-size: 64px;
     }
     p {
-      font-size: $font-size-lg;
+      font-size: variables.$font-size-lg;
     }
   }
-  @media (min-width: breakpoint-min-width("lg")) {
+  @media (min-width: functions.breakpoint-min-width("lg")) {
     text-align: left;
   }
 }

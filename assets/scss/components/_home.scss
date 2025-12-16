@@ -1,10 +1,13 @@
+@use "../variables";
+@use "../functions";
+
 .home {
   display: flex;
   flex-direction: column;
-  gap: $gap-lg;
+  gap: variables.$gap-lg;
 
-  @media (min-width: breakpoint-min-width("md")) {
-    padding-top: $gap;
-    gap: $gap-xl;
+  @media (min-width: functions.breakpoint-min-width("md")) {
+    padding-top: variables.$gap;
+    gap: variables.$gap-xl;
   }
 }

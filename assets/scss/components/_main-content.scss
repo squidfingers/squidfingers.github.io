@@ -1,4 +1,6 @@
+@use "../variables";
+
 .main-content {
-  padding-top: $gap-lg;
-  padding-bottom: $gap-lg;
+  padding-top: variables.$gap-lg;
+  padding-bottom: variables.$gap-lg;
 }

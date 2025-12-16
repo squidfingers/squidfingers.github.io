@@ -1,7 +1,10 @@
+@use "../variables";
+@use "../functions";
+
 .job {
   display: flex;
   flex-direction: column;
-  gap: $gap;
+  gap: variables.$gap;
 
   &__logo {
     img {
@@ -11,27 +14,27 @@
   }
   &__description {
     h2 {
-      margin-bottom: size(1);
-      font-size: $font-size-h4;
+      margin-bottom: functions.size(1);
+      font-size: variables.$font-size-h4;
     }
     h3 {
-      margin-bottom: size(1);
-      font-family: $font-family-display;
-      font-size: $font-size-h1;
-      line-height: $line-height-tight;
+      margin-bottom: functions.size(1);
+      font-family: variables.$font-family-display;
+      font-size: variables.$font-size-h1;
+      line-height: variables.$line-height-tight;
     }
     h4 {
-      margin-bottom: $gap;
-      font-size: $font-size-base;
+      margin-bottom: variables.$gap;
+      font-size: variables.$font-size-base;
     }
   }
-  @media (min-width: breakpoint-min-width("md")) {
+  @media (min-width: functions.breakpoint-min-width("md")) {
     flex-direction: row;
-    gap: $gap-lg;
-    border-top: $border-solid;
+    gap: variables.$gap-lg;
+    border-top: variables.$border-solid;
 
     &__description {
-      padding-top: $gap-lg;
+      padding-top: variables.$gap-lg;
     }
   }
 }

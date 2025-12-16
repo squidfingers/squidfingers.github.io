@@ -1,27 +1,30 @@
+@use "../variables";
+@use "../functions";
+
 .project-card {
   display: grid;
-  border: $border-solid;
-  background-color: $white;
+  border: variables.$border-solid;
+  background-color: variables.$white;
   
   img {
     border: none;
   }
   &__media {
-    border-bottom: $border-solid;
+    border-bottom: variables.$border-solid;
   }
   &__content {
     align-self: center;
-    padding: $gap;
+    padding: variables.$gap;
   }
-  @media (min-width: breakpoint-min-width("lg")) {
+  @media (min-width: functions.breakpoint-min-width("lg")) {
     grid-template-columns: 1fr 1fr;
 
     &__media {
       border-bottom: none;
-      border-right: $border-solid;
+      border-right: variables.$border-solid;
     }
   }
-  @media (min-width: breakpoint-min-width("xl")) {
+  @media (min-width: functions.breakpoint-min-width("xl")) {
     grid-template-columns: 2fr 1fr;
   }
 }

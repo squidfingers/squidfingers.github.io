@@ -1,5 +1,7 @@
+@use "../variables";
+
 .cv {
   display: flex;
   flex-direction: column;
-  gap: $gap-lg;
+  gap: variables.$gap-lg;
 }

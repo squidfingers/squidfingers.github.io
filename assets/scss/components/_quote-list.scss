@@ -1,10 +1,12 @@
+@use "../variables";
+
 .quote-list {
   display: flex;
   flex-direction: column;
-  gap: $gap;
+  gap: variables.$gap;
 
   &__heading {
-    font-family: $font-family-display;
-    font-size: $font-size-h1;
+    font-family: variables.$font-family-display;
+    font-size: variables.$font-size-h1;
   }
 }

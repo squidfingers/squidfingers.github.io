@@ -1,72 +1,63 @@
-// Utility functions
-@import "functions";
-
-// Values for colors, fonts, spacing, etc
-@import "variables";
-
-// Mix-ins
-@import "mixins/button";
-
 // Font file imports
-@import "fonts";
+@use "fonts";
 
 // Reset html elements
-@import "normalize";
+@use "normalize";
 
 // Components
 
-@import "components/button";
-@import "components/container2";
-@import "components/grid";
-@import "components/highlight";
-@import "components/pager";
-@import "components/paginator";
-@import "components/prose";
+@use "components/button";
+@use "components/container";
+@use "components/grid";
+@use "components/highlight";
+@use "components/pager";
+@use "components/paginator";
+@use "components/prose";
 
 // Components → Tags
 
-@import "components/tag-list";
-@import "components/tag";
+@use "components/tag-list";
+@use "components/tag";
 
 // Components → Main
 
-@import "components/main-body";
-@import "components/main-header";
-@import "components/main-logo";
-@import "components/main-nav";
-@import "components/main-content";
-@import "components/main-footer";
-@import "components/sticky-header";
+@use "components/main-body";
+@use "components/main-header";
+@use "components/main-logo";
+@use "components/main-nav";
+@use "components/main-content";
+@use "components/main-footer";
+@use "components/sticky-header";
 
 // Components → Home
 
-@import "components/home";
-@import "components/intro";
-@import "components/latest-update";
+@use "components/home";
+@use "components/intro";
+@use "components/latest-update";
 
 // Components → Projects
 
-@import "components/project-list";
-@import "components/project-link";
-@import "components/project";
-@import "components/project-blurb";
-@import "components/project-caption";
-@import "components/project-card";
+@use "components/project-list";
+@use "components/project-link";
+@use "components/project";
+@use "components/project-blurb";
+@use "components/project-caption";
+@use "components/project-card";
 
 // Components → CV
 
-@import "components/cv";
-@import "components/about";
-@import "components/quote-list";
-@import "components/job-list";
-@import "components/job";
+@use "components/cv";
+@use "components/about";
+@use "components/quote-list";
+@use "components/job-list";
+@use "components/job";
 
 // Components → Updates
 
-@import "components/update-list";
-@import "components/update";
-@import "components/update-article";
+@use "components/update-list";
+@use "components/update";
+@use "components/update-article";
 
 // Components → 404
 
-@import "components/four0four";
+@use "components/four0four";
