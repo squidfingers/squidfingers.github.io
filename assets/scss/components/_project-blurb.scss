@@ -1,3 +1,5 @@
+@use "../functions";
+
 .project-blurb {
-  padding: size(6) 0;
+  padding: functions.size(6) 0;
 }

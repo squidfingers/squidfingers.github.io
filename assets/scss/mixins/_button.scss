@@ -1,3 +1,5 @@
+@use "../variables";
+
 @mixin make-button {
   display: inline-block;
   padding: 8.5px 16px;
@@ -5,25 +7,25 @@
   white-space: nowrap;
   vertical-align: middle;
   background-color: transparent;
-  color: $black;
+  color: variables.$black;
   text-align: center;
   text-decoration: underline;
-  font-family: $font-family-base;
-  font-weight: $font-weight-bold;
-  font-size: $font-size-base;
-  line-height: $line-height-base;
+  font-family: variables.$font-family-base;
+  font-weight: variables.$font-weight-bold;
+  font-size: variables.$font-size-base;
+  line-height: variables.$line-height-base;
   cursor: pointer;
 
   &:hover,
   &:active {
-    outline: $border-solid;
+    outline: variables.$border-solid;
     outline-offset: -3px;
     text-decoration: none;
   }
 }
 @mixin make-button--fill {
-  color: $white;
-  background-color: $black;
+  color: variables.$white;
+  background-color: variables.$black;
   text-decoration: none;
 
   &:focus {
@@ -32,35 +34,35 @@
   &:hover,
   &:active {
     background-color: transparent;
-    outline: $border-solid;
+    outline: variables.$border-solid;
     outline-offset: -3px;
-    color: $black;
+    color: variables.$black;
   }
 }
 @mixin make-button--outline {
-  color: $black;
+  color: variables.$black;
   background-color: transparent;
-  outline: $border-solid;
+  outline: variables.$border-solid;
   outline-offset: -3px;
   text-decoration: none;
 
   &:hover,
   &:active {
-    background-color: $black;
-    color: $white;
+    background-color: variables.$black;
+    color: variables.$white;
   }
 }
 @mixin make-button--lg {
   padding: 14px 24px;
-  font-size: $font-size-lg;
+  font-size: variables.$font-size-lg;
 }
 @mixin make-button--md {
   padding: 8.5px 16px;
-  font-size: $font-size-base;
+  font-size: variables.$font-size-base;
 }
 @mixin make-button--sm {
   padding: 8px 14px;
-  font-size: $font-size-sm;
+  font-size: variables.$font-size-sm;
 }
 @mixin make-button--block {
   display: block;

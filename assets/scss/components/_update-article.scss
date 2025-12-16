@@ -1,8 +1,11 @@
+@use "../variables";
+@use "../functions";
+
 .update-article {
   display: grid;
-  gap: $gap;
+  gap: variables.$gap;
 
-  @media (min-width: breakpoint-min-width("md")) {
+  @media (min-width: functions.breakpoint-min-width("md")) {
     grid-template-columns: 1fr 2fr;
   }
 }

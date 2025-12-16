@@ -1,17 +1,19 @@
+@use "../variables";
+
 .update-list {
   display: flex;
   flex-direction: column;
-  gap: $gap-lg;
+  gap: variables.$gap-lg;
   
   &__heading {
     padding-bottom: 0;
     border-bottom: none;
-    font-family: $font-family-display;
-    font-size: $font-size-lg;
+    font-family: variables.$font-family-display;
+    font-size: variables.$font-size-lg;
   }
   & > * {
-    padding-bottom: $gap-lg;
-    border-bottom: $border-dashed;
+    padding-bottom: variables.$gap-lg;
+    border-bottom: variables.$border-dashed;
   }
   & > :last-child {
     padding-bottom: 0;

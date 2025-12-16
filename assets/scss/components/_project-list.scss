@@ -1,25 +1,28 @@
+@use "../variables";
+@use "../functions";
+
 .project-list {
   display: flex;
   flex-direction: column;
-  gap: $gap;
+  gap: variables.$gap;
 
   &__heading {
     text-align: center;
   }
   &__grid {
     display: grid;
-    gap: $gap;
+    gap: variables.$gap;
   }
-  @media (min-width: breakpoint-min-width("md")) {
-    gap: size(8);
+  @media (min-width: functions.breakpoint-min-width("md")) {
+    gap: functions.size(8);
     
     &__heading {
-      font-size: $font-size-lg;
+      font-size: variables.$font-size-lg;
     }
     &__grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: size(8);
+      gap: functions.size(8);
     }
   }
 }

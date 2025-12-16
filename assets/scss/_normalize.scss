@@ -1,9 +1,11 @@
+@use "variables";
+
 ::selection {
-  background-color: rgba($yellow, 0.5);
+  background-color: rgba(variables.$yellow, 0.5);
 }
 
 :root {
-  font-size: $font-size-base;
+  font-size: variables.$font-size-base;
   
   @media (prefers-reduced-motion: no-preference) {
     scroll-behavior: smooth;
@@ -23,8 +25,8 @@ html {
 }
 
 body {
-  background-color: $gray-50;
-  color: $black;
+  background-color: variables.$gray-50;
+  color: variables.$black;
 }
 
 body, 
@@ -32,10 +34,10 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dt, dd, blockquote, figure {
   margin: 0;
   padding: 0;
-  font-family: $font-family-base;
-  font-size: $font-size-base;
-  font-weight: $font-weight-normal;
-  line-height: $line-height-base;
+  font-family: variables.$font-family-base;
+  font-size: variables.$font-size-base;
+  font-weight: variables.$font-weight-normal;
+  line-height: variables.$line-height-base;
 }
 
 ul, ol {
@@ -52,7 +54,7 @@ figure {
 
 pre {
   margin: 0;
-  font-family: $font-family-mono;
+  font-family: variables.$font-family-mono;
 }
 
 hr {
@@ -61,7 +63,7 @@ hr {
   margin: 0;
   box-sizing: content-box;
   border: none;
-  border-top: solid 2px $black;
+  border-top: solid 2px variables.$black;
 }
 
 img {
@@ -69,13 +71,13 @@ img {
 }
 
 a {
-  color: $black;
+  color: variables.$black;
   text-decoration: none;
 }
 
 strong,
 b {
-  font-weight: $font-weight-normal;
+  font-weight: variables.$font-weight-normal;
 }
 
 cite,
@@ -85,5 +87,5 @@ i {
 }
 
 code {
-  font-family: $font-family-mono;
+  font-family: variables.$font-family-mono;
 }

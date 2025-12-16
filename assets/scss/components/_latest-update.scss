@@ -1,10 +1,12 @@
+@use "../variables";
+
 .latest-update {
   &__content {
-    margin-bottom: $gap-lg;
+    margin-bottom: variables.$gap-lg;
   }
   &__footer {
-    padding-top: $gap-lg;
-    border-top: $border-dashed;
+    padding-top: variables.$gap-lg;
+    border-top: variables.$border-dashed;
     text-align: center;
   }
 }

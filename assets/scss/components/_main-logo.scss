@@ -1,8 +1,11 @@
+@use "../variables";
+@use "../functions";
+
 .main-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: $gap;
+  gap: variables.$gap;
   text-align: center;
 
   svg {
@@ -14,26 +17,26 @@
     fill: currentColor;
   }
   h1, h2 {
-    line-height: $line-height-tight;
+    line-height: variables.$line-height-tight;
   }
   h1 {
-    font-family: $font-family-display;
-    font-size: $font-size-h2;
+    font-family: variables.$font-family-display;
+    font-size: variables.$font-size-h2;
   }
 
-  @media (min-width: breakpoint-min-width("sm")) {
+  @media (min-width: functions.breakpoint-min-width("sm")) {
     flex-direction: row;
     text-align: left;
   }
-  @media (min-width: breakpoint-min-width("md")) {
-    gap: $gap;
+  @media (min-width: functions.breakpoint-min-width("md")) {
+    gap: variables.$gap;
 
     svg {
       width: 80px;
       height: 70px;
     }
     h1 {
-      font-size: $font-size-h1;
+      font-size: variables.$font-size-h1;
     }
   }
 }

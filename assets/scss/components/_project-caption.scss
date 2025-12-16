@@ -1,16 +1,19 @@
+@use "../variables";
+@use "../functions";
+
 .project-caption {
   text-align: center;
 
   p {
     display: inline-block;
-    padding: size(1.5) size(2);
+    padding: functions.size(1.5) functions.size(2);
     border-radius: 999px;
-    background-color: $white;
-    font-size: $font-size-sm;
+    background-color: variables.$white;
+    font-size: variables.$font-size-sm;
   }
-  @media (min-width: breakpoint-min-width("sm")) {
+  @media (min-width: functions.breakpoint-min-width("sm")) {
     p {
-      padding: size(0.5) size(2);
+      padding: functions.size(0.5) functions.size(2);
     }
   }
 }

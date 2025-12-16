@@ -1,5 +1,7 @@
+@use "../functions";
+
 .highlight {
   pre {
-    padding: size(2);
+    padding: functions.size(2);
   }
 }

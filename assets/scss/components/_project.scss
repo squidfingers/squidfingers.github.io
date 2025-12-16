@@ -1,20 +1,24 @@
+@use "../variables";
+@use "../functions";
+@use "../mixins/button";
+
 .project {
   display: flex;
   flex-direction: column;
-  gap: $gap-lg;
+  gap: variables.$gap-lg;
 
   &__title {
     h2 {
-      font-family: $font-family-display;
-      font-size: $font-size-h2;
+      font-family: variables.$font-family-display;
+      font-size: variables.$font-size-h2;
     }
     h5 {
-      font-size: $font-size-sm;
+      font-size: variables.$font-size-sm;
     }
   }
   &__content {
     img {
-      border: $border-solid;
+      border: variables.$border-solid;
     }
     & > .project-blurb:last-child {
       padding-bottom: 0;
@@ -23,10 +27,10 @@
   &__pager {
     text-align: center;
   }
-  @media (min-width: breakpoint-min-width("sm")) {
+  @media (min-width: functions.breakpoint-min-width("sm")) {
     &__pager {
       .button {
-        @include make-button--lg;
+        @include button.make-button--lg;
       }
     }
   }

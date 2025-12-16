@@ -1,11 +1,13 @@
+@use "../variables";
+
 .four0four {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: $gap;
+  gap: variables.$gap;
 
   h2 {
-    font-size: $font-size-h2;
+    font-size: variables.$font-size-h2;
     text-align: center;
   }
   path, rect {

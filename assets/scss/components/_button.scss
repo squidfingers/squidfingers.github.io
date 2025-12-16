@@ -1,27 +1,29 @@
+@use "../mixins/button";
+
 .button {
-  @include make-button;
+  @include button.make-button;
 
   // @options
 
   &.button--fill {
-    @include make-button--fill;
+    @include button.make-button--fill;
   }
   &.button--outline {
-    @include make-button--outline;
+    @include button.make-button--outline;
   }
   &.button--lg {
-    @include make-button--lg;
+    @include button.make-button--lg;
   }
   &.button--md {
-    @include make-button--md;
+    @include button.make-button--md;
   }
   &.button--sm {
-    @include make-button--sm;
+    @include button.make-button--sm;
   }
   &.button--block {
-    @include make-button--block;
+    @include button.make-button--block;
   }
   &.button--disabled {
-    @include make-button--disabled;
+    @include button.make-button--disabled;
   }
 }
