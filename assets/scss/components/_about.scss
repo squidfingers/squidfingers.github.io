@@ -1,12 +1,11 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .about {
   figure {
     position: relative;
-    z-index: (variables.$header-zindex + 1);
-    margin-top: -(functions.size(13));
-    margin-bottom: functions.size(6);
+    z-index: (abstracts.$header-zindex + 1);
+    margin-top: -(abstracts.size(13));
+    margin-bottom: abstracts.size(6);
 
     img {
       display: block;

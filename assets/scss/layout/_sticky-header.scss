@@ -1,28 +1,27 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 // Only fix header on lg breakpoint and larger
-@media (min-width: functions.breakpoint-min-width("lg")) {
+@media (min-width: abstracts.breakpoint-min-width("lg")) {
   // Only apply styles if javascript is enabled
   body.js-enabled {
-    padding-top: variables.$header-height;
+    padding-top: abstracts.$header-height;
 
     .main-header {
       position: fixed;
       top: 0;
       width: 100%;
-      z-index: variables.$header-zindex;
+      z-index: abstracts.$header-zindex;
       transition: all 0.1s ease-out;
     }
     &.js-scrolled {
       .main-header {
-        padding-top: functions.size(2);
-        padding-bottom: functions.size(2);
-        background-color: variables.$black;
+        padding-top: abstracts.size(2);
+        padding-bottom: abstracts.size(2);
+        background-color: abstracts.$black;
       }
       .main-logo {
         svg {
-          color: variables.$white;
+          color: abstracts.$white;
           width: 28px;
           height: 24px;
         }
@@ -32,7 +31,7 @@
       }
       .main-nav {
         a {
-          color: variables.$white;
+          color: abstracts.$white;
         }
       }
     }

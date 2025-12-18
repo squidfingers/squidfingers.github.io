@@ -1,11 +1,10 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .update-article {
   display: grid;
-  gap: variables.$gap;
+  gap: abstracts.$gap;
 
-  @media (min-width: functions.breakpoint-min-width("md")) {
+  @media (min-width: abstracts.breakpoint-min-width("md")) {
     grid-template-columns: 1fr 2fr;
   }
 }

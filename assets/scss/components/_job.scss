@@ -1,10 +1,9 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .job {
   display: flex;
   flex-direction: column;
-  gap: variables.$gap;
+  gap: abstracts.$gap;
 
   &__logo {
     img {
@@ -14,27 +13,27 @@
   }
   &__description {
     h2 {
-      margin-bottom: functions.size(1);
-      font-size: variables.$font-size-h4;
+      margin-bottom: abstracts.size(1);
+      font-size: abstracts.$font-size-h4;
     }
     h3 {
-      margin-bottom: functions.size(1);
-      font-family: variables.$font-family-display;
-      font-size: variables.$font-size-h1;
-      line-height: variables.$line-height-tight;
+      margin-bottom: abstracts.size(1);
+      font-family: abstracts.$font-family-display;
+      font-size: abstracts.$font-size-h1;
+      line-height: abstracts.$line-height-tight;
     }
     h4 {
-      margin-bottom: variables.$gap;
-      font-size: variables.$font-size-base;
+      margin-bottom: abstracts.$gap;
+      font-size: abstracts.$font-size-base;
     }
   }
-  @media (min-width: functions.breakpoint-min-width("md")) {
+  @media (min-width: abstracts.breakpoint-min-width("md")) {
     flex-direction: row;
-    gap: variables.$gap-lg;
-    border-top: variables.$border-solid;
+    gap: abstracts.$gap-lg;
+    border-top: abstracts.$border-solid;
 
     &__description {
-      padding-top: variables.$gap-lg;
+      padding-top: abstracts.$gap-lg;
     }
   }
 }

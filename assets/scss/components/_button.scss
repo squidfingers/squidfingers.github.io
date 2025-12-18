@@ -1,29 +1,29 @@
-@use "../mixins/button";
+@use "../abstracts";
 
 .button {
-  @include button.make-button;
+  @include abstracts.make-button;
 
   // @options
 
   &.button--fill {
-    @include button.make-button--fill;
+    @include abstracts.make-button--fill;
   }
   &.button--outline {
-    @include button.make-button--outline;
+    @include abstracts.make-button--outline;
   }
   &.button--lg {
-    @include button.make-button--lg;
+    @include abstracts.make-button--lg;
   }
   &.button--md {
-    @include button.make-button--md;
+    @include abstracts.make-button--md;
   }
   &.button--sm {
-    @include button.make-button--sm;
+    @include abstracts.make-button--sm;
   }
   &.button--block {
-    @include button.make-button--block;
+    @include abstracts.make-button--block;
   }
   &.button--disabled {
-    @include button.make-button--disabled;
+    @include abstracts.make-button--disabled;
   }
 }

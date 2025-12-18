@@ -1,24 +1,22 @@
-@use "../variables";
-@use "../functions";
-@use "../mixins/button";
+@use "../abstracts";
 
 .project {
   display: flex;
   flex-direction: column;
-  gap: variables.$gap-lg;
+  gap: abstracts.$gap-lg;
 
   &__title {
     h2 {
-      font-family: variables.$font-family-display;
-      font-size: variables.$font-size-h2;
+      font-family: abstracts.$font-family-display;
+      font-size: abstracts.$font-size-h2;
     }
     h5 {
-      font-size: variables.$font-size-sm;
+      font-size: abstracts.$font-size-sm;
     }
   }
   &__content {
     img {
-      border: variables.$border-solid;
+      border: abstracts.$border-solid;
     }
     & > .project-blurb:last-child {
       padding-bottom: 0;
@@ -27,10 +25,10 @@
   &__pager {
     text-align: center;
   }
-  @media (min-width: functions.breakpoint-min-width("sm")) {
+  @media (min-width: abstracts.breakpoint-min-width("sm")) {
     &__pager {
       .button {
-        @include button.make-button--lg;
+        @include abstracts.make-button--lg;
       }
     }
   }

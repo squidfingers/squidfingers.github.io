@@ -1,13 +1,12 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .update {
   display: flex;
   flex-direction: column;
-  gap: variables.$gap;
+  gap: abstracts.$gap;
 
   &__date {
-    font-size: variables.$font-size-sm;
+    font-size: abstracts.$font-size-sm;
 
     a {
       &:hover {
@@ -16,7 +15,7 @@
     }
   }
   &__tag-list {
-    margin-top: -(functions.size(3));
+    margin-top: -(abstracts.size(3));
   }
 }
 
@@ -26,7 +25,7 @@
   .update {
     &__date {
       order: -1;
-      font-size: variables.$font-size-lg;
+      font-size: abstracts.$font-size-lg;
     }
     &__tag-list {
       margin-top: 0;

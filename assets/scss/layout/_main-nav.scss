@@ -1,10 +1,9 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .main-nav {
   ul {
     display: flex;
-    gap: functions.size(3);
+    gap: abstracts.size(3);
   }
   a {
     display: block;
@@ -12,12 +11,12 @@
     border-bottom: solid 3px transparent;
 
     &:hover {
-      border-bottom: variables.$border-solid;
+      border-bottom: abstracts.$border-solid;
     }
   }
-  @media (min-width: functions.breakpoint-min-width("sm")) {
+  @media (min-width: abstracts.breakpoint-min-width("sm")) {
     ul {
-      gap: functions.size(4);
+      gap: abstracts.size(4);
     }
   }
 
@@ -25,8 +24,8 @@
 
   .main-nav--selected {
     a {
-        border-bottom: variables.$border-solid;
-        border-color: variables.$magenta;
+        border-bottom: abstracts.$border-solid;
+        border-color: abstracts.$magenta;
     }
   }
 }

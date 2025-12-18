@@ -1,23 +1,22 @@
-@use "../functions";
-@use "../mixins/button";
+@use "../abstracts";
 
 .paginator {
   ul {
     display: flex;
     justify-content: center;
-    gap: functions.size(2);
+    gap: abstracts.size(2);
   }
   &__elipsis {
-    padding-top: functions.size(2);
+    padding-top: abstracts.size(2);
   }
-  @media (max-width: functions.breakpoint-max-width("xs")) {
+  @media (max-width: abstracts.breakpoint-max-width("xs")) {
     &__prev,
     &__next {
        flex-basis: 50%;
 
        .button {
-        @include button.make-button--outline;
-        @include button.make-button--block;
+        @include abstracts.make-button--outline;
+        @include abstracts.make-button--block;
       }
     }
     li:not(.paginator__prev):not(.paginator__next) {

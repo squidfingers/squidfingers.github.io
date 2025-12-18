@@ -1,19 +1,18 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .project-caption {
   text-align: center;
 
   p {
     display: inline-block;
-    padding: functions.size(1.5) functions.size(2);
+    padding: abstracts.size(1.5) abstracts.size(2);
     border-radius: 999px;
-    background-color: variables.$white;
-    font-size: variables.$font-size-sm;
+    background-color: abstracts.$white;
+    font-size: abstracts.$font-size-sm;
   }
-  @media (min-width: functions.breakpoint-min-width("sm")) {
+  @media (min-width: abstracts.breakpoint-min-width("sm")) {
     p {
-      padding: functions.size(0.5) functions.size(2);
+      padding: abstracts.size(0.5) abstracts.size(2);
     }
   }
 }

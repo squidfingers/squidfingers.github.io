@@ -1,9 +1,8 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .tag-list {
   display: flex;
-  gap: functions.size(1);
+  gap: abstracts.size(1);
 
   // @options
 

@@ -1,16 +1,15 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .tag {
   display: inline-block;
-  padding: functions.size(0.25) functions.size(1.25);
-  border: variables.$border-solid;
+  padding: abstracts.size(0.25) abstracts.size(1.25);
+  border: abstracts.$border-solid;
   border-radius: 999px;
-  font-size: variables.$font-size-sm;
+  font-size: abstracts.$font-size-sm;
 }
 a.tag {
   &:hover {
-    background-color: variables.$black;
-    color: variables.$white;
+    background-color: abstracts.$black;
+    color: abstracts.$white;
   }
 }

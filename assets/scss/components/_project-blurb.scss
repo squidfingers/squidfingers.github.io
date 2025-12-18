@@ -1,5 +1,5 @@
-@use "../functions";
+@use "../abstracts";
 
 .project-blurb {
-  padding: functions.size(6) 0;
+  padding: abstracts.size(6) 0;
 }

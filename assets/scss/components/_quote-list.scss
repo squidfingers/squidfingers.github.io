@@ -1,12 +1,12 @@
-@use "../variables";
+@use "../abstracts";
 
 .quote-list {
   display: flex;
   flex-direction: column;
-  gap: variables.$gap;
+  gap: abstracts.$gap;
 
   &__heading {
-    font-family: variables.$font-family-display;
-    font-size: variables.$font-size-h1;
+    font-family: abstracts.$font-family-display;
+    font-size: abstracts.$font-size-h1;
   }
 }

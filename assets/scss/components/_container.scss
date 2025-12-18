@@ -1,5 +1,4 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .container,
 .container-sm,
@@ -10,8 +9,8 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: variables.$gap;
-  padding-right: variables.$gap;
+  padding-left: abstracts.$gap;
+  padding-right: abstracts.$gap;
 
   & [class^=container] {
     padding-left: 0;
@@ -20,17 +19,17 @@
 }
 .container,
 .container-xxl {
-  max-width: functions.container-max-width("xxl");
+  max-width: abstracts.container-max-width("xxl");
 }
 .container-sm {
-  max-width: functions.container-max-width("sm");
+  max-width: abstracts.container-max-width("sm");
 }
 .container-md {
-  max-width: functions.container-max-width("md");
+  max-width: abstracts.container-max-width("md");
 }
 .container-lg {
-  max-width: functions.container-max-width("lg");
+  max-width: abstracts.container-max-width("lg");
 }
 .container-xl {
-  max-width: functions.container-max-width("xl");
+  max-width: abstracts.container-max-width("xl");
 }

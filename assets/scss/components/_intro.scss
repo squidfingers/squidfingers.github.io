@@ -1,16 +1,15 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .intro {
   p {
-    font-size: variables.$font-size-h3;
+    font-size: abstracts.$font-size-h3;
 
-    @media (min-width: functions.breakpoint-min-width("md")) {
-      font-size: variables.$font-size-h2;
+    @media (min-width: abstracts.breakpoint-min-width("md")) {
+      font-size: abstracts.$font-size-h2;
       text-align: center;
     }
-    @media (min-width: functions.breakpoint-min-width("lg")) {
-      font-size: variables.$font-size-h1;
+    @media (min-width: abstracts.breakpoint-min-width("lg")) {
+      font-size: abstracts.$font-size-h1;
     }
   }
 }

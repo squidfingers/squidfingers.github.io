@@ -1,0 +1,41 @@
+@use "../abstracts";
+
+.main-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: abstracts.$gap;
+  text-align: center;
+
+  svg {
+    display: block;
+    width: 50px;
+    height: 44px;
+  }
+  path, rect {
+    fill: currentColor;
+  }
+  h1, h2 {
+    line-height: abstracts.$line-height-tight;
+  }
+  h1 {
+    font-family: abstracts.$font-family-display;
+    font-size: abstracts.$font-size-h2;
+  }
+
+  @media (min-width: abstracts.breakpoint-min-width("sm")) {
+    flex-direction: row;
+    text-align: left;
+  }
+  @media (min-width: abstracts.breakpoint-min-width("md")) {
+    gap: abstracts.$gap;
+
+    svg {
+      width: 80px;
+      height: 70px;
+    }
+    h1 {
+      font-size: abstracts.$font-size-h1;
+    }
+  }
+}

@@ -1,13 +1,12 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .home {
   display: flex;
   flex-direction: column;
-  gap: variables.$gap-lg;
+  gap: abstracts.$gap-lg;
 
-  @media (min-width: functions.breakpoint-min-width("md")) {
-    padding-top: variables.$gap;
-    gap: variables.$gap-xl;
+  @media (min-width: abstracts.breakpoint-min-width("md")) {
+    padding-top: abstracts.$gap;
+    gap: abstracts.$gap-xl;
   }
 }

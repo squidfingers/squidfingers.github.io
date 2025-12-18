@@ -1,28 +1,27 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .project-list {
   display: flex;
   flex-direction: column;
-  gap: variables.$gap;
+  gap: abstracts.$gap;
 
   &__heading {
     text-align: center;
   }
   &__grid {
     display: grid;
-    gap: variables.$gap;
+    gap: abstracts.$gap;
   }
-  @media (min-width: functions.breakpoint-min-width("md")) {
-    gap: functions.size(8);
+  @media (min-width: abstracts.breakpoint-min-width("md")) {
+    gap: abstracts.size(8);
     
     &__heading {
-      font-size: variables.$font-size-lg;
+      font-size: abstracts.$font-size-lg;
     }
     &__grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: functions.size(8);
+      gap: abstracts.size(8);
     }
   }
 }

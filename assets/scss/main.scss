@@ -1,8 +1,8 @@
 // Font file imports
-@use "fonts";
+@use "base/fonts";
 
 // Reset html elements
-@use "normalize";
+@use "base/normalize";
 
 // Components
 
@@ -18,16 +18,6 @@
 
 @use "components/tag-list";
 @use "components/tag";
-
-// Components → Main
-
-@use "components/main-body";
-@use "components/main-header";
-@use "components/main-logo";
-@use "components/main-nav";
-@use "components/main-content";
-@use "components/main-footer";
-@use "components/sticky-header";
 
 // Components → Home
 
@@ -61,3 +51,13 @@
 // Components → 404
 
 @use "components/four0four";
+
+// Layout
+
+@use "layout/main-body";
+@use "layout/main-header";
+@use "layout/main-logo";
+@use "layout/main-nav";
+@use "layout/main-content";
+@use "layout/main-footer";
+@use "layout/sticky-header";

@@ -1,0 +1,19 @@
+@use "../abstracts";
+
+.main-header {
+  padding-top: abstracts.$gap-lg;
+  padding-bottom: abstracts.$gap-lg;
+  background-color: abstracts.$yellow;
+
+  [class^=container] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: abstracts.size(6);
+
+    @media (min-width: abstracts.breakpoint-min-width("lg")) {
+      flex-direction: row;
+    }
+  }
+}

@@ -1,19 +1,19 @@
-@use "../variables";
+@use "../abstracts";
 
 .update-list {
   display: flex;
   flex-direction: column;
-  gap: variables.$gap-lg;
+  gap: abstracts.$gap-lg;
   
   &__heading {
     padding-bottom: 0;
     border-bottom: none;
-    font-family: variables.$font-family-display;
-    font-size: variables.$font-size-lg;
+    font-family: abstracts.$font-family-display;
+    font-size: abstracts.$font-size-lg;
   }
   & > * {
-    padding-bottom: variables.$gap-lg;
-    border-bottom: variables.$border-dashed;
+    padding-bottom: abstracts.$gap-lg;
+    border-bottom: abstracts.$border-dashed;
   }
   & > :last-child {
     padding-bottom: 0;

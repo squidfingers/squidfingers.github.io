@@ -1,5 +1,4 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .prose {
   // Only apply bottom margin if element is a direct child of .prose
@@ -7,56 +6,56 @@
     h1, h2, h3, h4, h5, h6,
     p, ul, ol, dl, blockquote, figure,
     div {
-      margin-bottom: variables.$gap;
+      margin-bottom: abstracts.$gap;
     }
     & :last-child {
       margin-bottom: 0;
     }
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: variables.$font-family-display;
-    line-height: variables.$line-height-tight;
+    font-family: abstracts.$font-family-display;
+    line-height: abstracts.$line-height-tight;
   }
   h1 {
-    font-size: variables.$font-size-h1;
+    font-size: abstracts.$font-size-h1;
   }
   h2 {
-    font-size: variables.$font-size-h2;
+    font-size: abstracts.$font-size-h2;
   }
   h3 {
-    font-size: variables.$font-size-h3;
+    font-size: abstracts.$font-size-h3;
   }
   h4 {
-    font-size: variables.$font-size-h4;
+    font-size: abstracts.$font-size-h4;
   }
   h5 {
-    font-size: variables.$font-size-h5;
+    font-size: abstracts.$font-size-h5;
   }
   h6 {
-    font-size: variables.$font-size-h6;
+    font-size: abstracts.$font-size-h6;
   }
   ul {
     list-style-type: square;
-    padding-left: functions.size(2);
+    padding-left: abstracts.size(2);
   }
   blockquote {
-    padding: variables.$gap;
-    background-color: variables.$white;
-    border-left: variables.$border-solid;
+    padding: abstracts.$gap;
+    background-color: abstracts.$white;
+    border-left: abstracts.$border-solid;
 
     p {
-      margin-bottom: variables.$gap;
+      margin-bottom: abstracts.$gap;
 
       &:last-of-type {
         margin-bottom: 0;
       }
     }
     footer {
-      padding-top: variables.$gap;
+      padding-top: abstracts.$gap;
     }
   }
   a {
-    color: variables.$magenta;
+    color: abstracts.$magenta;
     
     &:hover {
       text-decoration: underline;
@@ -64,7 +63,7 @@
   }
   strong,
   b {
-    font-weight: variables.$font-weight-bold;
+    font-weight: abstracts.$font-weight-bold;
   }
   cite,
   em,
@@ -72,8 +71,8 @@
     font-style: italic;
   }
   img {
-    border: solid 1px rgba(variables.$black, 0.1);
-    box-shadow: 0 0 functions.size(6) rgba(variables.$black, 0.05);
+    border: solid 1px rgba(abstracts.$black, 0.1);
+    box-shadow: 0 0 abstracts.size(6) rgba(abstracts.$black, 0.05);
 
     &.no-border {
       border: none;

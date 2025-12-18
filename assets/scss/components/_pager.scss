@@ -1,10 +1,9 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .pager {
   ul {
     display: flex;
     justify-content: center;
-    gap: functions.size(2);
+    gap: abstracts.size(2);
   }
 }

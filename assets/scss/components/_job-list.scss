@@ -1,19 +1,18 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .job-list {
   display: flex;
   flex-direction: column;
-  gap: variables.$gap;
+  gap: abstracts.$gap;
 
   &__heading {
-    font-family: variables.$font-family-display;
-    font-size: variables.$font-size-h1;
+    font-family: abstracts.$font-family-display;
+    font-size: abstracts.$font-size-h1;
   }
   &__timeline {
-    margin-bottom: variables.$gap;
+    margin-bottom: abstracts.$gap;
 
-    @media (max-width: functions.breakpoint-max-width("md")) {
+    @media (max-width: abstracts.breakpoint-max-width("md")) {
       display: none;
     }
   }
@@ -21,6 +20,6 @@
     margin-bottom: 0;
   }
   .job {
-    margin-bottom: functions.size(6);
+    margin-bottom: abstracts.size(6);
   }
 }

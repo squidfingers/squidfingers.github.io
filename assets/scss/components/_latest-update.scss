@@ -1,12 +1,12 @@
-@use "../variables";
+@use "../abstracts";
 
 .latest-update {
   &__content {
-    margin-bottom: variables.$gap-lg;
+    margin-bottom: abstracts.$gap-lg;
   }
   &__footer {
-    padding-top: variables.$gap-lg;
-    border-top: variables.$border-dashed;
+    padding-top: abstracts.$gap-lg;
+    border-top: abstracts.$border-dashed;
     text-align: center;
   }
 }

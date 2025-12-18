@@ -1,27 +1,26 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .grid {
   display: grid;
-  gap: variables.$gap;
+  gap: abstracts.$gap;
 
   // @options
 
   &.grid--2col {
-    @media (min-width: functions.breakpoint-min-width("sm")) {
+    @media (min-width: abstracts.breakpoint-min-width("sm")) {
       grid-template-columns: repeat(2, 1fr);
     }
   }
   &.grid--3col {
-    @media (min-width: functions.breakpoint-min-width("sm")) {
+    @media (min-width: abstracts.breakpoint-min-width("sm")) {
       grid-template-columns: repeat(3, 1fr);
     }
   }
   &.grid--4col {
-    @media (min-width: functions.breakpoint-min-width("sm")) {
+    @media (min-width: abstracts.breakpoint-min-width("sm")) {
       grid-template-columns: repeat(2, 1fr);
     }
-    @media (min-width: functions.breakpoint-min-width("lg")) {
+    @media (min-width: abstracts.breakpoint-min-width("lg")) {
       grid-template-columns: repeat(4, 1fr);
     }
   }

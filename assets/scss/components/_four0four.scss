@@ -1,13 +1,13 @@
-@use "../variables";
+@use "../abstracts";
 
 .four0four {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: variables.$gap;
+  gap: abstracts.$gap;
 
   h2 {
-    font-size: variables.$font-size-h2;
+    font-size: abstracts.$font-size-h2;
     text-align: center;
   }
   path, rect {

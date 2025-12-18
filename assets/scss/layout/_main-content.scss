@@ -1,0 +1,6 @@
+@use "../abstracts";
+
+.main-content {
+  padding-top: abstracts.$gap-lg;
+  padding-bottom: abstracts.$gap-lg;
+}

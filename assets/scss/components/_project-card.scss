@@ -1,30 +1,29 @@
-@use "../variables";
-@use "../functions";
+@use "../abstracts";
 
 .project-card {
   display: grid;
-  border: variables.$border-solid;
-  background-color: variables.$white;
+  border: abstracts.$border-solid;
+  background-color: abstracts.$white;
   
   img {
     border: none;
   }
   &__media {
-    border-bottom: variables.$border-solid;
+    border-bottom: abstracts.$border-solid;
   }
   &__content {
     align-self: center;
-    padding: variables.$gap;
+    padding: abstracts.$gap;
   }
-  @media (min-width: functions.breakpoint-min-width("lg")) {
+  @media (min-width: abstracts.breakpoint-min-width("lg")) {
     grid-template-columns: 1fr 1fr;
 
     &__media {
       border-bottom: none;
-      border-right: variables.$border-solid;
+      border-right: abstracts.$border-solid;
     }
   }
-  @media (min-width: functions.breakpoint-min-width("xl")) {
+  @media (min-width: abstracts.breakpoint-min-width("xl")) {
     grid-template-columns: 2fr 1fr;
   }
 }

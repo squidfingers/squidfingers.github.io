@@ -1,7 +1,7 @@
-@use "../functions";
+@use "../abstracts";
 
 .highlight {
   pre {
-    padding: functions.size(2);
+    padding: abstracts.size(2);
   }
 }

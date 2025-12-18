@@ -1,0 +1,36 @@
+@use "../abstracts";
+
+.main-footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: abstracts.$gap-lg;
+  padding-bottom: abstracts.$gap-lg;
+  background-color: abstracts.$black;
+  color: abstracts.$yellow;
+  text-align: center;
+
+  h3 {
+    font-family: abstracts.$font-family-display;
+    font-size: abstracts.$font-size-h1;
+  }
+  a {
+    color: abstracts.$white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: abstracts.breakpoint-min-width("sm")) {
+    h3 {
+      font-size: 64px;
+    }
+    p {
+      font-size: abstracts.$font-size-lg;
+    }
+  }
+  @media (min-width: abstracts.breakpoint-min-width("lg")) {
+    text-align: left;
+  }
+}
