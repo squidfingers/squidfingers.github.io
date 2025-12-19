@@ -37,7 +37,6 @@ jobs:
       DART_SASS_VERSION: 1.97.0
       HUGO_VERSION: 0.152.2
       HUGO_ENVIRONMENT: production
-      NODE_VERSION: 24.12.0
       TZ: America/Chicago
     steps:
       - name: Set timezone
@@ -49,10 +48,6 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: ${{ env.NODE_VERSION }}
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -76,10 +71,6 @@ jobs:
         run: |
           echo "Dart Sass: $(sass --version)"
           echo "Hugo: $(hugo version)"
-          echo "Node.js: $(node --version)"
-      - name: Install Node.js dependencies
-        run: |
-          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
       - name: Configure Git
         run: |
           git config core.quotepath false
