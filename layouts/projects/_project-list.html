@@ -8,7 +8,7 @@
         <a href="{{ .RelPermalink }}">
           {{ with .Resources.GetMatch "images/thumbnail.*" }}
             {{ $alt := path.BaseName .Title | humanize }}
-              <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+            <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
           {{ end }}
         </a>
         <figcaption>{{ .LinkTitle }}</figcaption>
