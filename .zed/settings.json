@@ -1,0 +1,7 @@
+{
+  "file_types": {
+    "Go HTML Template": [
+      "**/layouts/**.html"
+    ]
+  }
+}
