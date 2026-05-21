@@ -39,7 +39,7 @@
     padding-left: abstracts.size(2);
 
     li {
-      margin-bottom: abstracts.$gap / 2;
+      margin-bottom: calc(abstracts.$gap / 2);
     }
   }
   blockquote {

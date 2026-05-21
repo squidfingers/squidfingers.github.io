@@ -1,10 +1,11 @@
 <div class="project-list">
-  <h2 class="project-list__heading">
-    A few things I've worked on recently...
-  </h2>
   <div class="project-list__grid">
+    <h2 class="project-list__heading">
+      A few projects I've worked on in the past few years <span class="project-list__arrow">→</span>
+    </h2>
     {{ range .Pages }}
-      <figure class="project-link">
+      {{ $class := printf "project-list__%s" (path.BaseName .Path) }}
+      <figure class="{{ $class }} | project-link">
         <a href="{{ .RelPermalink }}">
           {{ with .Resources.GetMatch "images/thumbnail.*" }}
             {{ $alt := path.BaseName .Title | humanize }}

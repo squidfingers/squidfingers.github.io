@@ -1,27 +1,33 @@
 @use "../abstracts";
 
 .project-list {
-  display: flex;
-  flex-direction: column;
-  gap: abstracts.$gap;
-
-  &__heading {
-    text-align: center;
-  }
   &__grid {
     display: grid;
     gap: abstracts.$gap;
   }
+  &__heading {
+    text-align: center;
+  }
+  &__arrow {
+    display: none;
+  }
   @media (min-width: abstracts.breakpoint-min-width("md")) {
-    gap: abstracts.size(8);
-    
-    &__heading {
-      font-size: abstracts.$font-size-lg;
-    }
     &__grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr 1fr;
       gap: abstracts.size(8);
+    }
+    &__heading {
+      border-top: abstracts.$border-solid;
+      padding-top: abstracts.size(4);
+      font-size: abstracts.$font-size-lg;
+    }
+    &__arrow {
+      display: inline;
+    }
+    &__buoyant-cloud,
+    &__minted-component-library {
+      transform: translateY(calc(-50% - abstracts.size(4)));
     }
   }
 }
