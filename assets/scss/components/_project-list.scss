@@ -18,7 +18,7 @@
       gap: abstracts.size(8);
     }
     &__heading {
-      border-top: abstracts.$border-solid;
+      border-top: abstracts.$border-dashed;
       padding-top: abstracts.size(4);
       font-size: abstracts.$font-size-lg;
     }
