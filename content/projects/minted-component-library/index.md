@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 4
 title: Minted Component Library
 keywords:
   - UX

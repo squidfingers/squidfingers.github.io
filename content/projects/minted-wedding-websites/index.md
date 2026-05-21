@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 5
 title: Minted Wedding Websites
 keywords:
   - UX
@@ -38,23 +38,13 @@ Just a few of the thousands of wedding website designs built using Minted ThemeB
 {{< /caption >}}
 
 {{< blurb >}}
-### My Role
 
-- Co-Managed product strategy and led roadmap planning
-- Became the voice of the customer through user research
-- Delivered visual user flows, wireframes, prototypes, interaction design, and visual design
+While at Minted, my responsibilities included co-managing product strategy and led roadmap planning, became the voice of the customer through user research, and delivered visual user flows, wireframes, prototypes, interaction design, and visual design.
 
-### Top User Goals
+As voice of the customer for Minted Wedding Websites, I strived to provide a fun and intuitive experience that customers love to use, hiding complexity in simplicity, with the goal of creating the easiest and most powerful guest management and RSVP platform.
 
-- Provide a fun and intuitive experience that customers love to use
-- Hide complexity in simplicity
-- Create the easiest and most powerful guest management and RSVP platform
+From a business perspective, I focused on optimizing the experience to convert traffic to active users, introduced users to relevant stationery products, and incentivize users to upgrade through the various plan tiers.
 
-### Top Business Goals
-
-- Conversion of traffic to active users
-- Conversion of users to stationery purchases
-- Conversion of users to premium tier
 {{< /blurb >}}
 
 ![Image 7](images/07.jpg)
