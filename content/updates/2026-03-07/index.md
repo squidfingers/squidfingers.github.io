@@ -1,7 +1,7 @@
 ---
 date: 2026-03-07 19:00:00
 tags:
-  - Photos
+  - Lego Print
 ---
 
 My latest obsession is using Legos to make bookmarks and banners.

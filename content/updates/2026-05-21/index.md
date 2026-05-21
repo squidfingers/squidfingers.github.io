@@ -1,7 +1,7 @@
 ---
 date: 2026-05-21 10:00:00
 tags:
-  - Photos
+  - Lego Print
 ---
 
 A few Lego-printed stickers for my son's birthday party. 

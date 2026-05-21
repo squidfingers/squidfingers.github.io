@@ -1,7 +1,7 @@
 ---
 date: 2026-02-20 16:45:00
 tags:
-  - Photos
+  - Lego Print
 ---
 
 {{< grid "2col" >}}
