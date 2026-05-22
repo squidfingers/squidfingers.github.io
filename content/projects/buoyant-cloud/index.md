@@ -23,14 +23,16 @@ Some other highlights include:
 - **Configurable alerts:** Streamlined configuration that help teams wire up Slack, DataDog, and PagerDuty alerting in minutes.
 {{< /blurb >}}
 
-{{< grid "2col" >}}
 ![Image 2](images/02.png)
 
+{{< grid "2col" >}}
 ![Image 3](images/03.png)
+
+![Image 4](images/04.png)
 {{< /grid >}}
 
 {{< grid "2col" >}}
-![Image 4](images/04.png)
-
 ![Image 5](images/05.png)
+
+![Image 6](images/06.png)
 {{< /grid >}}
