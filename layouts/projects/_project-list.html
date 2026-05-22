@@ -1,8 +1,6 @@
 <div class="project-list">
   <div class="project-list__grid">
-    <h2 class="project-list__heading">
-      A few projects I've worked on in the past few years <span class="project-list__arrow">→</span>
-    </h2>
+    <h2 class="project-list__heading">Here's several projects I've worked on in the past few years<!-- Do not add whitespace before the endtag --></h2>
     {{ range .Pages }}
       {{ $class := printf "project-list__%s" (path.BaseName .Path) }}
       <figure class="{{ $class }} | project-link">

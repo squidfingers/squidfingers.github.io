@@ -1,0 +1,9 @@
+@use "../variables";
+
+@mixin make-link {
+  color: variables.$magenta;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

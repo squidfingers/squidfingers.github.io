@@ -30,7 +30,7 @@
   @media (min-width: abstracts.breakpoint-min-width("md")) {
     flex-direction: row;
     gap: abstracts.$gap-lg;
-    border-top: abstracts.$border-solid;
+    border-top: abstracts.$border-primary;
 
     &__description {
       padding-top: abstracts.$gap-lg;

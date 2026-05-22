@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   gap: abstracts.$gap-lg;
-  
+
   &__heading {
     padding-bottom: 0;
     border-bottom: none;
@@ -13,7 +13,7 @@
   }
   & > * {
     padding-bottom: abstracts.$gap-lg;
-    border-bottom: abstracts.$border-dashed;
+    border-bottom: abstracts.$border-secondary;
   }
   & > :last-child {
     padding-bottom: 0;

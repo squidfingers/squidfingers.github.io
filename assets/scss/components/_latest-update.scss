@@ -5,12 +5,21 @@
     margin-bottom: abstracts.$gap-lg;
   }
   &__footer {
-    padding-top: abstracts.$gap-lg;
-    border-top: abstracts.$border-dashed;
     text-align: center;
+
+    a {
+      @include abstracts.make-link;
+    }
   }
   @media (min-width: abstracts.breakpoint-min-width("md")) {
     // Remove gap between updates and the project list
     margin-top: -(abstracts.$gap-xl);
+
+    &__content {
+      margin-bottom: abstracts.size(2);
+    }
+    &__footer {
+      text-align: right;
+    }
   }
 }

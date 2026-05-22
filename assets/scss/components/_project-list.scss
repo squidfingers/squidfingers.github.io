@@ -6,10 +6,11 @@
     gap: abstracts.$gap;
   }
   &__heading {
-    text-align: center;
-  }
-  &__arrow {
-    display: none;
+    text-align: left;
+
+    &:after {
+      content: "...";
+    }
   }
   @media (min-width: abstracts.breakpoint-min-width("md")) {
     &__grid {
@@ -18,16 +19,22 @@
       gap: abstracts.size(8);
     }
     &__heading {
-      border-top: abstracts.$border-dashed;
-      padding-top: abstracts.size(4);
+      text-align: right;
       font-size: abstracts.$font-size-lg;
-    }
-    &__arrow {
-      display: inline;
+
+      &:after {
+        padding-left: abstracts.size(2);
+        content: "→";
+      }
     }
     &__buoyant-cloud,
     &__minted-component-library {
       transform: translateY(calc(-50% - abstracts.size(4)));
+    }
+  }
+  @media (min-width: abstracts.breakpoint-min-width("lg")) {
+      &__heading {
+      transform: translateY(20%);
     }
   }
 }

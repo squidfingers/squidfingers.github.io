@@ -18,7 +18,7 @@
 
   &:hover,
   &:active {
-    outline: variables.$border-solid;
+    outline: variables.$border-primary;
     outline-offset: -3px;
     text-decoration: none;
   }
@@ -34,7 +34,7 @@
   &:hover,
   &:active {
     background-color: transparent;
-    outline: variables.$border-solid;
+    outline: variables.$border-primary;
     outline-offset: -3px;
     color: variables.$black;
   }
@@ -42,7 +42,7 @@
 @mixin make-button--outline {
   color: variables.$black;
   background-color: transparent;
-  outline: variables.$border-solid;
+  outline: variables.$border-primary;
   outline-offset: -3px;
   text-decoration: none;
 

@@ -2,14 +2,14 @@
 
 .project-card {
   display: grid;
-  border: abstracts.$border-solid;
+  border: abstracts.$border-primary;
   background-color: abstracts.$white;
-  
+
   img {
     border: none;
   }
   &__media {
-    border-bottom: abstracts.$border-solid;
+    border-bottom: abstracts.$border-primary;
   }
   &__content {
     align-self: center;
@@ -20,7 +20,7 @@
 
     &__media {
       border-bottom: none;
-      border-right: abstracts.$border-solid;
+      border-right: abstracts.$border-primary;
     }
   }
   @media (min-width: abstracts.breakpoint-min-width("xl")) {

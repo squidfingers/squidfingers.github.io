@@ -45,7 +45,7 @@
   blockquote {
     padding: abstracts.$gap;
     background-color: abstracts.$white;
-    border-left: abstracts.$border-solid;
+    border-left: abstracts.$border-primary;
 
     p {
       margin-bottom: abstracts.$gap;
@@ -59,11 +59,7 @@
     }
   }
   a {
-    color: abstracts.$magenta;
-
-    &:hover {
-      text-decoration: underline;
-    }
+    @include abstracts.make-link;
   }
   strong,
   b {
