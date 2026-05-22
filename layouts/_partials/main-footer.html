@@ -1,10 +1,22 @@
 {{ if not (eq .Section "projects") }}
   <footer class="main-footer">
     <div class="container-xl">
-      <h3>Let's chat</h3>
-      <p>
-        <a href="mailto:howdytravis@gmail.com">howdytravis@gmail.com</a>
-      </p>
+      <div class="main-footer__contact">
+        <h3>Let's chat</h3>
+        <p>
+          <a href="mailto:howdytravis@gmail.com">howdytravis@gmail.com</a>
+        </p>
+      </div>
+      <div class="main-footer__links">
+        <ul>
+          <li>
+            <a href="https://github.com/squidfingers" target="_blank">Github</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/squidfingers/" target="_blank">Linkedin</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
 {{ end }}
