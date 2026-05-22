@@ -18,9 +18,9 @@ One of the highlights of the platform is an interactive and filterable network t
 
 Some other highlights include:
 
-- **Cluster health monitoring:** Aggregated views that provide insight into Linkerd's control plane and data plane status, trust anchor rotation, and health metrics.
-- **Event timeline:** Multi-cluster event timelines correlating application metrics, deployment rollouts, and network policy authorizations.
-- **Configurable alerts:** Streamlined configuration that help teams wire up Slack, DataDog, and PagerDuty alerting in minutes.
+- Aggregated views that provide insight into Linkerd's control plane and data plane status, trust anchor rotation, and health metrics.
+- Multi-cluster event timelines correlating application metrics, deployment rollouts, and network policy authorizations.
+- Streamlined configuration that help teams wire up Slack, DataDog, and PagerDuty alerting in minutes.
 {{< /blurb >}}
 
 ![Image 2](images/02.png)
