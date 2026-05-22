@@ -66,6 +66,6 @@ params:
     #  logo: images/hallmark.png
 ---
 
-I excel as an early-stage UX/UI designer in a Lean UX environment. I prefer working within a cross-functional team to get feedback as early as possible so it can be used to make fast decisions. I'm passionate about creating enjoyable experiences that are not cumbersome or distracting, and try to design interfaces that are intuitive to use.
+I enjoy turning complex problems into simple, intuitive experiences. As a UX/UI designer, I like working closely with cross-functional teams, sharing ideas early, and iterating quickly based on user feedback. I’m especially passionate about creating enjoyable experiences that feel effortless to use and stay out of the user’s way.
 
-Things I like to do: user interface guidelines and component libraries; wireframes, prototypes, and user interface mockups; I like to collaborate on: user interviews, usability testing, and surveys; I prefer using: Figma or Sketch, ~~but I'll use the Adobe Creative Suite if I have to~~; I also love to pitch in on front-end development using native web techologies (HTML/CSS/JS), or frameworks such as React and Hugo.
+My skillset includes creating user interface guidelines and component libraries, along with wireframes, prototypes, and high-fidelity UI mockups. I also like collaborating on user interviews, usability testing, and surveys to better understand user needs and improve the overall experience. My preferred design tools are Figma and Sketch. Beyond design, I enjoy contributing to front-end development using native web technologies like HTML, CSS, and JavaScript, as well as frameworks such as React and Hugo.
