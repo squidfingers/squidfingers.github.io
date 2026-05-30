@@ -5,27 +5,11 @@
     display: grid;
     gap: abstracts.$gap;
   }
-  &__heading {
-    text-align: left;
-
-    &:after {
-      content: "...";
-    }
-  }
   @media (min-width: abstracts.breakpoint-min-width("md")) {
     &__grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: abstracts.size(8);
-    }
-    &__heading {
-      text-align: right;
-      font-size: abstracts.$font-size-lg;
-
-      &:after {
-        padding-left: abstracts.size(2);
-        content: "→";
-      }
     }
     &__buoyant-cloud,
     &__minted-component-library {
@@ -33,7 +17,7 @@
     }
   }
   @media (min-width: abstracts.breakpoint-min-width("lg")) {
-      &__heading {
+    &__heading {
       transform: translateY(20%);
     }
   }
