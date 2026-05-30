@@ -1,0 +1,33 @@
+@use "../abstracts";
+
+.project-heading {
+  text-align: left;
+
+  &::after {
+    content: "...";
+  }
+  @media (min-width: abstracts.breakpoint-min-width("md")) {
+    text-align: right;
+    font-size: abstracts.$font-size-lg;
+
+    &::after {
+      padding-left: abstracts.size(2);
+      content: "→";
+    }
+  }
+
+  // Animation
+  &.animate-on-view {
+    opacity: 0;
+    transform: translate(0, abstracts.$gap);
+
+    &.js-start-animation-on-view {
+      opacity: 1;
+      transform: translate(0, 0);
+
+      @media (prefers-reduced-motion: no-preference) {
+        transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
+      }
+    }
+  }
+}

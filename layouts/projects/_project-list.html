@@ -1,17 +1,21 @@
 <div class="project-list">
   <div class="project-list__grid">
-    <h2 class="project-list__heading">Here's several projects I've worked on in the past few years<!-- Do not add whitespace before the endtag --></h2>
+    <div class="project-list__heading">
+      <h2 class="project-heading | animate-on-view">Here's several projects I've worked on in the past few years<!-- Do not add whitespace before the endtag. Doing so will add extra space between the text and the :after content --></h2>
+    </div>
     {{ range .Pages }}
       {{ $class := printf "project-list__%s" (path.BaseName .Path) }}
-      <figure class="{{ $class }} | project-link">
-        <a href="{{ .RelPermalink }}">
-          {{ with .Resources.GetMatch "images/thumbnail.*" }}
-            {{ $alt := path.BaseName .Title | humanize }}
-            <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
-          {{ end }}
-        </a>
-        <figcaption>{{ .LinkTitle }}</figcaption>
-      </figure>
+      <div class="{{ $class }}">
+        <figure class="project-link | animate-on-view">
+          <a href="{{ .RelPermalink }}">
+            {{ with .Resources.GetMatch "images/thumbnail.*" }}
+              {{ $alt := path.BaseName .Title | humanize }}
+              <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+            {{ end }}
+          </a>
+          <figcaption>{{ .LinkTitle }}</figcaption>
+        </figure>
+      </div>
     {{ end }}
   </div>
 </div>
