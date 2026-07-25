@@ -12,9 +12,6 @@
     }
   }
   @media (min-width: abstracts.breakpoint-min-width("md")) {
-    // Remove gap between updates and the project list
-    margin-top: -(abstracts.$gap-xl);
-
     &__content {
       margin-bottom: abstracts.size(2);
     }

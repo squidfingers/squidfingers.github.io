@@ -2,7 +2,7 @@
 weight: 5
 title: Minted Wedding Websites
 description: |-
-  Easily create a personalized wedding webiste that provides RSVP, gift registry, and more.
+  Easily create a personalized wedding website that provides RSVP, gift registry, and more.
 keywords:
   - UX
   - UI
