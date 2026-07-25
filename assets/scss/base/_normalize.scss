@@ -6,7 +6,7 @@
 
 :root {
   font-size: abstracts.$font-size-base;
-  
+
   @media (prefers-reduced-motion: no-preference) {
     scroll-behavior: smooth;
   }
@@ -29,7 +29,7 @@ body {
   color: abstracts.$black;
 }
 
-body, 
+body,
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dt, dd, blockquote, figure {
   margin: 0;

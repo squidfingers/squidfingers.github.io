@@ -5,7 +5,7 @@
         Tag: {{ .Title | humanize | title }}
       </h2>
       {{ range .Pages.ByDate.Reverse }}
-        {{ .Render "_update" }}
+        {{ .Render "_views/update" }}
       {{ end }}
     </div>
   </div>

@@ -7,7 +7,7 @@
     </div>
     <div class="container-xl">
       {{ with .GetPage "/projects/" }}
-        {{ .Render "_project-list" }}
+        {{ .Render "_views/project-list" }}
       {{ end }}
     </div>
     <div class="container-xl">
@@ -17,7 +17,7 @@
         </h2>
         {{ range first 1 (where site.RegularPages "Section" "updates") }}
           <div class="latest-update__content | update--featured">
-            {{ .Render "_update" }}
+            {{ .Render "_views/update" }}
           </div>
         {{ end }}
         <p class="latest-update__footer">
