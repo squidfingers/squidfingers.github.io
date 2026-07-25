@@ -1,13 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="robots" content="noindex">
-    {{ with site.GetPage .Params.redirect }}
-      <meta http-equiv="Refresh" content="0; url={{ .Permalink }}">
-    {{ end }}
-  </head>
-  <body>
-  </body>
-</html>
+{{ with site.GetPage .Params.redirect }}
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Redirect{{ with .Title }}ing to {{ . }}{{ end }}</title>
+      <meta name="robots" content="noindex">
+      <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+      <script>
+        window.location.href = {{ .Permalink }};
+      </script>
+    </head>
+    <body>
+    </body>
+  </html>
+{{ else }}
+  {{ with .File }}
+    {{ errorf "Redirect not found in %q" .Path }}
+  {{ end }}
+{{ end }}
