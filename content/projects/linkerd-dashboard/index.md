@@ -1,6 +1,8 @@
 ---
 weight: 1
 title: Linkerd Dashboard
+description: |-
+  An on-premises observability tool for monitoring and managing your Linkerd service mesh within a Kubernetes cluster.
 keywords:
   - UX
   - UI

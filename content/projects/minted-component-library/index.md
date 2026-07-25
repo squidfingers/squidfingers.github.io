@@ -1,6 +1,8 @@
 ---
 weight: 4
 title: Minted Component Library
+description: |-
+  A responsive component library utilized throughout the entire online experience at Minted.
 keywords:
   - UX
   - UI

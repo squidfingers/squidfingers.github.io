@@ -1,6 +1,8 @@
 ---
 weight: 3
 title: Minted Guest Management
+description: |-
+  A guest list management tool that organizes and tracks guests from invite to RSVP.
 keywords:
   - UX
   - UI

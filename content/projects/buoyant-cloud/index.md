@@ -1,6 +1,8 @@
 ---
 weight: 2
 title: Buoyant Cloud
+description: |-
+  A multi-cluster observability, monitoring, and alerting platform built for Buoyant Enterprise for Linkerd.
 keywords:
   - UX
   - UI

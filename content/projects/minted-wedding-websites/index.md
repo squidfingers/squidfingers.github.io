@@ -1,6 +1,8 @@
 ---
 weight: 5
 title: Minted Wedding Websites
+description: |-
+  Easily create a personalized wedding webiste that provides RSVP, gift registry, and more.
 keywords:
   - UX
   - UI
@@ -20,7 +22,7 @@ Product onboarding & wedding lifecycle touchpoints
 {{< blurb >}}
 In 2013, I co-founded Hitched Up, a service aiming to be the easiest, fastest way to build your wedding RSVP site. Hitched Up was acquired by Minted in 2015.
 
-Minted Wedding Websites is a web-based product that has evolved to provide event management, guest list management, guest communication, and RSVP tracking. It also includes tools to create a customizable website for the wedding guests to manage content for gift registries, accommodations, directions, photos, wedding party, and information about the couple.
+Minted Wedding Websites is a SaaS product that has evolved to provide event management, guest list management, guest communication, and RSVP tracking. It also includes tools to create a customizable website for the wedding guests to manage content for gift registries, accommodations, directions, photos, wedding party, and information about the couple.
 {{< /blurb >}}
 
 {{< grid "4col" >}}
