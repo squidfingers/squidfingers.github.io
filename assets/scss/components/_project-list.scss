@@ -1,24 +1,30 @@
 @use "../abstracts";
 
 .project-list {
-  &__grid {
-    display: grid;
-    gap: abstracts.$gap;
+  display: flex;
+  flex-direction: column;
+  gap: abstracts.$gap-lg;
+
+  &__heading {
+    // Animation
+    &.animate-on-view {
+      opacity: 0;
+      transform: translate(0, abstracts.$gap);
+
+      &.js-start-animation-on-view {
+        opacity: 1;
+        transform: translate(0, 0);
+
+        @media (prefers-reduced-motion: no-preference) {
+          transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
+        }
+      }
+    }
   }
   @media (min-width: abstracts.breakpoint-min-width("md")) {
-    &__grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: abstracts.size(8);
-    }
-    &__buoyant-cloud,
-    &__minted-component-library {
-      transform: translateY(calc(-50% - abstracts.size(4)));
-    }
-  }
-  @media (min-width: abstracts.breakpoint-min-width("lg")) {
     &__heading {
-      transform: translateY(20%);
+      font-size: abstracts.$font-size-h3;
+      text-align: center;
     }
   }
 }
