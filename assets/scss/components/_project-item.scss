@@ -52,6 +52,18 @@
         }
       }
     }
+    // Animation
+    &.animate-on-view {
+      transform: translate(0, abstracts.$gap);
+
+      &.js-start-animation-on-view {
+        transform: translate(0, 0);
+
+        @media (prefers-reduced-motion: no-preference) {
+          transition: transform 1s abstracts.$easeOutQuad;
+        }
+      }
+    }
   }
   @media (min-width: abstracts.breakpoint-min-width("md")) {
     grid-template-columns: 1fr 1fr;
