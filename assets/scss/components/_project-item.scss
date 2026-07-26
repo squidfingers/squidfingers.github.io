@@ -53,10 +53,10 @@
       }
     }
     // Animation
-    &.animate-on-view {
+    &.view {
       transform: translate(0, abstracts.$gap);
 
-      &.js-start-animation-on-view {
+      &.in-view {
         transform: translate(0, 0);
 
         @media (prefers-reduced-motion: no-preference) {
@@ -85,11 +85,11 @@
   }
 
   // Animation
-  &.animate-on-view {
+  &.view {
     opacity: 0;
     transform: translate(0, abstracts.$gap);
 
-    &.js-start-animation-on-view {
+    &.in-view {
       opacity: 1;
       transform: translate(0, 0);
 
@@ -98,7 +98,8 @@
       }
     }
   }
-  // Extra animation (Not currently supported in Firefox (v153))
+
+  // Extra animation (Not currently supported in Firefox v153)
   @media (prefers-reduced-motion: no-preference) {
     @supports (animation-timeline: view()) {
       animation: project-item-recede linear both;

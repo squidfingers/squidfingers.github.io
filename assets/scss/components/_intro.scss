@@ -14,11 +14,11 @@
   }
 
   // Animation
-  &.animate-on-view {
+  &.view {
     opacity: 0;
     transform: translate(0, abstracts.$gap);
 
-    &.js-start-animation-on-view {
+    &.in-view {
       opacity: 1;
       transform: translate(0, 0);
 
