@@ -98,4 +98,19 @@
       }
     }
   }
+  // Extra animation (Not currently supported in Firefox (v153))
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      animation: project-item-recede linear both;
+      animation-timeline: view();
+      animation-range: exit 0% exit 100%;
+    }
+  }
+  @keyframes project-item-recede {
+    to {
+      opacity: 0.5;
+      transform: translateY(calc(-1 * abstracts.$gap)) scale(0.9);
+      filter: blur(4px);
+    }
+  }
 }
