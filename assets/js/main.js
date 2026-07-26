@@ -9,13 +9,13 @@ window.addEventListener("scroll", () => {
   }
 });
 window.addEventListener("DOMContentLoaded", () => {
-  const animationTargets = document.querySelectorAll(".view");
+  const animationTargets = document.querySelectorAll(".in-view");
   if (animationTargets) {
     animationTargets.forEach(t => {
       let observer = new IntersectionObserver(e => {
         e.forEach(e => {
           if (e.isIntersecting) {
-            e.target.classList.add("in-view");
+            e.target.classList.add("in-view--start");
             observer.unobserve(e.target);
           }
         });

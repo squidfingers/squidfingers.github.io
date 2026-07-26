@@ -1,7 +1,7 @@
 <div class="project-list">
-  <h2 class="project-list__heading | view">Here's several projects I've worked on in the past few years...</h2>
+  <h2 class="project-list__heading | in-view">Here's several projects I've worked on in the past few years...</h2>
   {{ range .Pages }}
-    <div class="project-item | view">
+    <div class="project-item | in-view">
       <figure class="project-item__media">
         <a href="{{ .RelPermalink }}">
           {{ with .Resources.GetMatch "images/thumbnail.*" }}
@@ -10,7 +10,7 @@
           {{ end }}
         </a>
       </figure>
-      <div class="project-item__content | view">
+      <div class="project-item__content | in-view">
         <h3>
           <a href="{{ .RelPermalink }}">
             {{ .LinkTitle }}

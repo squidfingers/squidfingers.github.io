@@ -14,11 +14,11 @@
   }
 
   // Animation
-  &.view {
+  &.in-view {
     opacity: 0;
     transform: translate(0, abstracts.$gap);
 
-    &.in-view {
+    &.in-view--start {
       opacity: 1;
       transform: translate(0, 0);
 
