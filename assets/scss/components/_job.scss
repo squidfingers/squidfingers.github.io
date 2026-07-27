@@ -36,4 +36,25 @@
       padding-top: abstracts.$gap-lg;
     }
   }
+
+  // Animation
+  &.in-view--start {
+    opacity: 0;
+    transform: translate(0, abstracts.$gap);
+
+    .job__description {
+      transform: translate(0, abstracts.$gap);
+    }
+
+    &.in-view--end {
+      opacity: 1;
+      transform: translate(0, 0);
+      transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
+
+      .job__description {
+        transform: translate(0, 0);
+        transition: transform 2s abstracts.$easeOutQuad;
+      }
+    }
+  }
 }

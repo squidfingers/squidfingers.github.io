@@ -9,4 +9,14 @@
     font-family: abstracts.$font-family-display;
     font-size: abstracts.$font-size-h1;
   }
+
+  // Animation
+  &.in-view--start {
+    opacity: 0;
+
+    &.in-view--end {
+      opacity: 1;
+      transition: opacity 1s ease;
+    }
+  }
 }
