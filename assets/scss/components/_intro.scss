@@ -14,17 +14,14 @@
   }
 
   // Animation
-  &.in-view {
+  &.in-view--start {
     opacity: 0;
     transform: translate(0, abstracts.$gap);
 
-    &.in-view--start {
+    &.in-view--end {
       opacity: 1;
       transform: translate(0, 0);
-
-      @media (prefers-reduced-motion: no-preference) {
-        transition: opacity 1s ease, transform 2s abstracts.$easeOutQuad;
-      }
+      transition: opacity 1s ease, transform 2s abstracts.$easeOutQuad;
     }
   }
 }

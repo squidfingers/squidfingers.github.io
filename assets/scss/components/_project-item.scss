@@ -53,15 +53,12 @@
       }
     }
     // Animation
-    &.in-view {
+    &.in-view--start {
       transform: translate(0, abstracts.$gap);
 
-      &.in-view--start {
+      &.in-view--end {
         transform: translate(0, 0);
-
-        @media (prefers-reduced-motion: no-preference) {
-          transition: transform 1s abstracts.$easeOutQuad;
-        }
+        transition: transform 1s abstracts.$easeOutQuad;
       }
     }
   }
@@ -85,17 +82,14 @@
   }
 
   // Animation
-  &.in-view {
+  &.in-view--start {
     opacity: 0;
     transform: translate(0, abstracts.$gap);
 
-    &.in-view--start {
+    &.in-view--end {
       opacity: 1;
       transform: translate(0, 0);
-
-      @media (prefers-reduced-motion: no-preference) {
-        transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
-      }
+      transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
     }
   }
 

@@ -9,13 +9,15 @@ window.addEventListener("scroll", () => {
   }
 });
 window.addEventListener("DOMContentLoaded", () => {
-  const animationTargets = document.querySelectorAll(".in-view");
-  if (animationTargets) {
-    animationTargets.forEach(t => {
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const targets = document.querySelectorAll(".in-view");
+  if (!prefersReducedMotion && targets) {
+    targets.forEach(t => {
+      t.classList.add("in-view--start");
       let observer = new IntersectionObserver(e => {
         e.forEach(e => {
           if (e.isIntersecting) {
-            e.target.classList.add("in-view--start");
+            e.target.classList.add("in-view--end");
             observer.unobserve(e.target);
           }
         });
