@@ -4,7 +4,7 @@ tags:
   - Lego Print
 ---
 
-These days, my version of touching grass is making prints with Legos. I love the constraints and planning that goes into it. With school started up soon, I’ve been working on some bookmarks for the kids in my son’s class.
+These days, my version of touching grass is making prints with Legos. I love the constraints and planning that goes into it. With school starting up soon, I’ve been working on some bookmarks for the kids in my son’s class.
 
 {{< grid "2col" >}}
 
