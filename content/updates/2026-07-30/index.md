@@ -4,4 +4,6 @@ tags:
   - Lego Print
 ---
 
-![Squid](squid.jpg)
+![01](01.jpg)
+
+![02](02.jpg)
