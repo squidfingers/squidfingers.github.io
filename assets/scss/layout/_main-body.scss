@@ -1,8 +1,10 @@
 @use "../abstracts";
 
-.main-body {
-  // Position above .main-footer
-  position: relative;
-  z-index: 1;
-  background-color: abstracts.$gray-50;
+@layer layout {
+  .main-body {
+    // Position above .main-footer
+    position: relative;
+    z-index: 1;
+    background-color: abstracts.$gray-50;
+  }
 }

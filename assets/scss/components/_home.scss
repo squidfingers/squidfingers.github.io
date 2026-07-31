@@ -1,12 +1,14 @@
 @use "../abstracts";
 
-.home {
-  display: flex;
-  flex-direction: column;
-  gap: abstracts.$gap-lg;
+@layer components {
+  .home {
+    display: flex;
+    flex-direction: column;
+    gap: abstracts.$gap-lg;
 
-  @media (min-width: abstracts.breakpoint-min-width("md")) {
-    padding-top: abstracts.$gap;
-    gap: abstracts.$gap-xl;
+    @media (min-width: abstracts.breakpoint-min-width("md")) {
+      padding-top: abstracts.$gap;
+      gap: abstracts.$gap-xl;
+    }
   }
 }

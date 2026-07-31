@@ -1,9 +1,11 @@
 @use "../abstracts";
 
-.pager {
-  ul {
-    display: flex;
-    justify-content: center;
-    gap: abstracts.size(2);
+@layer components {
+  .pager {
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: abstracts.size(2);
+    }
   }
 }

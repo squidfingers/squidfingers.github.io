@@ -1,15 +1,17 @@
 @use "../abstracts";
 
-.tag {
-  display: inline-block;
-  padding: abstracts.size(0.25) abstracts.size(1.25);
-  border: abstracts.$border-primary;
-  border-radius: 999px;
-  font-size: abstracts.$font-size-sm;
-}
-a.tag {
-  &:hover {
-    background-color: abstracts.$black;
-    color: abstracts.$white;
+@layer components {
+  .tag {
+    display: inline-block;
+    padding: abstracts.size(0.25) abstracts.size(1.25);
+    border: abstracts.$border-primary;
+    border-radius: 999px;
+    font-size: abstracts.$font-size-sm;
+  }
+  a.tag {
+    &:hover {
+      background-color: abstracts.$black;
+      color: abstracts.$white;
+    }
   }
 }

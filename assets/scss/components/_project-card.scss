@@ -1,29 +1,31 @@
 @use "../abstracts";
 
-.project-card {
-  display: grid;
-  border: abstracts.$border-primary;
-  background-color: abstracts.$white;
+@layer components {
+  .project-card {
+    display: grid;
+    border: abstracts.$border-primary;
+    background-color: abstracts.$white;
 
-  img {
-    border: none;
-  }
-  &__media {
-    border-bottom: abstracts.$border-primary;
-  }
-  &__content {
-    align-self: center;
-    padding: abstracts.$gap;
-  }
-  @media (min-width: abstracts.breakpoint-min-width("lg")) {
-    grid-template-columns: 1fr 1fr;
-
-    &__media {
-      border-bottom: none;
-      border-right: abstracts.$border-primary;
+    img {
+      border: none;
     }
-  }
-  @media (min-width: abstracts.breakpoint-min-width("xl")) {
-    grid-template-columns: 2fr 1fr;
+    &__media {
+      border-bottom: abstracts.$border-primary;
+    }
+    &__content {
+      align-self: center;
+      padding: abstracts.$gap;
+    }
+    @media (min-width: abstracts.breakpoint-min-width("lg")) {
+      grid-template-columns: 1fr 1fr;
+
+      &__media {
+        border-bottom: none;
+        border-right: abstracts.$border-primary;
+      }
+    }
+    @media (min-width: abstracts.breakpoint-min-width("xl")) {
+      grid-template-columns: 2fr 1fr;
+    }
   }
 }

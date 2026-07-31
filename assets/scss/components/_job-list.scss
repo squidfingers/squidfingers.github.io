@@ -1,35 +1,37 @@
 @use "../abstracts";
 
-.job-list {
-  display: flex;
-  flex-direction: column;
-  gap: abstracts.$gap;
+@layer components {
+  .job-list {
+    display: flex;
+    flex-direction: column;
+    gap: abstracts.$gap;
 
-  &__heading {
-    font-family: abstracts.$font-family-display;
-    font-size: abstracts.$font-size-h1;
-  }
-  &__timeline {
-    margin-bottom: abstracts.$gap;
-
-    @media (max-width: abstracts.breakpoint-max-width("md")) {
-      display: none;
+    &__heading {
+      font-family: abstracts.$font-family-display;
+      font-size: abstracts.$font-size-h1;
     }
-  }
-  & > :last-child {
-    margin-bottom: 0;
-  }
-  .job {
-    margin-bottom: abstracts.size(6);
-  }
+    &__timeline {
+      margin-bottom: abstracts.$gap;
 
-  // Animation
-  &.in-view--start {
-    opacity: 0;
+      @media (max-width: abstracts.breakpoint-max-width("md")) {
+        display: none;
+      }
+    }
+    & > :last-child {
+      margin-bottom: 0;
+    }
+    .job {
+      margin-bottom: abstracts.size(6);
+    }
 
-    &.in-view--end {
-      opacity: 1;
-      transition: opacity 1s ease;
+    // Animation
+    &.in-view--start {
+      opacity: 0;
+
+      &.in-view--end {
+        opacity: 1;
+        transition: opacity 1s ease;
+      }
     }
   }
 }

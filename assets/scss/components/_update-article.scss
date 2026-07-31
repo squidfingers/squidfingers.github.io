@@ -1,10 +1,12 @@
 @use "../abstracts";
 
-.update-article {
-  display: grid;
-  gap: abstracts.$gap;
+@layer components {
+  .update-article {
+    display: grid;
+    gap: abstracts.$gap;
 
-  @media (min-width: abstracts.breakpoint-min-width("md")) {
-    grid-template-columns: 1fr 2fr;
+    @media (min-width: abstracts.breakpoint-min-width("md")) {
+      grid-template-columns: 1fr 2fr;
+    }
   }
 }

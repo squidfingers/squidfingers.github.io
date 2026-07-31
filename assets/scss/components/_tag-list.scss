@@ -1,12 +1,14 @@
 @use "../abstracts";
 
-.tag-list {
-  display: flex;
-  gap: abstracts.size(1);
+@layer components {
+  .tag-list {
+    display: flex;
+    gap: abstracts.size(1);
 
-  // @options
+    // @options
 
-  &.tag-list--vertical {
-    flex-direction: column;
+    &.tag-list--vertical {
+      flex-direction: column;
+    }
   }
 }

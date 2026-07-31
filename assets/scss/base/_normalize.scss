@@ -1,91 +1,94 @@
 @use "../abstracts";
 
-::selection {
-  background-color: rgba(abstracts.$yellow, 0.5);
-}
+@layer base {
 
-:root {
-  font-size: abstracts.$font-size-base;
-
-  @media (prefers-reduced-motion: no-preference) {
-    scroll-behavior: smooth;
+  ::selection {
+    background-color: rgba(abstracts.$yellow, 0.5);
   }
-}
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+  :root {
+    font-size: abstracts.$font-size-base;
 
-html {
-  //-webkit-font-smoothing: antialiased;
-  //text-rendering: optimizeLegibility;
-  text-size-adjust: 100%;
-}
+    @media (prefers-reduced-motion: no-preference) {
+      scroll-behavior: smooth;
+    }
+  }
 
-body {
-  background-color: abstracts.$gray-50;
-  color: abstracts.$black;
-}
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 
-body,
-h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl, dt, dd, blockquote, figure {
-  margin: 0;
-  padding: 0;
-  font-family: abstracts.$font-family-base;
-  font-size: abstracts.$font-size-base;
-  font-weight: abstracts.$font-weight-normal;
-  line-height: abstracts.$line-height-base;
-}
+  html {
+    //-webkit-font-smoothing: antialiased;
+    //text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+  }
 
-ul, ol {
-  list-style-type: none;
-}
+  body {
+    background-color: abstracts.$gray-50;
+    color: abstracts.$black;
+  }
 
-figure {
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol, dl, dt, dd, blockquote, figure {
+    margin: 0;
+    padding: 0;
+    font-family: abstracts.$font-family-base;
+    font-size: abstracts.$font-size-base;
+    font-weight: abstracts.$font-weight-normal;
+    line-height: abstracts.$line-height-base;
+  }
+
+  ul, ol {
+    list-style-type: none;
+  }
+
+  figure {
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  pre {
+    margin: 0;
+    font-family: abstracts.$font-family-mono;
+  }
+
+  hr {
+    overflow: visible;
+    height: 0;
+    margin: 0;
+    box-sizing: content-box;
+    border: none;
+    border-top: solid 2px abstracts.$black;
+  }
+
   img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+    border-style: none;
   }
-}
 
-pre {
-  margin: 0;
-  font-family: abstracts.$font-family-mono;
-}
+  a {
+    color: abstracts.$black;
+    text-decoration: none;
+  }
 
-hr {
-  overflow: visible;
-  height: 0;
-  margin: 0;
-  box-sizing: content-box;
-  border: none;
-  border-top: solid 2px abstracts.$black;
-}
+  strong,
+  b {
+    font-weight: abstracts.$font-weight-normal;
+  }
 
-img {
-  border-style: none;
-}
+  cite,
+  em,
+  i {
+    font-style: normal;
+  }
 
-a {
-  color: abstracts.$black;
-  text-decoration: none;
-}
-
-strong,
-b {
-  font-weight: abstracts.$font-weight-normal;
-}
-
-cite,
-em,
-i {
-  font-style: normal;
-}
-
-code {
-  font-family: abstracts.$font-family-mono;
+  code {
+    font-family: abstracts.$font-family-mono;
+  }
 }

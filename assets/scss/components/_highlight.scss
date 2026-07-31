@@ -1,7 +1,9 @@
 @use "../abstracts";
 
-.highlight {
-  pre {
-    padding: abstracts.size(2);
+@layer components {
+  .highlight {
+    pre {
+      padding: abstracts.size(2);
+    }
   }
 }

@@ -31,9 +31,7 @@ Some other highlights include:
 ![Image 3](images/03.png)
 
 ![Image 4](images/04.png)
-{{< /grid >}}
 
-{{< grid "2col" >}}
 ![Image 5](images/05.png)
 
 ![Image 6](images/06.png)

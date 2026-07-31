@@ -1,59 +1,61 @@
 @use "../abstracts";
 
-.job {
-  display: flex;
-  flex-direction: column;
-  gap: abstracts.$gap;
+@layer components {
+  .job {
+    display: flex;
+    flex-direction: column;
+    gap: abstracts.$gap;
 
-  &__logo {
-    img {
-      max-width: none; // Override
-      width: 200px;
+    &__logo {
+      img {
+        max-width: none; // Override
+        width: 200px;
+      }
     }
-  }
-  &__description {
-    h2 {
-      margin-bottom: abstracts.size(1);
-      font-size: abstracts.$font-size-h4;
-    }
-    h3 {
-      margin-bottom: abstracts.size(1);
-      font-family: abstracts.$font-family-display;
-      font-size: abstracts.$font-size-h1;
-      line-height: abstracts.$line-height-tight;
-    }
-    h4 {
-      margin-bottom: abstracts.$gap;
-      font-size: abstracts.$font-size-base;
-    }
-  }
-  @media (min-width: abstracts.breakpoint-min-width("md")) {
-    flex-direction: row;
-    gap: abstracts.$gap-lg;
-    border-top: abstracts.$border-primary;
-
     &__description {
-      padding-top: abstracts.$gap-lg;
+      h2 {
+        margin-bottom: abstracts.size(1);
+        font-size: abstracts.$font-size-h4;
+      }
+      h3 {
+        margin-bottom: abstracts.size(1);
+        font-family: abstracts.$font-family-display;
+        font-size: abstracts.$font-size-h1;
+        line-height: abstracts.$line-height-tight;
+      }
+      h4 {
+        margin-bottom: abstracts.$gap;
+        font-size: abstracts.$font-size-base;
+      }
     }
-  }
+    @media (min-width: abstracts.breakpoint-min-width("md")) {
+      flex-direction: row;
+      gap: abstracts.$gap-lg;
+      border-top: abstracts.$border-primary;
 
-  // Animation
-  &.in-view--start {
-    opacity: 0;
-    transform: translate(0, abstracts.$gap);
+      &__description {
+        padding-top: abstracts.$gap-lg;
+      }
+    }
 
-    .job__description {
+    // Animation
+    &.in-view--start {
+      opacity: 0;
       transform: translate(0, abstracts.$gap);
-    }
-
-    &.in-view--end {
-      opacity: 1;
-      transform: translate(0, 0);
-      transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
 
       .job__description {
+        transform: translate(0, abstracts.$gap);
+      }
+
+      &.in-view--end {
+        opacity: 1;
         transform: translate(0, 0);
-        transition: transform 2s abstracts.$easeOutQuad;
+        transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
+
+        .job__description {
+          transform: translate(0, 0);
+          transition: transform 2s abstracts.$easeOutQuad;
+        }
       }
     }
   }

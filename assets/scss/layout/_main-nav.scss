@@ -1,31 +1,33 @@
 @use "../abstracts";
 
-.main-nav {
-  ul {
-    display: flex;
-    gap: abstracts.size(3);
-  }
-  a {
-    display: block;
-    // Add clear border so nav doesn't jump on hover, if no menu items are selected
-    border-bottom: solid 3px transparent;
-
-    &:hover {
-      border-bottom: abstracts.$border-primary;
-    }
-  }
-  @media (min-width: abstracts.breakpoint-min-width("sm")) {
+@layer layout {
+  .main-nav {
     ul {
-      gap: abstracts.size(4);
+      display: flex;
+      gap: abstracts.size(3);
     }
-  }
-
-  // @options
-
-  .main-nav--selected {
     a {
+      display: block;
+      // Add clear border so nav doesn't jump on hover, if no menu items are selected
+      border-bottom: solid 3px transparent;
+
+      &:hover {
         border-bottom: abstracts.$border-primary;
-        border-color: abstracts.$magenta;
+      }
+    }
+    @media (min-width: abstracts.breakpoint-min-width("sm")) {
+      ul {
+        gap: abstracts.size(4);
+      }
+    }
+
+    // @options
+
+    .main-nav--selected {
+      a {
+          border-bottom: abstracts.$border-primary;
+          border-color: abstracts.$magenta;
+      }
     }
   }
 }

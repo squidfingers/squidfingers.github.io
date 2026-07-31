@@ -1,18 +1,23 @@
+@use "base/layers";
+
 // Font file imports
 @use "base/fonts";
 
 // Reset html elements
 @use "base/normalize";
 
+// Content styling
+@use "base/prose";
+
+// General utility classes
+@use "base/utils";
+
 // Components
 
 @use "components/button";
-@use "components/container";
-@use "components/grid";
 @use "components/highlight";
 @use "components/pager";
 @use "components/paginator";
-@use "components/prose";
 
 // Components → Tags
 
@@ -54,6 +59,8 @@
 
 // Layout
 
+@use "layout/container";
+@use "layout/grid";
 @use "layout/main-body";
 @use "layout/main-header";
 @use "layout/main-logo";

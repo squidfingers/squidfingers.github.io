@@ -1,27 +1,29 @@
 @use "../abstracts";
 
-.intro {
-  p {
-    font-size: abstracts.$font-size-h3;
+@layer components {
+  .intro {
+    p {
+      font-size: abstracts.$font-size-h3;
 
-    @media (min-width: abstracts.breakpoint-min-width("md")) {
-      font-size: abstracts.$font-size-h2;
-      text-align: center;
+      @media (min-width: abstracts.breakpoint-min-width("md")) {
+        font-size: abstracts.$font-size-h2;
+        text-align: center;
+      }
+      @media (min-width: abstracts.breakpoint-min-width("lg")) {
+        font-size: abstracts.$font-size-h1;
+      }
     }
-    @media (min-width: abstracts.breakpoint-min-width("lg")) {
-      font-size: abstracts.$font-size-h1;
-    }
-  }
 
-  // Animation
-  &.in-view--start {
-    opacity: 0;
-    transform: translate(0, abstracts.$gap);
+    // Animation
+    &.in-view--start {
+      opacity: 0;
+      transform: translate(0, abstracts.$gap);
 
-    &.in-view--end {
-      opacity: 1;
-      transform: translate(0, 0);
-      transition: opacity 1s ease, transform 2s abstracts.$easeOutQuad;
+      &.in-view--end {
+        opacity: 1;
+        transform: translate(0, 0);
+        transition: opacity 1s ease, transform 2s abstracts.$easeOutQuad;
+      }
     }
   }
 }

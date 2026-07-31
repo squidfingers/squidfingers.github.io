@@ -1,34 +1,36 @@
 @use "../abstracts";
 
-.project {
-  display: flex;
-  flex-direction: column;
-  gap: abstracts.$gap-lg;
+@layer components {
+  .project {
+    display: flex;
+    flex-direction: column;
+    gap: abstracts.$gap-lg;
 
-  &__title {
-    h2 {
-      font-family: abstracts.$font-family-display;
-      font-size: abstracts.$font-size-h2;
+    &__title {
+      h2 {
+        font-family: abstracts.$font-family-display;
+        font-size: abstracts.$font-size-h2;
+      }
+      h5 {
+        font-size: abstracts.$font-size-sm;
+      }
     }
-    h5 {
-      font-size: abstracts.$font-size-sm;
+    &__content {
+      img {
+        border: abstracts.$border-primary;
+      }
+      & > .project-blurb:last-child {
+        padding-bottom: 0;
+      }
     }
-  }
-  &__content {
-    img {
-      border: abstracts.$border-primary;
-    }
-    & > .project-blurb:last-child {
-      padding-bottom: 0;
-    }
-  }
-  &__pager {
-    text-align: center;
-  }
-  @media (min-width: abstracts.breakpoint-min-width("sm")) {
     &__pager {
-      .button {
-        @include abstracts.make-button--lg;
+      text-align: center;
+    }
+    @media (min-width: abstracts.breakpoint-min-width("sm")) {
+      &__pager {
+        .button {
+          @include abstracts.make-button--lg;
+        }
       }
     }
   }

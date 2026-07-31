@@ -1,16 +1,18 @@
 @use "../abstracts";
 
-.four0four {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: abstracts.$gap;
+@layer components {
+  .four0four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: abstracts.$gap;
 
-  h2 {
-    font-size: abstracts.$font-size-h2;
-    text-align: center;
-  }
-  path, rect {
-    fill: currentColor;
+    h2 {
+      font-size: abstracts.$font-size-h2;
+      text-align: center;
+    }
+    path, rect {
+      fill: currentColor;
+    }
   }
 }

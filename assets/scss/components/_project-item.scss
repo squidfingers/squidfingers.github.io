@@ -1,111 +1,113 @@
 @use "../abstracts";
 
-.project-item {
-  display: grid;
-  border: abstracts.$border-primary;
-  background-color: abstracts.$white;
+@layer components {
+  .project-item {
+    display: grid;
+    border: abstracts.$border-primary;
+    background-color: abstracts.$white;
 
-  &__media {
-    border-bottom: abstracts.$border-primary;
-
-    a {
-      position: relative;
-      display: block;
-
-      &:hover::after {
-        opacity: 1;
-      }
-    }
-    a::after {
-      content: "View project";
-      pointer-events: none;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-color: rgba(abstracts.$magenta, 0.85);
-      color: abstracts.$white;
-      opacity: 0;
-      font-size: abstracts.$font-size-lg;
-      transition: opacity .15s ease-in-out;
-    }
-  }
-  &__content {
-    align-self: center;
-    padding: abstracts.$gap;
-
-    h3 {
-      margin-bottom: abstracts.$gap;
-      font-family: abstracts.$font-family-display;
-      font-size: abstracts.$font-size-h2;
+    &__media {
+      border-bottom: abstracts.$border-primary;
 
       a {
-        transition: color .15s ease-in-out;
+        position: relative;
+        display: block;
 
-        &:hover {
-          color: abstracts.$magenta;
+        &:hover::after {
+          opacity: 1;
+        }
+      }
+      a::after {
+        content: "View project";
+        pointer-events: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(abstracts.$magenta, 0.85);
+        color: abstracts.$white;
+        opacity: 0;
+        font-size: abstracts.$font-size-lg;
+        transition: opacity .15s ease-in-out;
+      }
+    }
+    &__content {
+      align-self: center;
+      padding: abstracts.$gap;
+
+      h3 {
+        margin-bottom: abstracts.$gap;
+        font-family: abstracts.$font-family-display;
+        font-size: abstracts.$font-size-h2;
+
+        a {
+          transition: color .15s ease-in-out;
+
+          &:hover {
+            color: abstracts.$magenta;
+          }
+        }
+      }
+      // Animation
+      &.in-view--start {
+        transform: translate(0, abstracts.$gap);
+
+        &.in-view--end {
+          transform: translate(0, 0);
+          transition: transform 1s abstracts.$easeOutQuad;
         }
       }
     }
+    @media (min-width: abstracts.breakpoint-min-width("md")) {
+      grid-template-columns: 1fr 1fr;
+
+      &__media {
+        border-bottom: none;
+        border-right: abstracts.$border-primary;
+      }
+      &:nth-child(odd) {
+        .project-item__media {
+          order: 2;
+          border-right: none;
+          border-left: abstracts.$border-primary;
+        }
+        .project-item__content {
+          order: 1;
+        }
+      }
+    }
+
     // Animation
     &.in-view--start {
+      opacity: 0;
       transform: translate(0, abstracts.$gap);
 
       &.in-view--end {
+        opacity: 1;
         transform: translate(0, 0);
-        transition: transform 1s abstracts.$easeOutQuad;
+        transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
       }
     }
-  }
-  @media (min-width: abstracts.breakpoint-min-width("md")) {
-    grid-template-columns: 1fr 1fr;
 
-    &__media {
-      border-bottom: none;
-      border-right: abstracts.$border-primary;
-    }
-    &:nth-child(odd) {
-      .project-item__media {
-        order: 2;
-        border-right: none;
-        border-left: abstracts.$border-primary;
-      }
-      .project-item__content {
-        order: 1;
+    // Extra animation (Not currently supported in Firefox v153)
+    @media (prefers-reduced-motion: no-preference) {
+      @supports (animation-timeline: view()) {
+        animation: project-item-recede linear both;
+        animation-timeline: view();
+        animation-range: exit 0% exit 100%;
       }
     }
-  }
-
-  // Animation
-  &.in-view--start {
-    opacity: 0;
-    transform: translate(0, abstracts.$gap);
-
-    &.in-view--end {
-      opacity: 1;
-      transform: translate(0, 0);
-      transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
-    }
-  }
-
-  // Extra animation (Not currently supported in Firefox v153)
-  @media (prefers-reduced-motion: no-preference) {
-    @supports (animation-timeline: view()) {
-      animation: project-item-recede linear both;
-      animation-timeline: view();
-      animation-range: exit 0% exit 100%;
-    }
-  }
-  @keyframes project-item-recede {
-    to {
-      opacity: 0.5;
-      transform: translateY(calc(-1 * abstracts.$gap)) scale(0.9);
-      filter: blur(4px);
+    @keyframes project-item-recede {
+      to {
+        opacity: 0.5;
+        transform: translateY(calc(-1 * abstracts.$gap)) scale(0.9);
+        filter: blur(4px);
+      }
     }
   }
 }

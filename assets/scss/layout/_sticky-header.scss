@@ -1,37 +1,39 @@
 @use "../abstracts";
 
-// Only fix header on lg breakpoint and larger
-@media (min-width: abstracts.breakpoint-min-width("lg")) {
-  // Only apply styles if javascript is enabled
-  body.js-enabled {
-    padding-top: abstracts.$header-height;
+@layer layout {
+  // Only fix header on lg breakpoint and larger
+  @media (min-width: abstracts.breakpoint-min-width("lg")) {
+    // Only apply styles if javascript is enabled
+    body.js-enabled {
+      padding-top: abstracts.$header-height;
 
-    .main-header {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: abstracts.$header-zindex;
-      transition: all 0.1s ease-out;
-    }
-    &.scrolled {
       .main-header {
-        padding-top: abstracts.size(2);
-        padding-bottom: abstracts.size(2);
-        background-color: abstracts.$black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: abstracts.$header-zindex;
+        transition: all 0.1s ease-out;
       }
-      .main-logo {
-        svg {
-          color: abstracts.$white;
-          width: 28px;
-          height: 24px;
+      &.scrolled {
+        .main-header {
+          padding-top: abstracts.size(2);
+          padding-bottom: abstracts.size(2);
+          background-color: abstracts.$black;
         }
-        h1, h2 {
-          display: none;
+        .main-logo {
+          svg {
+            color: abstracts.$white;
+            width: 28px;
+            height: 24px;
+          }
+          h1, h2 {
+            display: none;
+          }
         }
-      }
-      .main-nav {
-        a {
-          color: abstracts.$white;
+        .main-nav {
+          a {
+            color: abstracts.$white;
+          }
         }
       }
     }

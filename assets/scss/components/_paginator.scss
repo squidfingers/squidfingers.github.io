@@ -1,26 +1,28 @@
 @use "../abstracts";
 
-.paginator {
-  ul {
-    display: flex;
-    justify-content: center;
-    gap: abstracts.size(2);
-  }
-  &__elipsis {
-    padding-top: abstracts.size(2);
-  }
-  @media (max-width: abstracts.breakpoint-max-width("xs")) {
-    &__prev,
-    &__next {
-       flex-basis: 50%;
-
-       .button {
-        @include abstracts.make-button--outline;
-        @include abstracts.make-button--block;
-      }
+@layer components {
+  .paginator {
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: abstracts.size(2);
     }
-    li:not(.paginator__prev):not(.paginator__next) {
-      display: none;
+    &__elipsis {
+      padding-top: abstracts.size(2);
+    }
+    @media (max-width: abstracts.breakpoint-max-width("xs")) {
+      &__prev,
+      &__next {
+        flex-basis: 50%;
+
+        .button {
+          @include abstracts.make-button--outline;
+          @include abstracts.make-button--block;
+        }
+      }
+      li:not(.paginator__prev):not(.paginator__next) {
+        display: none;
+      }
     }
   }
 }

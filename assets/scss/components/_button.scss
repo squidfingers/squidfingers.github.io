@@ -1,29 +1,31 @@
 @use "../abstracts";
 
-.button {
-  @include abstracts.make-button;
+@layer components {
+  .button {
+    @include abstracts.make-button;
 
-  // @options
+    // @options
 
-  &.button--fill {
-    @include abstracts.make-button--fill;
-  }
-  &.button--outline {
-    @include abstracts.make-button--outline;
-  }
-  &.button--lg {
-    @include abstracts.make-button--lg;
-  }
-  &.button--md {
-    @include abstracts.make-button--md;
-  }
-  &.button--sm {
-    @include abstracts.make-button--sm;
-  }
-  &.button--block {
-    @include abstracts.make-button--block;
-  }
-  &.button--disabled {
-    @include abstracts.make-button--disabled;
+    &.button--fill {
+      @include abstracts.make-button--fill;
+    }
+    &.button--outline {
+      @include abstracts.make-button--outline;
+    }
+    &.button--lg {
+      @include abstracts.make-button--lg;
+    }
+    &.button--md {
+      @include abstracts.make-button--md;
+    }
+    &.button--sm {
+      @include abstracts.make-button--sm;
+    }
+    &.button--block {
+      @include abstracts.make-button--block;
+    }
+    &.button--disabled {
+      @include abstracts.make-button--disabled;
+    }
   }
 }

@@ -1,7 +1,9 @@
 @use "../abstracts";
 
-.cv {
-  display: flex;
-  flex-direction: column;
-  gap: abstracts.$gap-lg;
+@layer components {
+  .cv {
+    display: flex;
+    flex-direction: column;
+    gap: abstracts.$gap-lg;
+  }
 }

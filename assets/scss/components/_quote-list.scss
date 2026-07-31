@@ -1,22 +1,24 @@
 @use "../abstracts";
 
-.quote-list {
-  display: flex;
-  flex-direction: column;
-  gap: abstracts.$gap;
+@layer components {
+  .quote-list {
+    display: flex;
+    flex-direction: column;
+    gap: abstracts.$gap;
 
-  &__heading {
-    font-family: abstracts.$font-family-display;
-    font-size: abstracts.$font-size-h1;
-  }
+    &__heading {
+      font-family: abstracts.$font-family-display;
+      font-size: abstracts.$font-size-h1;
+    }
 
-  // Animation
-  &.in-view--start {
-    opacity: 0;
+    // Animation
+    &.in-view--start {
+      opacity: 0;
 
-    &.in-view--end {
-      opacity: 1;
-      transition: opacity 1s ease;
+      &.in-view--end {
+        opacity: 1;
+        transition: opacity 1s ease;
+      }
     }
   }
 }

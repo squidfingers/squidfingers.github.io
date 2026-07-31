@@ -1,16 +1,16 @@
 {{ define "main" }}
   <div class="home">
-    <div class="container-xl">
+    <div class="container--xl">
       <div class="intro | in-view">
         {{ .Content }}
       </div>
     </div>
-    <div class="container-xl">
+    <div class="container--xl">
       {{ with .GetPage "/projects/" }}
         {{ .Render "_views/project-list" }}
       {{ end }}
     </div>
-    <div class="container-xl">
+    <div class="container--xl">
       <div class="latest-update">
         <h2 class="latest-update__heading">
           Latest update

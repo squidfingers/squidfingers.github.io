@@ -1,5 +1,7 @@
 @use "../abstracts";
 
-.project-blurb {
-  padding: abstracts.size(6) 0;
+@layer components {
+  .project-blurb {
+    padding: abstracts.size(6) 0;
+  }
 }

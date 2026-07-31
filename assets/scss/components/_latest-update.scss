@@ -1,22 +1,24 @@
 @use "../abstracts";
 
-.latest-update {
-  &__content {
-    margin-bottom: abstracts.$gap-lg;
-  }
-  &__footer {
-    text-align: center;
-
-    a {
-      @include abstracts.make-link;
-    }
-  }
-  @media (min-width: abstracts.breakpoint-min-width("md")) {
+@layer components {
+  .latest-update {
     &__content {
-      margin-bottom: abstracts.size(2);
+      margin-bottom: abstracts.$gap-lg;
     }
     &__footer {
-      text-align: right;
+      text-align: center;
+
+      a {
+        @include abstracts.make-link;
+      }
+    }
+    @media (min-width: abstracts.breakpoint-min-width("md")) {
+      &__content {
+        margin-bottom: abstracts.size(2);
+      }
+      &__footer {
+        text-align: right;
+      }
     }
   }
 }

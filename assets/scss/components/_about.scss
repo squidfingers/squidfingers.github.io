@@ -1,41 +1,43 @@
 @use "../abstracts";
 
-.about {
-  figure {
-    position: relative;
-    z-index: (abstracts.$header-zindex + 1);
-    margin-top: -(abstracts.size(13));
-    margin-bottom: abstracts.size(6);
+@layer components {
+  .about {
+    figure {
+      position: relative;
+      z-index: (abstracts.$header-zindex + 1);
+      margin-top: -(abstracts.size(13));
+      margin-bottom: abstracts.size(6);
 
-    img {
-      display: block;
-      margin: 0 auto;
-      width: 200px;
-      clip-path: circle(50% at 50% 50%);
-    }
-  }
-
-  // Animation
-  &.in-view--start {
-    img {
-      opacity: 0;
-    }
-    .prose p {
-      opacity: 0;
-      transform: translate(0, abstracts.$gap);
-    }
-    &.in-view--end {
       img {
-        opacity: 1;
-        transition: opacity 1s ease;
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        clip-path: circle(50% at 50% 50%);
+      }
+    }
+
+    // Animation
+    &.in-view--start {
+      img {
+        opacity: 0;
       }
       .prose p {
-        opacity: 1;
-        transform: translate(0, 0);
-        transition: opacity 1s ease, transform 2s abstracts.$easeOutQuad;
+        opacity: 0;
+        transform: translate(0, abstracts.$gap);
+      }
+      &.in-view--end {
+        img {
+          opacity: 1;
+          transition: opacity 1s ease;
+        }
+        .prose p {
+          opacity: 1;
+          transform: translate(0, 0);
+          transition: opacity 1s ease, transform 2s abstracts.$easeOutQuad;
 
-        &:nth-child(2) {
-          transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
+          &:nth-child(2) {
+            transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
+          }
         }
       }
     }
