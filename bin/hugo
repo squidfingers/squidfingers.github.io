@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+set -eu
+
+version=0.164.0
+
+bindir=$( cd "${0%/*}" && pwd )
+targetbin=$( cd "$bindir"/.. && pwd )/target/bin
+bin=$targetbin/hugo-$version
+
+if [ ! -f "$bin" ]; then
+  mkdir -p "$targetbin"
+  if [ "$(uname -s)" = Darwin ]; then
+    url="https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_${version}_darwin-universal.pkg"
+    pkgdir=$(mktemp -d)
+    curl -sLf "$url" -o "$pkgdir/hugo.pkg"
+    pkgutil --expand-full "$pkgdir/hugo.pkg" "$pkgdir/expanded"
+    cp "$pkgdir/expanded/Payload/hugo" "$bin"
+    rm -rf "$pkgdir"
+  elif [ "$(uname -s)" = Linux ]; then
+    if [ "$(uname -m)" = x86_64 ]; then
+      arch=amd64
+    elif [ "$(uname -m)" = arm64 ]; then
+      arch=arm64
+    else
+      echo "Unsupported arch: $(uname -m)" >&2
+      exit 1
+    fi
+    url="https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_${version}_linux-${arch}.tar.gz"
+    curl -sLf "$url" | tar -Oxvz "hugo" > "$bin"
+  else
+    echo "Unsupported OS: $(uname -s)" >&2
+    exit 1
+  fi
+  chmod +x "$bin"
+fi
+
+# Hugo shells out to a "sass" executable on PATH to compile SCSS with the
+# dartsass transpiler; make sure our pinned copy is reachable.
+PATH="$bindir:$PATH" "$bin" "$@"

@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+set -eu
+
+version=1.102.0
+
+bindir=$( cd "${0%/*}" && pwd )
+targetbin=$( cd "$bindir"/.. && pwd )/target/bin
+dir=$targetbin/dart-sass-$version
+bin=$dir/sass
+
+if [ ! -f "$bin" ]; then
+  if [ "$(uname -s)" = Darwin ]; then
+    os=macos
+  elif [ "$(uname -s)" = Linux ]; then
+    os=linux
+  else
+    echo "Unsupported OS: $(uname -s)" >&2
+    exit 1
+  fi
+  if [ "$(uname -m)" = x86_64 ]; then
+    arch=x64
+  elif [ "$(uname -m)" = arm64 ]; then
+    arch=arm64
+  else
+    echo "Unsupported arch: $(uname -m)" >&2
+    exit 1
+  fi
+  url="https://github.com/sass/dart-sass/releases/download/${version}/dart-sass-${version}-${os}-${arch}.tar.gz"
+  mkdir -p "$targetbin"
+  rm -rf "$dir"
+  curl -sLf "$url" | tar -C "$targetbin" -xz
+  mv "$targetbin/dart-sass" "$dir"
+fi
+
+"$bin" "$@"
