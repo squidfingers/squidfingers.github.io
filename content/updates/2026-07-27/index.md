@@ -6,6 +6,8 @@ tags:
 
 These days, my version of touching grass is making prints with Legos. I love the constraints and planning that goes into it. With school starting up soon, I’ve been working on some bookmarks for the kids in my son’s class.
 
+![Fox](fox.jpg)
+
 {{< grid "2col" >}}
 
 ![1](01.jpg)
