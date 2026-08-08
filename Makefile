@@ -1,10 +1,10 @@
 .PHONY: serve build clean
 
 serve:
-  bin/hugo server --cleanDestinationDir
+	bin/hugo server --cleanDestinationDir
 
 build:
-  bin/hugo --gc --cleanDestinationDir --minify
+	bin/hugo --gc --cleanDestinationDir --minify
 
 clean:
-  rm -rf public resources target
+	rm -rf public resources target
