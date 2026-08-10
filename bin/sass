@@ -29,7 +29,7 @@ if [ ! -f "$bin" ]; then
   url="https://github.com/sass/dart-sass/releases/download/${version}/dart-sass-${version}-${os}-${arch}.tar.gz"
   mkdir -p "$targetbin"
   rm -rf "$dir"
-  curl -sLf "$url" | tar -C "$targetbin" -xz
+  curl -sLf --connect-timeout 10 --max-time 120 "$url" | tar -C "$targetbin" -xz
   mv "$targetbin/dart-sass" "$dir"
 fi
 

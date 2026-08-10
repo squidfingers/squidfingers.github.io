@@ -13,7 +13,7 @@ if [ ! -f "$bin" ]; then
   if [ "$(uname -s)" = Darwin ]; then
     url="https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_${version}_darwin-universal.pkg"
     pkgdir=$(mktemp -d)
-    curl -sLf "$url" -o "$pkgdir/hugo.pkg"
+    curl -sLf --connect-timeout 10 --max-time 120 "$url" -o "$pkgdir/hugo.pkg"
     pkgutil --expand-full "$pkgdir/hugo.pkg" "$pkgdir/expanded"
     cp "$pkgdir/expanded/Payload/hugo" "$bin"
     rm -rf "$pkgdir"
@@ -27,7 +27,7 @@ if [ ! -f "$bin" ]; then
       exit 1
     fi
     url="https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_${version}_linux-${arch}.tar.gz"
-    curl -sLf "$url" | tar -Oxvz "hugo" > "$bin"
+    curl -sLf --connect-timeout 10 --max-time 120 "$url" | tar -Oxvz "hugo" > "$bin"
   else
     echo "Unsupported OS: $(uname -s)" >&2
     exit 1
