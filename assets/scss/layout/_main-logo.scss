@@ -39,5 +39,50 @@
         font-size: abstracts.$font-size-h1;
       }
     }
+
+    // Animation
+    &.main-logo--home {
+      &.in-view--start {
+        rect {
+          transform: scale(0);
+          transform-box: fill-box;
+        }
+        rect:nth-child(1),
+        rect:nth-child(4) {
+          transform-origin: left center;
+          transform: scaleX(0);
+        }
+        rect:nth-child(2) {
+          transform-origin: center top;
+          transform: scaleY(0);
+        }
+        rect:nth-child(3) {
+          transform-origin: center bottom;
+          transform: scaleY(0);
+        }
+      }
+      &.in-view--end {
+        rect {
+          animation: main-logo-grow 150ms abstracts.$easeOutQuad forwards;
+        }
+        rect:nth-child(1) {
+          animation-delay: 0ms;
+        }
+        rect:nth-child(2) {
+          animation-delay: 200ms;
+        }
+        rect:nth-child(3) {
+          animation-delay: 400ms;
+        }
+        rect:nth-child(4) {
+          animation-delay: 600ms;
+        }
+      }
+    }
+  }
+  @keyframes main-logo-grow {
+    to {
+      transform: scale(1);
+    }
   }
 }

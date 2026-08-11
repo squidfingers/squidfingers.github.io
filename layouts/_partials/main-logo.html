@@ -1,5 +1,5 @@
 {{ $logo := readFile "/static/images/logo.svg" | htmlUnescape | safeHTML }}
-<div class="main-logo">
+<div class="main-logo{{ if .IsHome }} main-logo--home{{ end }} | in-view">
   {{ if .IsHome }}
     {{ $logo }}
   {{ else }}
