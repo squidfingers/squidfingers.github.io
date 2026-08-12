@@ -7,6 +7,14 @@
     border: abstracts.$border-primary;
     border-radius: 999px;
     font-size: abstracts.$font-size-sm;
+    white-space: nowrap;
+
+    // @options
+
+    &.tag--lg {
+      padding: abstracts.size(0.5) abstracts.size(2);
+      font-size: abstracts.$font-size-lg;
+    }
   }
   a.tag {
     &:hover {

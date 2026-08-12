@@ -1,9 +1,9 @@
 {{ define "main" }}
   <div class="container--xl">
-    <ul class="tag-list tag-list--vertical">
+    <ul class="tag-list tag-list--lg">
       {{ range .Data.Terms.ByCount }}
         <li>
-          <a href="{{ .Page.RelPermalink }}" class="tag">
+          <a href="{{ .Page.RelPermalink }}" class="tag tag--lg">
             {{ .Page.Title  | humanize | title }} ({{ .Count }})
           </a>
         </li>

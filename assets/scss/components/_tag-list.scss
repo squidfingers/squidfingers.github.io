@@ -3,12 +3,17 @@
 @layer components {
   .tag-list {
     display: flex;
+    flex-wrap: wrap;
     gap: abstracts.size(1);
 
     // @options
 
     &.tag-list--vertical {
       flex-direction: column;
+    }
+
+    &.tag-list--lg {
+      gap: abstracts.size(3);
     }
   }
 }
