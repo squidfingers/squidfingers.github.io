@@ -5,6 +5,16 @@
     // Position above .main-footer
     position: relative;
     z-index: 1;
+    min-height: 100vh;
     background-color: abstracts.$gray-50;
+  }
+  @media (min-width: abstracts.breakpoint-min-width("lg")) {
+    body.js-enabled {
+      // When the header is fixed at the lg or larger breakpoint, the body has a top padding equal to the header height.
+      // This amount needs to be subtracted from 100vh, so main-body correctly fills the height of the window.
+      .main-body {
+        min-height: calc(100vh - var(--header-height));
+      }
+    }
   }
 }

@@ -3,9 +3,9 @@
 @layer layout {
   // Only fix header on lg breakpoint and larger
   @media (min-width: abstracts.breakpoint-min-width("lg")) {
-    // Only apply styles if javascript is enabled
+    // Only apply styles if JavaScript is enabled
     body.js-enabled {
-      padding-top: abstracts.$header-height;
+      padding-top: var(--header-height);
 
       .main-header {
         position: fixed;
