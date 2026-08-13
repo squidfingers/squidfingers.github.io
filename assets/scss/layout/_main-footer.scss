@@ -60,11 +60,8 @@
 
     // Animation
     [class^=container] {
-      transform: translateY(calc((1 - var(--footer-reveal, 1)) * #{abstracts.size(6)}));
-
-      @media (prefers-reduced-motion: no-preference) {
-        transition: transform 0.2s linear;
-      }
+      transform: translateY(calc((1 - var(--footer-reveal, 1)) * #{abstracts.size(10)}));
+      opacity: var(--footer-reveal, 1);
     }
   }
 }
