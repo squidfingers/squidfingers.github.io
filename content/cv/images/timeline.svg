@@ -17,7 +17,7 @@
 #lookandfeel {
   animation: kf_lookandfeel_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Bernstein-Rein_transform_0 {
   0% {
@@ -56,7 +56,7 @@
     kf_Bernstein-Rein_transform_0 auto linear both,
     kf_Bernstein-Rein_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Liquid_9_transform_0 {
   0% {
@@ -95,7 +95,7 @@
     kf_Liquid_9_transform_0 auto linear both,
     kf_Liquid_9_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_MMGY_transform_0 {
   0% {
@@ -134,7 +134,7 @@
     kf_MMGY_transform_0 auto linear both,
     kf_MMGY_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Hitched_Up_transform_0 {
   0% {
@@ -173,7 +173,7 @@
     kf_Hitched_Up_transform_0 auto linear both,
     kf_Hitched_Up_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Minted_transform_0 {
   0% {
@@ -212,7 +212,7 @@
     kf_Minted_transform_0 auto linear both,
     kf_Minted_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Buoyant_transform_0 {
   0% {
@@ -251,7 +251,7 @@
     kf_Buoyant_transform_0 auto linear both,
     kf_Buoyant_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf__2000_opacity_0 {
   0% {
@@ -269,7 +269,7 @@
 #_2000 {
   animation: kf__2000_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf__2004_transform_0 {
   0% {
@@ -308,7 +308,7 @@
     kf__2004_transform_0 auto linear both,
     kf__2004_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf__2009_transform_0 {
   0% {
@@ -347,7 +347,7 @@
     kf__2009_transform_0 auto linear both,
     kf__2009_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf__2011_transform_0 {
   0% {
@@ -386,7 +386,7 @@
     kf__2011_transform_0 auto linear both,
     kf__2011_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf__2013_transform_0 {
   0% {
@@ -425,7 +425,7 @@
     kf__2013_transform_0 auto linear both,
     kf__2013_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf__2015_transform_0 {
   0% {
@@ -464,7 +464,7 @@
     kf__2015_transform_0 auto linear both,
     kf__2015_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf__2019_transform_0 {
   0% {
@@ -503,7 +503,7 @@
     kf__2019_transform_0 auto linear both,
     kf__2019_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Marker_opacity_0 {
   0% {
@@ -521,7 +521,7 @@
 #Marker {
   animation: kf_Marker_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Marker_2_opacity_0 {
   0% {
@@ -543,7 +543,7 @@
 #Marker_2 {
   animation: kf_Marker_2_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Marker_3_opacity_0 {
   0% {
@@ -565,7 +565,7 @@
 #Marker_3 {
   animation: kf_Marker_3_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Marker_4_opacity_0 {
   0% {
@@ -587,7 +587,7 @@
 #Marker_4 {
   animation: kf_Marker_4_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Marker_5_opacity_0 {
   0% {
@@ -609,7 +609,7 @@
 #Marker_5 {
   animation: kf_Marker_5_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Marker_6_opacity_0 {
   0% {
@@ -631,7 +631,7 @@
 #Marker_6 {
   animation: kf_Marker_6_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Marker_7_opacity_0 {
   0% {
@@ -653,7 +653,7 @@
 #Marker_7 {
   animation: kf_Marker_7_opacity_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @keyframes kf_Mask_width_0 {
   0% { width: 0px; }
@@ -662,7 +662,7 @@
 #Mask {
   animation: kf_Mask_width_0 auto linear both;
   animation-timeline: view();
-  animation-range: cover 0% cover 70%;
+  animation-range: cover 10% cover 70%;
 }
 @supports not (animation-timeline: view()) {
   #lookandfeel { animation: none; opacity: 1; }
