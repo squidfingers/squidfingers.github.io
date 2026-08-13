@@ -1,13 +1,10 @@
-<!-- Animated in Figma -->
 <svg width="1050" height="82" viewBox="0 0 1050 82" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
 @keyframes kf_lookandfeel_opacity_0 {
   0% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
     opacity: 0;
   }
-  1.7% {
-    animation-timing-function: linear;
+  2% {
     opacity: 1;
   }
   100% {
@@ -26,7 +23,7 @@
   18% {
     transform: translateX(129px) translateX(-10px) translateY(0px);
   }
-  19.57% {
+  20% {
     transform: translateX(129px) translateX(0px) translateY(0px);
   }
   100% {
@@ -35,15 +32,12 @@
 }
 @keyframes kf_Bernstein-Rein_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  17.9% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  18% {
     opacity: 0;
   }
-  19.57% {
-    animation-timing-function: linear;
+  20% {
     opacity: 1;
   }
   100% {
@@ -65,7 +59,7 @@
   36% {
     transform: translateX(345px) translateX(-10px) translateY(0px);
   }
-  37.51% {
+  38% {
     transform: translateX(345px) translateX(0px) translateY(0px);
   }
   100% {
@@ -74,15 +68,12 @@
 }
 @keyframes kf_Liquid_9_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  35.9% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  36% {
     opacity: 0;
   }
-  37.51% {
-    animation-timing-function: linear;
+  38% {
     opacity: 1;
   }
   100% {
@@ -101,10 +92,10 @@
   0% {
     transform: translateX(438px) translateX(-10px) translateY(0px);
   }
-  44.6% {
+  45% {
     transform: translateX(438px) translateX(-10px) translateY(0px);
   }
-  46.13% {
+  47% {
     transform: translateX(438px) translateX(0px) translateY(0px);
   }
   100% {
@@ -113,15 +104,12 @@
 }
 @keyframes kf_MMGY_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  44.6% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  45% {
     opacity: 0;
   }
-  46.13% {
-    animation-timing-function: linear;
+  47% {
     opacity: 1;
   }
   100% {
@@ -140,10 +128,10 @@
   0% {
     transform: translateX(488px) translateX(-10px) translateY(0px);
   }
-  49.2% {
+  49% {
     transform: translateX(488px) translateX(-10px) translateY(0px);
   }
-  50.89% {
+  51% {
     transform: translateX(488px) translateX(0px) translateY(0px);
   }
   100% {
@@ -152,15 +140,12 @@
 }
 @keyframes kf_Hitched_Up_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  49.2% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  49% {
     opacity: 0;
   }
-  50.89% {
-    animation-timing-function: linear;
+  51% {
     opacity: 1;
   }
   100% {
@@ -179,10 +164,10 @@
   0% {
     transform: translateX(584px) translateX(-10px) translateY(0px);
   }
-  56.3% {
+  56% {
     transform: translateX(584px) translateX(-10px) translateY(0px);
   }
-  57.98% {
+  58% {
     transform: translateX(584px) translateX(0px) translateY(0px);
   }
   100% {
@@ -191,15 +176,12 @@
 }
 @keyframes kf_Minted_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  56.3% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  56% {
     opacity: 0;
   }
-  57.98% {
-    animation-timing-function: linear;
+  58% {
     opacity: 1;
   }
   100% {
@@ -218,10 +200,10 @@
   0% {
     transform: translateX(740px) translateX(-10px) translateY(0px);
   }
-  73.2% {
+  72% {
     transform: translateX(740px) translateX(-10px) translateY(0px);
   }
-  74.84% {
+  74% {
     transform: translateX(740px) translateX(0px) translateY(0px);
   }
   100% {
@@ -230,15 +212,12 @@
 }
 @keyframes kf_Buoyant_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  73.2% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  72% {
     opacity: 0;
   }
-  74.84% {
-    animation-timing-function: linear;
+  74% {
     opacity: 1;
   }
   100% {
@@ -255,11 +234,9 @@
 }
 @keyframes kf__2000_opacity_0 {
   0% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
     opacity: 0;
   }
-  1.7% {
-    animation-timing-function: linear;
+  2% {
     opacity: 1;
   }
   100% {
@@ -275,10 +252,10 @@
   0% {
     transform: translateX(173px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  19.6% {
+  20% {
     transform: translateX(173px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  21.25% {
+  22% {
     transform: translateX(173px) translateY(66px) translateX(0px) translateY(0px);
   }
   100% {
@@ -287,15 +264,12 @@
 }
 @keyframes kf__2004_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  19.6% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  20% {
     opacity: 0;
   }
-  21.25% {
-    animation-timing-function: linear;
+  22% {
     opacity: 1;
   }
   100% {
@@ -314,10 +288,10 @@
   0% {
     transform: translateX(362px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  37.6% {
+  38% {
     transform: translateX(362px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  39.28% {
+  40% {
     transform: translateX(362px) translateY(66px) translateX(0px) translateY(0px);
   }
   100% {
@@ -326,15 +300,12 @@
 }
 @keyframes kf__2009_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  37.6% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  38% {
     opacity: 0;
   }
-  39.28% {
-    animation-timing-function: linear;
+  40% {
     opacity: 1;
   }
   100% {
@@ -353,10 +324,10 @@
   0% {
     transform: translateX(449px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  46.2% {
+  47% {
     transform: translateX(449px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  47.91% {
+  49% {
     transform: translateX(449px) translateY(66px) translateX(0px) translateY(0px);
   }
   100% {
@@ -365,15 +336,12 @@
 }
 @keyframes kf__2011_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  46.2% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  47% {
     opacity: 0;
   }
-  47.91% {
-    animation-timing-function: linear;
+  49% {
     opacity: 1;
   }
   100% {
@@ -392,10 +360,10 @@
   0% {
     transform: translateX(503px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  50.9% {
+  51% {
     transform: translateX(503px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  52.58% {
+  53% {
     transform: translateX(503px) translateY(66px) translateX(0px) translateY(0px);
   }
   100% {
@@ -404,15 +372,12 @@
 }
 @keyframes kf__2013_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  50.9% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  51% {
     opacity: 0;
   }
-  52.58% {
-    animation-timing-function: linear;
+  53% {
     opacity: 1;
   }
   100% {
@@ -431,10 +396,10 @@
   0% {
     transform: translateX(575px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  58.1% {
+  58% {
     transform: translateX(575px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  59.73% {
+  60% {
     transform: translateX(575px) translateY(66px) translateX(0px) translateY(0px);
   }
   100% {
@@ -443,15 +408,12 @@
 }
 @keyframes kf__2015_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  58.1% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  58% {
     opacity: 0;
   }
-  59.73% {
-    animation-timing-function: linear;
+  60% {
     opacity: 1;
   }
   100% {
@@ -473,7 +435,7 @@
   75% {
     transform: translateX(755px) translateY(66px) translateX(0px) translateY(-10px);
   }
-  76.64% {
+  77% {
     transform: translateX(755px) translateY(66px) translateX(0px) translateY(0px);
   }
   100% {
@@ -482,15 +444,12 @@
 }
 @keyframes kf__2019_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  75% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  74% {
     opacity: 0;
   }
-  76.64% {
-    animation-timing-function: linear;
+  76% {
     opacity: 1;
   }
   100% {
@@ -507,11 +466,9 @@
 }
 @keyframes kf_Marker_opacity_0 {
   0% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
     opacity: 0;
   }
-  1.7% {
-    animation-timing-function: linear;
+  2% {
     opacity: 1;
   }
   100% {
@@ -528,12 +485,10 @@
     animation-timing-function: linear;
     opacity: 0;
   }
-  17.9% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  18% {
     opacity: 0;
   }
-  19.57% {
-    animation-timing-function: linear;
+  20% {
     opacity: 1;
   }
   100% {
@@ -547,15 +502,12 @@
 }
 @keyframes kf_Marker_3_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  35.9% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  36% {
     opacity: 0;
   }
-  37.51% {
-    animation-timing-function: linear;
+  38% {
     opacity: 1;
   }
   100% {
@@ -569,15 +521,12 @@
 }
 @keyframes kf_Marker_4_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  44.5% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  45% {
     opacity: 0;
   }
-  46.13% {
-    animation-timing-function: linear;
+  47% {
     opacity: 1;
   }
   100% {
@@ -591,15 +540,12 @@
 }
 @keyframes kf_Marker_5_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  49.2% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  49% {
     opacity: 0;
   }
-  50.89% {
-    animation-timing-function: linear;
+  51% {
     opacity: 1;
   }
   100% {
@@ -613,15 +559,12 @@
 }
 @keyframes kf_Marker_6_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  56.3% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  56% {
     opacity: 0;
   }
-  57.98% {
-    animation-timing-function: linear;
+  58% {
     opacity: 1;
   }
   100% {
@@ -635,15 +578,12 @@
 }
 @keyframes kf_Marker_7_opacity_0 {
   0% {
-    animation-timing-function: linear;
     opacity: 0;
   }
-  73.2% {
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+  72% {
     opacity: 0;
   }
-  74.84% {
-    animation-timing-function: linear;
+  74% {
     opacity: 1;
   }
   100% {
@@ -665,6 +605,7 @@
   animation-range: cover 10% cover 70%;
 }
 @supports not (animation-timeline: view()) {
+  /* Show the animation end-state for browsers that don't support "animation-timeline: view()" */
   #lookandfeel { animation: none; opacity: 1; }
   #Bernstein-Rein { animation: none; transform: translateX(129px) translateX(0px) translateY(0px); opacity: 1; }
   #Liquid_9 { animation: none; transform: translateX(345px) translateX(0px) translateY(0px); opacity: 1; }
@@ -689,387 +630,387 @@
   #Mask { animation: none; width: 1050px; }
 }
 </style>
-<g id="timeline">
-<rect width="1050" height="82" id="timeline_bg_0" fill="#F8F7F6">
+<g>
+<rect width="1050" height="82" fill="#F8F7F6">
 </rect>
-<g id="Years" transform="translate(1 46)">
-<g id="Year">
-<rect id="Rectangle" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_2" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_3" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_4" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_5" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_6" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_7" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_8" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_9" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_10" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_11" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_12" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(1 46)">
+<g>
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_2" transform="translate(39)">
-<rect id="Rectangle_13" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_14" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_15" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_16" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_17" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_18" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_19" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_20" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_21" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_22" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_23" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_24" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(39)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_3" transform="translate(78)">
-<rect id="Rectangle_25" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_26" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_27" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_28" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_29" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_30" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_31" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_32" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_33" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_34" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_35" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_36" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(78)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_4" transform="translate(117)">
-<rect id="Rectangle_37" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_38" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_39" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_40" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_41" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_42" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_43" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_44" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_45" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_46" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_47" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_48" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(117)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_5" transform="translate(156)">
-<rect id="Rectangle_49" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_50" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_51" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_52" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_53" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_54" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_55" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_56" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_57" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_58" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_59" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_60" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(156)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_6" transform="translate(195)">
-<rect id="Rectangle_61" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_62" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_63" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_64" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_65" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_66" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_67" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_68" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_69" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_70" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_71" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_72" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(195)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_7" transform="translate(234)">
-<rect id="Rectangle_73" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_74" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_75" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_76" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_77" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_78" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_79" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_80" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_81" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_82" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_83" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_84" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(234)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_8" transform="translate(273)">
-<rect id="Rectangle_85" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_86" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_87" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_88" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_89" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_90" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_91" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_92" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_93" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_94" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_95" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_96" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(273)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_9" transform="translate(312)">
-<rect id="Rectangle_97" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_98" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_99" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_100" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_101" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_102" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_103" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_104" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_105" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_106" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_107" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_108" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(312)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_10" transform="translate(351)">
-<rect id="Rectangle_109" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_110" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_111" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_112" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_113" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_114" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_115" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_116" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_117" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_118" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_119" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_120" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(351)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_11" transform="translate(390)">
-<rect id="Rectangle_121" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_122" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_123" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_124" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_125" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_126" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_127" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_128" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_129" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_130" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_131" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_132" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(390)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_12" transform="translate(429)">
-<rect id="Rectangle_133" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_134" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_135" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_136" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_137" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_138" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_139" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_140" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_141" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_142" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_143" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_144" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(429)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_13" transform="translate(468)">
-<rect id="Rectangle_145" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_146" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_147" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_148" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_149" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_150" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_151" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_152" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_153" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_154" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_155" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_156" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(468)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_14" transform="translate(507)">
-<rect id="Rectangle_157" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_158" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_159" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_160" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_161" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_162" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_163" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_164" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_165" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_166" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_167" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_168" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(507)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_15" transform="translate(546)">
-<rect id="Rectangle_169" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_170" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_171" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_172" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_173" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_174" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_175" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_176" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_177" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_178" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_179" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_180" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(546)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_16" transform="translate(585)">
-<rect id="Rectangle_181" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_182" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_183" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_184" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_185" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_186" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_187" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_188" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_189" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_190" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_191" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_192" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(585)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_17" transform="translate(624)">
-<rect id="Rectangle_193" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_194" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_195" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_196" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_197" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_198" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_199" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_200" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_201" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_202" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_203" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_204" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(624)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_18" transform="translate(663)">
-<rect id="Rectangle_205" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_206" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_207" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_208" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_209" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_210" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_211" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_212" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_213" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_214" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_215" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_216" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(663)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_19" transform="translate(702)">
-<rect id="Rectangle_217" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_218" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_219" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_220" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_221" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_222" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_223" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_224" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_225" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_226" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_227" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_228" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(702)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_20" transform="translate(741)">
-<rect id="Rectangle_229" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_230" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_231" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_232" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_233" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_234" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_235" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_236" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_237" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_238" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_239" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_240" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(741)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_21" transform="translate(780)">
-<rect id="Rectangle_241" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_242" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_243" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_244" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_245" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_246" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_247" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_248" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_249" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_250" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_251" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_252" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(780)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_22" transform="translate(819)">
-<rect id="Rectangle_253" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_254" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_255" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_256" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_257" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_258" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_259" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_260" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_261" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_262" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_263" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_264" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(819)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_23" transform="translate(858)">
-<rect id="Rectangle_265" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_266" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_267" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_268" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_269" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_270" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_271" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_272" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_273" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_274" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_275" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_276" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(858)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_24" transform="translate(897)">
-<rect id="Rectangle_277" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_278" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_279" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_280" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_281" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_282" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_283" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_284" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_285" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_286" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_287" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_288" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(897)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_25" transform="translate(936)">
-<rect id="Rectangle_289" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_290" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_291" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_292" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_293" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_294" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_295" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_296" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_297" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_298" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_299" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_300" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(936)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_26" transform="translate(975)">
-<rect id="Rectangle_301" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_302" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_303" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_304" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_305" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_306" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_307" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_308" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_309" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_310" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_311" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_312" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(975)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
-<g id="Year_27" transform="translate(1014)">
-<rect id="Rectangle_313" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_314" transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_315" transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_316" transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_317" transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_318" transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_319" transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_320" transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_321" transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_322" transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_323" transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
-<rect id="Rectangle_324" transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
+<g transform="translate(1014)">
+<rect width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(3)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(6)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(9)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(12)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(15)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(18)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(21)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(24)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(27)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(30)" width="2" height="10" fill="#D9D9D9"/>
+<rect transform="translate(33)" width="2" height="10" fill="#D9D9D9"/>
 </g>
 </g>
 <path id="lookandfeel" opacity="0" d="M1.12 13.048H3.64V4.592H1.12V3.64H4.76V13.048H7.28V14H1.12V13.048ZM12.5945 14.168C12.0905 14.168 11.6332 14.0793 11.2225 13.902C10.8212 13.7247 10.4759 13.4727 10.1865 13.146C9.90653 12.81 9.69186 12.4133 9.54253 11.956C9.3932 11.4893 9.31853 10.9667 9.31853 10.388C9.31853 9.81867 9.3932 9.30067 9.54253 8.834C9.69186 8.36733 9.90653 7.97067 10.1865 7.644C10.4759 7.308 10.8212 7.05133 11.2225 6.874C11.6332 6.69667 12.0905 6.608 12.5945 6.608C13.0985 6.608 13.5512 6.69667 13.9525 6.874C14.3632 7.05133 14.7085 7.308 14.9885 7.644C15.2779 7.97067 15.4972 8.36733 15.6465 8.834C15.7959 9.30067 15.8705 9.81867 15.8705 10.388C15.8705 10.9667 15.7959 11.4893 15.6465 11.956C15.4972 12.4133 15.2779 12.81 14.9885 13.146C14.7085 13.4727 14.3632 13.7247 13.9525 13.902C13.5512 14.0793 13.0985 14.168 12.5945 14.168ZM12.5945 13.202C13.2199 13.202 13.7239 13.0153 14.1065 12.642C14.4892 12.2687 14.6805 11.69 14.6805 10.906V9.87C14.6805 9.086 14.4892 8.50733 14.1065 8.134C13.7239 7.76067 13.2199 7.574 12.5945 7.574C11.9692 7.574 11.4652 7.76067 11.0825 8.134C10.6999 8.50733 10.5085 9.086 10.5085 9.87V10.906C10.5085 11.69 10.6999 12.2687 11.0825 12.642C11.4652 13.0153 11.9692 13.202 12.5945 13.202ZM20.9891 14.168C20.4851 14.168 20.0277 14.0793 19.6171 13.902C19.2157 13.7247 18.8704 13.4727 18.5811 13.146C18.3011 12.81 18.0864 12.4133 17.9371 11.956C17.7877 11.4893 17.7131 10.9667 17.7131 10.388C17.7131 9.81867 17.7877 9.30067 17.9371 8.834C18.0864 8.36733 18.3011 7.97067 18.5811 7.644C18.8704 7.308 19.2157 7.05133 19.6171 6.874C20.0277 6.69667 20.4851 6.608 20.9891 6.608C21.4931 6.608 21.9457 6.69667 22.3471 6.874C22.7577 7.05133 23.1031 7.308 23.3831 7.644C23.6724 7.97067 23.8917 8.36733 24.0411 8.834C24.1904 9.30067 24.2651 9.81867 24.2651 10.388C24.2651 10.9667 24.1904 11.4893 24.0411 11.956C23.8917 12.4133 23.6724 12.81 23.3831 13.146C23.1031 13.4727 22.7577 13.7247 22.3471 13.902C21.9457 14.0793 21.4931 14.168 20.9891 14.168ZM20.9891 13.202C21.6144 13.202 22.1184 13.0153 22.5011 12.642C22.8837 12.2687 23.0751 11.69 23.0751 10.906V9.87C23.0751 9.086 22.8837 8.50733 22.5011 8.134C22.1184 7.76067 21.6144 7.574 20.9891 7.574C20.3637 7.574 19.8597 7.76067 19.4771 8.134C19.0944 8.50733 18.9031 9.086 18.9031 9.87V10.906C18.9031 11.69 19.0944 12.2687 19.4771 12.642C19.8597 13.0153 20.3637 13.202 20.9891 13.202ZM26.6536 3.64H27.7736V10.178H27.8296L29.0896 8.988L31.4976 6.776H32.8696L29.8736 9.604L33.2196 14H31.8336L29.0196 10.248L27.7736 11.382V14H26.6536V3.64ZM40.5081 14C40.0695 14 39.7568 13.888 39.5701 13.664C39.3835 13.44 39.2668 13.16 39.2201 12.824H39.1501C38.9915 13.244 38.7348 13.5753 38.3801 13.818C38.0348 14.0513 37.5681 14.168 36.9801 14.168C36.2241 14.168 35.6221 13.972 35.1741 13.58C34.7261 13.188 34.5021 12.6513 34.5021 11.97C34.5021 11.298 34.7448 10.78 35.2301 10.416C35.7248 10.052 36.5181 9.87 37.6101 9.87H39.1501V9.156C39.1501 8.624 39.0008 8.22733 38.7021 7.966C38.4035 7.69533 37.9788 7.56 37.4281 7.56C36.9428 7.56 36.5461 7.658 36.2381 7.854C35.9301 8.04067 35.6828 8.29733 35.4961 8.624L34.7401 8.064C34.8335 7.87733 34.9595 7.69533 35.1181 7.518C35.2768 7.34067 35.4728 7.18667 35.7061 7.056C35.9395 6.916 36.2055 6.80867 36.5041 6.734C36.8028 6.65 37.1341 6.608 37.4981 6.608C38.3475 6.608 39.0195 6.82267 39.5141 7.252C40.0181 7.68133 40.2701 8.27867 40.2701 9.044V13.02H41.2781V14H40.5081ZM37.1761 13.23C37.4655 13.23 37.7268 13.1973 37.9601 13.132C38.2028 13.0573 38.4128 12.964 38.5901 12.852C38.7675 12.7307 38.9028 12.5907 38.9961 12.432C39.0988 12.264 39.1501 12.0867 39.1501 11.9V10.71H37.6101C36.9381 10.71 36.4481 10.8033 36.1401 10.99C35.8321 11.1767 35.6781 11.4473 35.6781 11.802V12.096C35.6781 12.4693 35.8088 12.754 36.0701 12.95C36.3408 13.1367 36.7095 13.23 37.1761 13.23ZM43.3447 14V6.776H44.4647V7.952H44.5207C44.5953 7.77467 44.6887 7.60667 44.8007 7.448C44.9127 7.28 45.048 7.13533 45.2067 7.014C45.3747 6.89267 45.5707 6.79467 45.7947 6.72C46.0187 6.64533 46.28 6.608 46.5787 6.608C47.3347 6.608 47.9413 6.85067 48.3987 7.336C48.856 7.812 49.0847 8.48867 49.0847 9.366V14H47.9647V9.562C47.9647 8.89933 47.82 8.40933 47.5307 8.092C47.2413 7.76533 46.8167 7.602 46.2567 7.602C46.0327 7.602 45.8133 7.63 45.5987 7.686C45.384 7.742 45.1927 7.826 45.0247 7.938C44.8567 8.05 44.7213 8.19467 44.6187 8.372C44.516 8.54933 44.4647 8.75467 44.4647 8.988V14H43.3447ZM56.3172 12.824H56.2612C55.7945 13.72 55.0525 14.168 54.0352 14.168C53.1485 14.168 52.4532 13.8367 51.9492 13.174C51.4545 12.5113 51.2072 11.5827 51.2072 10.388C51.2072 9.19333 51.4545 8.26467 51.9492 7.602C52.4532 6.93933 53.1485 6.608 54.0352 6.608C55.0525 6.608 55.7945 7.056 56.2612 7.952H56.3172V3.64H57.4372V14H56.3172V12.824ZM54.4692 13.174C54.7212 13.174 54.9592 13.1413 55.1832 13.076C55.4072 13.0107 55.6032 12.9173 55.7712 12.796C55.9392 12.6653 56.0699 12.5113 56.1632 12.334C56.2659 12.1473 56.3172 11.9327 56.3172 11.69V9.086C56.3172 8.84333 56.2659 8.63333 56.1632 8.456C56.0699 8.26933 55.9392 8.11533 55.7712 7.994C55.6032 7.86333 55.4072 7.76533 55.1832 7.7C54.9592 7.63467 54.7212 7.602 54.4692 7.602C53.8159 7.602 53.3072 7.80267 52.9432 8.204C52.5885 8.596 52.4112 9.11867 52.4112 9.772V11.004C52.4112 11.6573 52.5885 12.1847 52.9432 12.586C53.3072 12.978 53.8159 13.174 54.4692 13.174ZM59.9237 13.048H62.3597V7.728H59.7837V6.776H62.3597V5.292C62.3597 4.80667 62.4857 4.41 62.7377 4.102C62.9991 3.794 63.4051 3.64 63.9557 3.64H66.3777V4.592H63.4797V6.776H66.3777V7.728H63.4797V13.048H66.0557V14H59.9237V13.048ZM71.4823 14.168C70.9596 14.168 70.4883 14.0793 70.0683 13.902C69.6576 13.7247 69.3029 13.4727 69.0042 13.146C68.7149 12.81 68.4909 12.4133 68.3323 11.956C68.1736 11.4893 68.0943 10.9713 68.0943 10.402C68.0943 9.82333 68.1736 9.30067 68.3323 8.834C68.5003 8.36733 68.7289 7.97067 69.0183 7.644C69.3076 7.308 69.6529 7.05133 70.0543 6.874C70.4649 6.69667 70.9176 6.608 71.4123 6.608C71.8976 6.608 72.3363 6.69667 72.7283 6.874C73.1296 7.05133 73.4703 7.29867 73.7503 7.616C74.0303 7.924 74.2449 8.29267 74.3943 8.722C74.5436 9.15133 74.6183 9.62267 74.6183 10.136V10.668H69.2703V11.004C69.2703 11.3213 69.3216 11.6153 69.4243 11.886C69.5269 12.1567 69.6716 12.39 69.8583 12.586C70.0543 12.782 70.2876 12.936 70.5583 13.048C70.8383 13.1507 71.1463 13.202 71.4823 13.202C71.9676 13.202 72.3876 13.09 72.7423 12.866C73.0969 12.642 73.3676 12.334 73.5543 11.942L74.3803 12.502C74.1656 12.9873 73.8063 13.3887 73.3023 13.706C72.8076 14.014 72.2009 14.168 71.4823 14.168ZM71.4123 7.532C71.1043 7.532 70.8196 7.588 70.5583 7.7C70.2969 7.812 70.0683 7.966 69.8723 8.162C69.6856 8.358 69.5363 8.59133 69.4243 8.862C69.3216 9.12333 69.2703 9.41267 69.2703 9.73V9.828H73.4143V9.674C73.4143 9.35667 73.3629 9.06733 73.2603 8.806C73.1669 8.54467 73.0316 8.32067 72.8543 8.134C72.6863 7.938 72.4763 7.78867 72.2243 7.686C71.9816 7.58333 71.7109 7.532 71.4123 7.532ZM79.8768 14.168C79.3541 14.168 78.8828 14.0793 78.4628 13.902C78.0521 13.7247 77.6974 13.4727 77.3988 13.146C77.1094 12.81 76.8854 12.4133 76.7268 11.956C76.5681 11.4893 76.4888 10.9713 76.4888 10.402C76.4888 9.82333 76.5681 9.30067 76.7268 8.834C76.8948 8.36733 77.1234 7.97067 77.4128 7.644C77.7021 7.308 78.0474 7.05133 78.4488 6.874C78.8594 6.69667 79.3121 6.608 79.8068 6.608C80.2921 6.608 80.7308 6.69667 81.1228 6.874C81.5241 7.05133 81.8648 7.29867 82.1448 7.616C82.4248 7.924 82.6394 8.29267 82.7888 8.722C82.9381 9.15133 83.0128 9.62267 83.0128 10.136V10.668H77.6648V11.004C77.6648 11.3213 77.7161 11.6153 77.8188 11.886C77.9214 12.1567 78.0661 12.39 78.2528 12.586C78.4488 12.782 78.6821 12.936 78.9528 13.048C79.2328 13.1507 79.5408 13.202 79.8768 13.202C80.3621 13.202 80.7821 13.09 81.1368 12.866C81.4914 12.642 81.7621 12.334 81.9488 11.942L82.7748 12.502C82.5601 12.9873 82.2008 13.3887 81.6968 13.706C81.2021 14.014 80.5954 14.168 79.8768 14.168ZM79.8068 7.532C79.4988 7.532 79.2141 7.588 78.9528 7.7C78.6914 7.812 78.4628 7.966 78.2668 8.162C78.0801 8.358 77.9308 8.59133 77.8188 8.862C77.7161 9.12333 77.6648 9.41267 77.6648 9.73V9.828H81.8088V9.674C81.8088 9.35667 81.7574 9.06733 81.6548 8.806C81.5614 8.54467 81.4261 8.32067 81.2488 8.134C81.0808 7.938 80.8708 7.78867 80.6188 7.686C80.3761 7.58333 80.1054 7.532 79.8068 7.532ZM85.0653 13.048H87.5853V4.592H85.0653V3.64H88.7053V13.048H91.2253V14H85.0653V13.048Z" fill="#14161A"/>
@@ -1086,51 +1027,51 @@
 <path id="_2013" opacity="0" transform="translate(503 66)" d="M6.444 13H0.852V11.968L3.648 9.448C4.056 9.08 4.392 8.704 4.656 8.32C4.92 7.928 5.052 7.516 5.052 7.084V6.94C5.052 6.436 4.92 6.048 4.656 5.776C4.392 5.496 4 5.356 3.48 5.356C2.968 5.356 2.572 5.488 2.292 5.752C2.02 6.008 1.816 6.352 1.68 6.784L0.78 6.448C0.86 6.2 0.968 5.96 1.104 5.728C1.248 5.488 1.428 5.276 1.644 5.092C1.86 4.908 2.12 4.76 2.424 4.648C2.736 4.536 3.096 4.48 3.504 4.48C3.92 4.48 4.288 4.54 4.608 4.66C4.936 4.78 5.208 4.948 5.424 5.164C5.648 5.38 5.816 5.636 5.928 5.932C6.048 6.228 6.108 6.552 6.108 6.904C6.108 7.224 6.06 7.524 5.964 7.804C5.876 8.084 5.748 8.352 5.58 8.608C5.42 8.864 5.224 9.116 4.992 9.364C4.768 9.604 4.516 9.844 4.236 10.084L1.896 12.124H6.444V13ZM10.7953 13.144C10.2833 13.144 9.84331 13.048 9.47531 12.856C9.10731 12.656 8.80331 12.372 8.56331 12.004C8.32331 11.636 8.14731 11.184 8.03531 10.648C7.92331 10.112 7.86731 9.5 7.86731 8.812C7.86731 8.132 7.92331 7.524 8.03531 6.988C8.14731 6.444 8.32331 5.988 8.56331 5.62C8.80331 5.252 9.10731 4.972 9.47531 4.78C9.84331 4.58 10.2833 4.48 10.7953 4.48C11.3073 4.48 11.7473 4.58 12.1153 4.78C12.4833 4.972 12.7873 5.252 13.0273 5.62C13.2673 5.988 13.4433 6.444 13.5553 6.988C13.6673 7.524 13.7233 8.132 13.7233 8.812C13.7233 9.5 13.6673 10.112 13.5553 10.648C13.4433 11.184 13.2673 11.636 13.0273 12.004C12.7873 12.372 12.4833 12.656 12.1153 12.856C11.7473 13.048 11.3073 13.144 10.7953 13.144ZM10.7953 12.268C11.1313 12.268 11.4193 12.204 11.6593 12.076C11.8993 11.94 12.0913 11.752 12.2353 11.512C12.3873 11.272 12.4993 10.984 12.5713 10.648C12.6433 10.304 12.6793 9.92 12.6793 9.496V8.128C12.6793 7.712 12.6433 7.332 12.5713 6.988C12.4993 6.644 12.3873 6.352 12.2353 6.112C12.0913 5.872 11.8993 5.688 11.6593 5.56C11.4193 5.424 11.1313 5.356 10.7953 5.356C10.4593 5.356 10.1713 5.424 9.93131 5.56C9.69131 5.688 9.49531 5.872 9.34331 6.112C9.19931 6.352 9.09131 6.644 9.01931 6.988C8.94731 7.332 8.91131 7.712 8.91131 8.128V9.496C8.91131 9.92 8.94731 10.304 9.01931 10.648C9.09131 10.984 9.19931 11.272 9.34331 11.512C9.49531 11.752 9.69131 11.94 9.93131 12.076C10.1713 12.204 10.4593 12.268 10.7953 12.268ZM10.7953 9.52C10.5153 9.52 10.3193 9.464 10.2073 9.352C10.1033 9.24 10.0513 9.104 10.0513 8.944V8.68C10.0513 8.52 10.1033 8.384 10.2073 8.272C10.3193 8.16 10.5153 8.104 10.7953 8.104C11.0753 8.104 11.2673 8.16 11.3713 8.272C11.4833 8.384 11.5393 8.52 11.5393 8.68V8.944C11.5393 9.104 11.4833 9.24 11.3713 9.352C11.2673 9.464 11.0753 9.52 10.7953 9.52ZM15.4106 13V12.124H17.8106V5.368H17.7266L15.6146 7.336L15.0266 6.7L17.2466 4.624H18.8186V12.124H21.0266V13H15.4106ZM24.8259 8.176C25.4099 8.176 25.8459 8.048 26.1339 7.792C26.4299 7.528 26.5779 7.192 26.5779 6.784V6.7C26.5779 6.252 26.4339 5.916 26.1459 5.692C25.8659 5.468 25.4979 5.356 25.0419 5.356C24.5939 5.356 24.2299 5.456 23.9499 5.656C23.6779 5.848 23.4539 6.104 23.2779 6.424L22.5219 5.848C22.6259 5.68 22.7539 5.516 22.9059 5.356C23.0579 5.188 23.2339 5.04 23.4339 4.912C23.6419 4.784 23.8779 4.68 24.1419 4.6C24.4139 4.52 24.7219 4.48 25.0659 4.48C25.4259 4.48 25.7619 4.528 26.0739 4.624C26.3859 4.712 26.6579 4.848 26.8899 5.032C27.1219 5.208 27.3019 5.428 27.4299 5.692C27.5659 5.956 27.6339 6.256 27.6339 6.592C27.6339 6.864 27.5899 7.108 27.5019 7.324C27.4219 7.54 27.3059 7.728 27.1539 7.888C27.0099 8.048 26.8379 8.184 26.6379 8.296C26.4379 8.408 26.2259 8.492 26.0019 8.548V8.596C26.2339 8.644 26.4579 8.724 26.6739 8.836C26.8899 8.94 27.0819 9.08 27.2499 9.256C27.4179 9.424 27.5499 9.632 27.6459 9.88C27.7499 10.12 27.8019 10.396 27.8019 10.708C27.8019 11.068 27.7299 11.4 27.5859 11.704C27.4499 12 27.2539 12.256 26.9979 12.472C26.7499 12.68 26.4459 12.844 26.0859 12.964C25.7339 13.084 25.3419 13.144 24.9099 13.144C24.5419 13.144 24.2139 13.104 23.9259 13.024C23.6459 12.944 23.3939 12.836 23.1699 12.7C22.9539 12.564 22.7619 12.412 22.5939 12.244C22.4339 12.076 22.2899 11.9 22.1619 11.716L22.9179 11.14C23.0299 11.308 23.1459 11.46 23.2659 11.596C23.3859 11.732 23.5219 11.852 23.6739 11.956C23.8339 12.052 24.0139 12.128 24.2139 12.184C24.4139 12.24 24.6459 12.268 24.9099 12.268C25.5019 12.268 25.9539 12.132 26.2659 11.86C26.5859 11.588 26.7459 11.2 26.7459 10.696V10.6C26.7459 10.104 26.5899 9.72 26.2779 9.448C25.9739 9.176 25.5139 9.04 24.8979 9.04H23.9019V8.176H24.8259Z" fill="#14161A"/>
 <path id="_2015" opacity="0" transform="translate(575 66)" d="M6.444 13H0.852V11.968L3.648 9.448C4.056 9.08 4.392 8.704 4.656 8.32C4.92 7.928 5.052 7.516 5.052 7.084V6.94C5.052 6.436 4.92 6.048 4.656 5.776C4.392 5.496 4 5.356 3.48 5.356C2.968 5.356 2.572 5.488 2.292 5.752C2.02 6.008 1.816 6.352 1.68 6.784L0.78 6.448C0.86 6.2 0.968 5.96 1.104 5.728C1.248 5.488 1.428 5.276 1.644 5.092C1.86 4.908 2.12 4.76 2.424 4.648C2.736 4.536 3.096 4.48 3.504 4.48C3.92 4.48 4.288 4.54 4.608 4.66C4.936 4.78 5.208 4.948 5.424 5.164C5.648 5.38 5.816 5.636 5.928 5.932C6.048 6.228 6.108 6.552 6.108 6.904C6.108 7.224 6.06 7.524 5.964 7.804C5.876 8.084 5.748 8.352 5.58 8.608C5.42 8.864 5.224 9.116 4.992 9.364C4.768 9.604 4.516 9.844 4.236 10.084L1.896 12.124H6.444V13ZM10.7953 13.144C10.2833 13.144 9.84331 13.048 9.47531 12.856C9.10731 12.656 8.80331 12.372 8.56331 12.004C8.32331 11.636 8.14731 11.184 8.03531 10.648C7.92331 10.112 7.86731 9.5 7.86731 8.812C7.86731 8.132 7.92331 7.524 8.03531 6.988C8.14731 6.444 8.32331 5.988 8.56331 5.62C8.80331 5.252 9.10731 4.972 9.47531 4.78C9.84331 4.58 10.2833 4.48 10.7953 4.48C11.3073 4.48 11.7473 4.58 12.1153 4.78C12.4833 4.972 12.7873 5.252 13.0273 5.62C13.2673 5.988 13.4433 6.444 13.5553 6.988C13.6673 7.524 13.7233 8.132 13.7233 8.812C13.7233 9.5 13.6673 10.112 13.5553 10.648C13.4433 11.184 13.2673 11.636 13.0273 12.004C12.7873 12.372 12.4833 12.656 12.1153 12.856C11.7473 13.048 11.3073 13.144 10.7953 13.144ZM10.7953 12.268C11.1313 12.268 11.4193 12.204 11.6593 12.076C11.8993 11.94 12.0913 11.752 12.2353 11.512C12.3873 11.272 12.4993 10.984 12.5713 10.648C12.6433 10.304 12.6793 9.92 12.6793 9.496V8.128C12.6793 7.712 12.6433 7.332 12.5713 6.988C12.4993 6.644 12.3873 6.352 12.2353 6.112C12.0913 5.872 11.8993 5.688 11.6593 5.56C11.4193 5.424 11.1313 5.356 10.7953 5.356C10.4593 5.356 10.1713 5.424 9.93131 5.56C9.69131 5.688 9.49531 5.872 9.34331 6.112C9.19931 6.352 9.09131 6.644 9.01931 6.988C8.94731 7.332 8.91131 7.712 8.91131 8.128V9.496C8.91131 9.92 8.94731 10.304 9.01931 10.648C9.09131 10.984 9.19931 11.272 9.34331 11.512C9.49531 11.752 9.69131 11.94 9.93131 12.076C10.1713 12.204 10.4593 12.268 10.7953 12.268ZM10.7953 9.52C10.5153 9.52 10.3193 9.464 10.2073 9.352C10.1033 9.24 10.0513 9.104 10.0513 8.944V8.68C10.0513 8.52 10.1033 8.384 10.2073 8.272C10.3193 8.16 10.5153 8.104 10.7953 8.104C11.0753 8.104 11.2673 8.16 11.3713 8.272C11.4833 8.384 11.5393 8.52 11.5393 8.68V8.944C11.5393 9.104 11.4833 9.24 11.3713 9.352C11.2673 9.464 11.0753 9.52 10.7953 9.52ZM15.4106 13V12.124H17.8106V5.368H17.7266L15.6146 7.336L15.0266 6.7L17.2466 4.624H18.8186V12.124H21.0266V13H15.4106ZM27.5979 5.5H23.8539L23.6139 8.704H23.6979C23.9059 8.424 24.1379 8.204 24.3939 8.044C24.6499 7.876 25.0019 7.792 25.4499 7.792C25.8179 7.792 26.1539 7.852 26.4579 7.972C26.7699 8.084 27.0379 8.252 27.2619 8.476C27.4859 8.7 27.6619 8.972 27.7899 9.292C27.9179 9.604 27.9819 9.964 27.9819 10.372C27.9819 10.78 27.9179 11.156 27.7899 11.5C27.6619 11.836 27.4739 12.128 27.2259 12.376C26.9779 12.616 26.6779 12.804 26.3259 12.94C25.9739 13.076 25.5739 13.144 25.1259 13.144C24.7739 13.144 24.4579 13.104 24.1779 13.024C23.9059 12.944 23.6619 12.836 23.4459 12.7C23.2379 12.564 23.0539 12.412 22.8939 12.244C22.7339 12.076 22.5899 11.9 22.4619 11.716L23.2179 11.14C23.3299 11.308 23.4419 11.46 23.5539 11.596C23.6739 11.732 23.8099 11.852 23.9619 11.956C24.1139 12.052 24.2859 12.128 24.4779 12.184C24.6699 12.24 24.8939 12.268 25.1499 12.268C25.7259 12.268 26.1659 12.112 26.4699 11.8C26.7819 11.488 26.9379 11.056 26.9379 10.504V10.408C26.9379 9.856 26.7819 9.424 26.4699 9.112C26.1579 8.8 25.7099 8.644 25.1259 8.644C24.7259 8.644 24.4139 8.712 24.1899 8.848C23.9739 8.984 23.7739 9.152 23.5899 9.352L22.7379 9.232L23.0379 4.624H27.5979V5.5Z" fill="#14161A"/>
 <path id="_2019" opacity="0" transform="translate(755 66)" d="M6.444 13H0.852V11.968L3.648 9.448C4.056 9.08 4.392 8.704 4.656 8.32C4.92 7.928 5.052 7.516 5.052 7.084V6.94C5.052 6.436 4.92 6.048 4.656 5.776C4.392 5.496 4 5.356 3.48 5.356C2.968 5.356 2.572 5.488 2.292 5.752C2.02 6.008 1.816 6.352 1.68 6.784L0.78 6.448C0.86 6.2 0.968 5.96 1.104 5.728C1.248 5.488 1.428 5.276 1.644 5.092C1.86 4.908 2.12 4.76 2.424 4.648C2.736 4.536 3.096 4.48 3.504 4.48C3.92 4.48 4.288 4.54 4.608 4.66C4.936 4.78 5.208 4.948 5.424 5.164C5.648 5.38 5.816 5.636 5.928 5.932C6.048 6.228 6.108 6.552 6.108 6.904C6.108 7.224 6.06 7.524 5.964 7.804C5.876 8.084 5.748 8.352 5.58 8.608C5.42 8.864 5.224 9.116 4.992 9.364C4.768 9.604 4.516 9.844 4.236 10.084L1.896 12.124H6.444V13ZM10.7953 13.144C10.2833 13.144 9.84331 13.048 9.47531 12.856C9.10731 12.656 8.80331 12.372 8.56331 12.004C8.32331 11.636 8.14731 11.184 8.03531 10.648C7.92331 10.112 7.86731 9.5 7.86731 8.812C7.86731 8.132 7.92331 7.524 8.03531 6.988C8.14731 6.444 8.32331 5.988 8.56331 5.62C8.80331 5.252 9.10731 4.972 9.47531 4.78C9.84331 4.58 10.2833 4.48 10.7953 4.48C11.3073 4.48 11.7473 4.58 12.1153 4.78C12.4833 4.972 12.7873 5.252 13.0273 5.62C13.2673 5.988 13.4433 6.444 13.5553 6.988C13.6673 7.524 13.7233 8.132 13.7233 8.812C13.7233 9.5 13.6673 10.112 13.5553 10.648C13.4433 11.184 13.2673 11.636 13.0273 12.004C12.7873 12.372 12.4833 12.656 12.1153 12.856C11.7473 13.048 11.3073 13.144 10.7953 13.144ZM10.7953 12.268C11.1313 12.268 11.4193 12.204 11.6593 12.076C11.8993 11.94 12.0913 11.752 12.2353 11.512C12.3873 11.272 12.4993 10.984 12.5713 10.648C12.6433 10.304 12.6793 9.92 12.6793 9.496V8.128C12.6793 7.712 12.6433 7.332 12.5713 6.988C12.4993 6.644 12.3873 6.352 12.2353 6.112C12.0913 5.872 11.8993 5.688 11.6593 5.56C11.4193 5.424 11.1313 5.356 10.7953 5.356C10.4593 5.356 10.1713 5.424 9.93131 5.56C9.69131 5.688 9.49531 5.872 9.34331 6.112C9.19931 6.352 9.09131 6.644 9.01931 6.988C8.94731 7.332 8.91131 7.712 8.91131 8.128V9.496C8.91131 9.92 8.94731 10.304 9.01931 10.648C9.09131 10.984 9.19931 11.272 9.34331 11.512C9.49531 11.752 9.69131 11.94 9.93131 12.076C10.1713 12.204 10.4593 12.268 10.7953 12.268ZM10.7953 9.52C10.5153 9.52 10.3193 9.464 10.2073 9.352C10.1033 9.24 10.0513 9.104 10.0513 8.944V8.68C10.0513 8.52 10.1033 8.384 10.2073 8.272C10.3193 8.16 10.5153 8.104 10.7953 8.104C11.0753 8.104 11.2673 8.16 11.3713 8.272C11.4833 8.384 11.5393 8.52 11.5393 8.68V8.944C11.5393 9.104 11.4833 9.24 11.3713 9.352C11.2673 9.464 11.0753 9.52 10.7953 9.52ZM15.4106 13V12.124H17.8106V5.368H17.7266L15.6146 7.336L15.0266 6.7L17.2466 4.624H18.8186V12.124H21.0266V13H15.4106ZM28.0179 7.696C28.0179 8.32 27.9219 8.908 27.7299 9.46C27.5459 10.004 27.3059 10.504 27.0099 10.96C26.7139 11.408 26.3859 11.808 26.0259 12.16C25.6739 12.504 25.3259 12.784 24.9819 13H23.6859C24.1419 12.672 24.5459 12.352 24.8979 12.04C25.2579 11.728 25.5739 11.404 25.8459 11.068C26.1179 10.724 26.3459 10.36 26.5299 9.976C26.7139 9.584 26.8659 9.144 26.9859 8.656L26.9259 8.632C26.7179 8.976 26.4499 9.264 26.1219 9.496C25.8019 9.72 25.3819 9.832 24.8619 9.832C24.4939 9.832 24.1539 9.772 23.8419 9.652C23.5379 9.532 23.2739 9.36 23.0499 9.136C22.8339 8.912 22.6619 8.644 22.5339 8.332C22.4139 8.012 22.3539 7.652 22.3539 7.252C22.3539 6.844 22.4179 6.472 22.5459 6.136C22.6819 5.792 22.8739 5.5 23.1219 5.26C23.3699 5.012 23.6659 4.82 24.0099 4.684C24.3619 4.548 24.7499 4.48 25.1739 4.48C25.6139 4.48 26.0099 4.556 26.3619 4.708C26.7139 4.852 27.0099 5.064 27.2499 5.344C27.4979 5.616 27.6859 5.952 27.8139 6.352C27.9499 6.752 28.0179 7.2 28.0179 7.696ZM25.1859 9.004C25.7619 9.004 26.2059 8.848 26.5179 8.536C26.8379 8.224 26.9979 7.784 26.9979 7.216V7.12C26.9979 6.552 26.8379 6.112 26.5179 5.8C26.2059 5.488 25.7619 5.332 25.1859 5.332C24.6099 5.332 24.1619 5.488 23.8419 5.8C23.5299 6.112 23.3739 6.552 23.3739 7.12V7.216C23.3739 7.784 23.5299 8.224 23.8419 8.536C24.1619 8.848 24.6099 9.004 25.1859 9.004Z" fill="#14161A"/>
-<g id="Group" transform="translate(1 27)">
-<rect id="Rectangle_325" transform="translate(0 5)" width="1037" height="2" fill="#D9D9D9"/>
-<path id="Triangle" transform="matrix(0 1 -1 0 1049 0)" fill-rule="evenodd" clip-rule="evenodd" d="M6 0L12 12H0L6 0Z" fill="#D9D9D9"/>
+<g transform="translate(1 27)">
+<rect transform="translate(0 5)" width="1037" height="2" fill="#D9D9D9"/>
+<path transform="matrix(0 1 -1 0 1049 0)" fill-rule="evenodd" clip-rule="evenodd" d="M6 0L12 12H0L6 0Z" fill="#D9D9D9"/>
 </g>
-<g id="Group_2" transform="translate(0 27)">
-<g id="Group_3">
+<g transform="translate(0 27)">
+<g>
 <mask id="mask0_1865_1090" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1050" height="82">
 <rect id="Mask" width="0" height="12" fill="#FF0000"/>
 </mask>
 <g mask="url(#mask0_1865_1090)">
-<rect id="Rectangle_326" transform="translate(1 5)" width="517" height="2" fill="#14161A"/>
-<rect id="Rectangle_327" transform="translate(518 2)" width="72" height="2" fill="#14161A"/>
-<rect id="Rectangle_328" transform="translate(518 4)" width="72" height="4" fill="#F8F7F6"/>
-<rect id="Rectangle_329" transform="translate(518 8)" width="72" height="2" fill="#14161A"/>
-<rect id="Rectangle_330" transform="translate(590 5)" width="448" height="2" fill="#14161A"/>
-<path id="Triangle_2" transform="matrix(0 1 -1 0 1050 0)" fill-rule="evenodd" clip-rule="evenodd" d="M6 0L12 12H0L6 0Z" fill="#14161A"/>
+<rect transform="translate(1 5)" width="517" height="2" fill="#14161A"/>
+<rect transform="translate(518 2)" width="72" height="2" fill="#14161A"/>
+<rect transform="translate(518 4)" width="72" height="4" fill="#F8F7F6"/>
+<rect transform="translate(518 8)" width="72" height="2" fill="#14161A"/>
+<rect transform="translate(590 5)" width="448" height="2" fill="#14161A"/>
+<path transform="matrix(0 1 -1 0 1050 0)" fill-rule="evenodd" clip-rule="evenodd" d="M6 0L12 12H0L6 0Z" fill="#14161A"/>
 </g>
 </g>
 <g id="Marker" opacity="0" transform="translate(0 1)">
-<rect id="Rectangle_331" transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
-<path id="Oval" d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
+<rect transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
+<path d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
 </g>
 <g id="Marker_2" opacity="0" transform="translate(183 1)">
-<rect id="Rectangle_332" transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
-<path id="Oval_2" d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
+<rect transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
+<path d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
 </g>
 <g id="Marker_3" opacity="0" transform="translate(372 1)">
-<rect id="Rectangle_333" transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
-<path id="Oval_3" d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
+<rect transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
+<path d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
 </g>
 <g id="Marker_4" opacity="0" transform="translate(459 1)">
-<rect id="Rectangle_334" transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
-<path id="Oval_4" d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
+<rect transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
+<path d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
 </g>
 <g id="Marker_5" opacity="0" transform="translate(513 1)">
-<rect id="Rectangle_335" transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
-<path id="Oval_5" d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
+<rect transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
+<path d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
 </g>
 <g id="Marker_6" opacity="0" transform="translate(585 1)">
-<rect id="Rectangle_336" transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
-<path id="Oval_6" d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
+<rect transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
+<path d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
 </g>
 <g id="Marker_7" opacity="0" transform="translate(765 1)">
-<rect id="Rectangle_337" transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
-<path id="Oval_7" d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
+<rect transform="translate(4 8)" width="2" height="20" fill="#14161A"/>
+<path d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10Z" fill="#14161A" stroke="#F8F7F6" stroke-width="2"/>
 </g>
 </g>
 </g>
