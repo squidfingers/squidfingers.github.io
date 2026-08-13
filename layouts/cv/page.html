@@ -27,8 +27,8 @@
           Experience
         </h2>
         {{ with .Resources.Get .Params.timeline }}
-          <figure class="job-list__timeline">
-            <img src="{{ .RelPermalink }}" alt="Timeline">
+          <figure class="job-list__timeline" aria-hidden="true">
+            {{ .Content | safeHTML }}
           </figure>
         {{ end }}
         {{ range .Params.jobs }}

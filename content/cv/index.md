@@ -3,7 +3,7 @@ title: CV
 description: Travis Beckham is a designer that's driven to find simplicity in complex problems, building things people love to use.
 params:
   photo: images/me.webp
-  timeline: images/timeline.png
+  timeline: images/timeline.svg
   quotes:
     - name: Doug Aley
       title: CEO at Paravision
