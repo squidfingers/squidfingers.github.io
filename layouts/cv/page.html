@@ -22,12 +22,12 @@
           {{ end }}
         </div>
       </div>
-      <div class="job-list | in-view">
-        <h2 class="job-list__heading">
+      <div class="job-list">
+        <h2 class="job-list__heading | in-view">
           Experience
         </h2>
         {{ with .Resources.Get .Params.timeline }}
-          <figure class="job-list__timeline" aria-hidden="true">
+          <figure class="job-list__timeline | in-view" aria-hidden="true">
             {{ .Content | safeHTML }}
           </figure>
         {{ end }}

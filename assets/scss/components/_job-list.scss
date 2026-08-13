@@ -25,12 +25,15 @@
     }
 
     // Animation
-    &.in-view--start {
-      opacity: 0;
+    &__heading,
+    &__timeline {
+      &.in-view--start {
+        opacity: 0;
 
-      &.in-view--end {
-        opacity: 1;
-        transition: opacity 1s ease;
+        &.in-view--end {
+          opacity: 1;
+          transition: opacity 1s ease;
+        }
       }
     }
   }
