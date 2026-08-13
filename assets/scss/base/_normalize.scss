@@ -47,10 +47,15 @@
   }
 
   figure {
-    img {
+    img, svg {
       display: block;
-      max-width: 100%;
       height: auto;
+    }
+    img {
+      max-width: 100%; // Don't let images grow larger than their innate width
+    }
+    svg {
+      width: 100%; // Scale SVG's to fit their parent regardless of their innate width
     }
   }
 
