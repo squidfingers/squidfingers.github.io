@@ -23,13 +23,14 @@ const inView = () => {
   });
 };
 
-// Animate the footer as it is revealed at the bottom of the page
+// Set footer scroll progress as CSS variable
+// `--footer-progress` is 0 when the footer is at the start of being in view, and 1 when the page has been scrolled to the bottom
 const footerReveal = () => {
   const footer = document.querySelector(".main-footer");
   if (prefersReducedMotion || !footer) return;
   const distanceFromBottom = document.documentElement.scrollHeight - window.innerHeight - window.scrollY;
   const progress = 1 - Math.min(Math.max(distanceFromBottom / footer.offsetHeight, 0), 1);
-  footer.style.setProperty("--footer-reveal", progress);
+  footer.style.setProperty("--footer-progress", progress);
 };
 
 // Add `scrolled` class to body once the window has scrolled enough to trigger the header to collapse
@@ -38,7 +39,6 @@ const updateScrolled = () => {
 };
 
 window.addEventListener("DOMContentLoaded", () => {
-  // Apply class to body. Other components can use `js-enabled` to apply styles only if JavaScript is enabled.
   document.body.classList.add("js-enabled");
   setHeaderHeight();
   inView();
