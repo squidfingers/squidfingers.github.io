@@ -1,7 +1,1 @@
-{{ with resources.Get "js/main.js" }}
-  {{ $js := . }}
-  {{ if hugo.IsProduction }}
-    {{ $js = $js | minify | fingerprint }}
-  {{ end }}
-  <script src="{{ $js.RelPermalink }}"></script>
-{{ end }}
+{{ partial "utils/get-script" "js/main.js" }}

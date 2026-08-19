@@ -82,31 +82,21 @@
       }
     }
 
-    // Animation
+    // Animation with card stacking effect
     &.in-view--start {
+      position: sticky;
+      top: abstracts.size(14);
       opacity: 0;
-      transform: translate(0, abstracts.$gap);
+      transform: translateY(abstracts.$gap);
+      filter:
+        grayscale(calc(var(--progress, 0) * 100%))
+        blur(calc(var(--progress, 0) * 8px));
+      will-change: opacity, transform, filter;
 
       &.in-view--end {
-        opacity: 1;
-        transform: translate(0, 0);
-        transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
-
-        // Extra animation (Not currently supported in Firefox v153)
-        @media (prefers-reduced-motion: no-preference) {
-          @supports (animation-timeline: view()) {
-            animation: project-item-recede linear forwards;
-            animation-timeline: view();
-            animation-range: exit 0% exit 100%;
-          }
-        }
-        @keyframes project-item-recede {
-          to {
-            opacity: 0.5;
-            transform: translateY(calc(-1 * abstracts.$gap)) scale(0.9);
-            filter: blur(4px);
-          }
-        }
+        opacity: calc(1 - var(--progress, 0));
+        transform: scale(calc(1 - var(--progress, 0) * 0.1));
+        transition: opacity 0.5s ease, transform 0.5s abstracts.$easeOutQuad;
       }
     }
   }

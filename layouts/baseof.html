@@ -8,6 +8,8 @@
     {{ partial "head-fonts" . }}
     {{ partial "head-css" . }}
     {{ partial "head-js" . }}
+    {{ block "head" . }}
+    {{ end }}
   </head>
   <body>
     <div class="main-body">

@@ -1,0 +1,59 @@
+{{/*
+
+Returns a script tag for one or more global resources.
+
+@example
+
+Single script:
+{{ partial "utils/get-script" "js/script.js" }}
+
+Merge multiple scripts into a single file:
+{{ partial "utils/get-script" (dict "src" (slice "js/script-1.js" "js/script-2.js") "dst" "js/scripts.js") }}
+
+*/}}
+
+{{ $js := "" }}
+
+{{/* Multiple scripts */}}
+{{ if reflect.IsMap . }}
+  {{ $src := .src }}
+  {{ $dst := .dst }}
+  {{/* Validate that src is a slice */}}
+  {{ if not (reflect.IsSlice $src) }}
+    {{ errorf "src must be a slice" }}
+  {{ end }}
+  {{/* Validate that src is not empty */}}
+  {{ if eq (len $src) 0 }}
+    {{ errorf "src must not be empty" }}
+  {{ end }}
+  {{/* Validate that dst is not empty */}}
+  {{ if not $dst }}
+    {{ errorf "dst must not be empty" }}
+  {{ end }}
+  {{/* Get scripts */}}
+  {{ $res := slice }}
+  {{ range $src }}
+    {{ with resources.Get . }}
+      {{ $res = $res | append . }}
+    {{ else }}
+      {{ errorf "Unable to include script %q" . }}
+    {{ end }}
+  {{ end }}
+  {{/* Combine scripts */}}
+  {{ $js = $res | resources.Concat $dst }}
+
+{{/* Single script */}}
+{{ else }}
+  {{ with resources.Get . }}
+    {{ $js = . }}
+  {{ else }}
+    {{ errorf "Unable to include script %q" . }}
+  {{ end }}
+{{ end }}
+
+{{ if hugo.IsProduction }}
+  {{ $js = $js | minify | fingerprint }}
+{{ end }}
+
+{{/* Return result */}}
+{{ return ((printf "<script src=%q></script>" $js.RelPermalink) | safeHTML) }}
