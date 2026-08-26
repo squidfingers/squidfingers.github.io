@@ -7,7 +7,7 @@
     background-color: abstracts.$white;
 
     &__media {
-      border-bottom: abstracts.$border-primary;
+      border-bottom: abstracts.$border-primary-thin;
 
       a {
         position: relative;
@@ -70,13 +70,13 @@
 
       &__media {
         border-bottom: none;
-        border-right: abstracts.$border-primary;
+        border-right: abstracts.$border-primary-thin;
       }
       &:nth-child(odd) {
         .project-item__media {
           order: 2;
           border-right: none;
-          border-left: abstracts.$border-primary;
+          border-left: abstracts.$border-primary-thin;
         }
         .project-item__content {
           order: 1;

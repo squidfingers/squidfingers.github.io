@@ -2,6 +2,8 @@
 
 @layer components {
   .about {
+    position: relative;
+
     figure {
       position: relative;
       z-index: (abstracts.$header-zindex + 1);

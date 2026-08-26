@@ -6,37 +6,11 @@
     flex-direction: column;
     gap: abstracts.$gap;
 
-    &__heading {
-      font-family: abstracts.$font-family-display;
-      font-weight: abstracts.$font-weight-display;
-      line-height: abstracts.$line-height-display;
-      font-size: abstracts.$font-size-h1;
-    }
-    &__timeline {
-      margin-bottom: abstracts.$gap;
-
-      @media (max-width: abstracts.breakpoint-max-width("md")) {
-        display: none;
-      }
-    }
     & > :last-child {
       margin-bottom: 0;
     }
     .job {
       margin-bottom: abstracts.size(6);
-    }
-
-    // Animation
-    &__heading,
-    &__timeline {
-      &.in-view--start {
-        opacity: 0;
-
-        &.in-view--end {
-          opacity: 1;
-          transition: opacity 1s ease;
-        }
-      }
     }
   }
 }
