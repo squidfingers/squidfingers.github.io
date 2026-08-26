@@ -11,4 +11,4 @@ check:
 	bin/htmltest
 
 clean:
-	rm -rf public resources target
+	rm -rf public resources target tmp
