@@ -2,6 +2,9 @@
 
 @layer components {
   .latest-update {
+    &__heading {
+      font-weight: abstracts.$font-weight-bold;
+    }
     &__content {
       margin-bottom: abstracts.$gap-lg;
     }
@@ -10,6 +13,7 @@
 
       a {
         @include abstracts.make-link;
+        font-weight: abstracts.$font-weight-bold;
       }
     }
     @media (min-width: abstracts.breakpoint-min-width("md")) {

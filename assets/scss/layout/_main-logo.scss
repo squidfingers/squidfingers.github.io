@@ -17,10 +17,11 @@
       fill: currentColor;
     }
     h1, h2 {
-      line-height: abstracts.$line-height-tight;
+      line-height: abstracts.$line-height-display;
     }
     h1 {
       font-family: abstracts.$font-family-display;
+      font-weight: abstracts.$font-weight-display;
       font-size: abstracts.$font-size-h2;
     }
 

@@ -1,6 +1,32 @@
-// https://gwfh.mranftl.com/fonts/inter-tight?subsets=latin
-
 @layer base {
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('/fonts/NebulaSans-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('/fonts/NebulaSans-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('/fonts/NebulaSans-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Nebula Sans';
+    src: url('/fonts/NebulaSans-SemiboldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
   @font-face {
     font-display: swap;
     font-family: "IBM Plex Mono";
@@ -14,26 +40,5 @@
     font-style: italic;
     font-weight: 400;
     src: url("/fonts/ibm-plex-mono-v19-latin-italic.woff2") format("woff2");
-  }
-  @font-face {
-    font-display: swap;
-    font-family: "IBM Plex Mono";
-    font-style: normal;
-    font-weight: 500;
-    src: url("/fonts/ibm-plex-mono-v19-latin-500.woff2") format("woff2");
-  }
-  @font-face {
-    font-display: swap;
-    font-family: "IBM Plex Mono";
-    font-style: italic;
-    font-weight: 500;
-    src: url("/fonts/ibm-plex-mono-v19-latin-500italic.woff2") format("woff2");
-  }
-  @font-face {
-    font-display: swap;
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: 600;
-    src: url("/fonts/oswald-v57-latin-600.woff2") format("woff2");
   }
 }

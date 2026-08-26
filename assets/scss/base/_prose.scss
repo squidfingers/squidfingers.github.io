@@ -15,7 +15,8 @@
     }
     h1, h2, h3, h4, h5, h6 {
       font-family: abstracts.$font-family-display;
-      line-height: abstracts.$line-height-tight;
+      font-weight: abstracts.$font-weight-display;
+      line-height: abstracts.$line-height-display;
     }
     h1 {
       font-size: abstracts.$font-size-h1;
