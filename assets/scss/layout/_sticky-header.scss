@@ -36,6 +36,15 @@
         .main-nav {
           a {
             color: abstracts.$white;
+
+            &:hover {
+              border-color: abstracts.$white;
+            }
+          }
+          .main-nav--selected {
+            a {
+              border-color: abstracts.$magenta;
+            }
           }
         }
       }
