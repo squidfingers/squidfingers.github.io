@@ -14,11 +14,11 @@
       line-height: abstracts.$line-height-display;
       font-size: abstracts.$font-size-lg;
     }
-    & > * {
+    .update {
       padding-bottom: abstracts.$gap-lg;
       border-bottom: abstracts.$border-secondary;
     }
-    & > :last-child {
+    .update:last-child {
       padding-bottom: 0;
       border-bottom: none;
     }
