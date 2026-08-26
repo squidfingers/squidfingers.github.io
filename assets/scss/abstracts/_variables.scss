@@ -27,6 +27,7 @@ $font-size-h6: 16px;
 $white: rgb(255, 255, 255);
 $black: rgb(20, 22, 26);
 $gray-50: rgb(248, 247, 246);
+$gray-100: rgb(238, 237, 236);
 $yellow: rgb(242, 232, 25);
 $magenta: rgb(240, 70, 170);
 
@@ -34,7 +35,7 @@ $magenta: rgb(240, 70, 170);
 
 $border-primary: solid 3px $black;
 $border-primary-thin: solid 1px $black;
-$border-secondary: dotted 3px $black;
+$border-secondary: solid 6px $gray-100;
 
 // Size
 
