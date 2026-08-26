@@ -1,6 +1,7 @@
 {{ define "main" }}
-  <div class="container--xl">
-    <div class="cv">
+  <div class="cv">
+
+    <div class="container--lg">
       <div class="about | in-view">
         {{ with .Resources.Get .Params.photo }}
           <figure>
@@ -11,6 +12,9 @@
           {{ .Content }}
         </div>
       </div>
+    </div>
+
+    <div class="container--lg">
       <div class="quote-list | in-view">
         <h2 class="quote-list__heading">
           Recommendations
@@ -22,15 +26,23 @@
           {{ end }}
         </div>
       </div>
-      <div class="job-list">
-        <h2 class="job-list__heading | in-view">
+    </div>
+
+    <div class="timeline | in-view">
+      <div class="container--xxl">
+        <h2 class="timeline__heading">
           Experience
         </h2>
         {{ with .Resources.Get .Params.timeline }}
-          <figure class="job-list__timeline | in-view" aria-hidden="true">
+          <figure aria-hidden="true">
             {{ .Content | safeHTML }}
           </figure>
         {{ end }}
+      </div>
+    </div>
+
+    <div class="container--lg">
+      <div class="job-list">
         {{ range .Params.jobs }}
           <article class="job | in-view">
             {{ with $.Page.Resources.Get .logo }}
@@ -56,5 +68,6 @@
         {{ end }}
       </div>
     </div>
+
   </div>
 {{ end }}

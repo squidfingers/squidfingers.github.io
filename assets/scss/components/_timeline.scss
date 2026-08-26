@@ -1,0 +1,37 @@
+@use "../abstracts";
+
+@layer components {
+  .timeline {
+    &__heading {
+      font-family: abstracts.$font-family-display;
+      font-weight: abstracts.$font-weight-display;
+      line-height: abstracts.$line-height-display;
+      font-size: abstracts.$font-size-h1;
+    }
+    figure {
+      display: none;
+      margin-bottom: 0;
+    }
+    @media (min-width: abstracts.breakpoint-min-width("lg")) {
+      padding: abstracts.$gap-xl 0;
+      background-color: abstracts.$yellow;
+
+      &__heading {
+        margin-bottom: abstracts.$gap;
+      }
+      figure {
+        display: block;
+      }
+    }
+
+    // Animation
+    &.in-view--start {
+      opacity: 0;
+
+      &.in-view--end {
+        opacity: 1;
+        transition: opacity 1s ease;
+      }
+    }
+  }
+}

@@ -17,6 +17,7 @@
       font-family: abstracts.$font-family-display;
       font-weight: abstracts.$font-weight-display;
       line-height: abstracts.$line-height-display;
+      text-wrap: balance;
     }
     h1 {
       font-size: abstracts.$font-size-h1;
@@ -35,6 +36,9 @@
     }
     h6 {
       font-size: abstracts.$font-size-h6;
+    }
+    p {
+      text-wrap: balance;
     }
     ul {
       list-style-type: square;
