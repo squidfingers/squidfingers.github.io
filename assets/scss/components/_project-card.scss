@@ -10,7 +10,7 @@
       border: none;
     }
     &__media {
-      border-bottom: abstracts.$border-primary;
+      border-bottom: abstracts.$border-primary-thin;
     }
     &__content {
       align-self: center;
@@ -21,7 +21,7 @@
 
       &__media {
         border-bottom: none;
-        border-right: abstracts.$border-primary;
+        border-right: abstracts.$border-primary-thin;
       }
     }
     @media (min-width: abstracts.breakpoint-min-width("xl")) {
