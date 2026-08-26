@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+set -eu
+
+version=0.17.0
+
+bindir=$( cd "${0%/*}" && pwd )
+targetbin=$( cd "$bindir"/.. && pwd )/target/bin
+bin=$targetbin/.htmltest-$version
+
+if [ ! -f "$bin" ]; then
+  if [ "$(uname -s)" = Darwin ]; then
+    os=macos
+  elif [ "$(uname -s)" = Linux ]; then
+    os=linux
+  else
+    echo "Unsupported OS: $(uname -s)" >&2
+    exit 1
+  fi
+  if [ "$(uname -m)" = x86_64 ]; then
+    arch=amd64
+  elif [ "$(uname -m)" = arm64 ]; then
+    arch=arm64
+  else
+    echo "Unsupported arch: $(uname -m)" >&2
+    exit 1
+  fi
+  url="https://github.com/wjdp/htmltest/releases/download/v${version}/htmltest_${version}_${os}_${arch}.tar.gz"
+  mkdir -p "$targetbin"
+  curl -sLf "$url" | tar -Oxvz "htmltest" > "$bin"
+  chmod +x "$bin"
+fi
+
+"$bin" "$@"

@@ -1,5 +1,6 @@
 public
 resources
 target
+tmp
 .DS_Store
 .hugo_build.lock
