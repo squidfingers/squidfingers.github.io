@@ -18,7 +18,7 @@
         }
       }
       a::after {
-        content: "View project";
+        content: "View project →";
         pointer-events: none;
         display: flex;
         flex-direction: column;
@@ -33,6 +33,7 @@
         color: abstracts.$white;
         opacity: 0;
         font-size: abstracts.$font-size-lg;
+        font-weight: abstracts.$font-weight-bold;
         transition: opacity .15s ease-in-out;
       }
     }
