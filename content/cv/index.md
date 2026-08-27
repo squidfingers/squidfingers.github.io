@@ -1,6 +1,7 @@
 ---
 title: CV
-description: Travis Beckham is a designer that's driven to find simplicity in complex problems, building things people love to use.
+description: |-
+  Travis Beckham is a designer who’s driven to find simplicity in complex problems and build things people love to use.
 params:
   photo: images/me.webp
   timeline: images/timeline.svg
@@ -68,4 +69,4 @@ params:
 
 I enjoy turning complex problems into simple, intuitive experiences. As a UX/UI designer, I like working closely with cross-functional teams, sharing ideas early, and iterating quickly based on user feedback. I’m especially passionate about creating enjoyable experiences that feel effortless to use and stay out of the user’s way.
 
-My skill set includes creating user interface guidelines and component libraries, along with wireframes, prototypes, and high-fidelity mockups. I also like collaborating on user interviews, usability testing, and surveys to better understand user needs and improve the overall experience. Beyond design, I enjoy contributing to front-end development using native web technologies like HTML, CSS, and JavaScript, as well as frameworks such as React and Hugo.
+My skills include creating user interface guidelines and component libraries, along with wireframes, prototypes, and high-fidelity mockups. I also like collaborating on user interviews, usability testing, and surveys to better understand user needs and improve the overall experience. Beyond design, I enjoy contributing to front-end development using native web technologies like HTML, CSS, and JavaScript, as well as frameworks such as React and Hugo.
