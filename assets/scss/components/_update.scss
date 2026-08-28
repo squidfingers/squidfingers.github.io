@@ -18,6 +18,16 @@
     &__tag-list {
       margin-top: -(abstracts.size(3));
     }
+
+    // Animation
+    &.in-view--start {
+      opacity: 0;
+
+      &.in-view--end {
+        opacity: 1;
+        transition: opacity 1s ease;
+      }
+    }
   }
 
   // @options

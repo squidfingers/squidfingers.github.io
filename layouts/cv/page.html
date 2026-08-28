@@ -15,14 +15,14 @@
     </div>
 
     <div class="container--lg">
-      <div class="quote-list | in-view">
-        <h2 class="quote-list__heading">
+      <div class="quote-list">
+        <h2 class="quote-list__heading | in-view">
           Recommendations
         </h2>
         <div class="prose">
           {{ range .Params.quotes }}
             {{/* Use blockquote render hook */}}
-            {{ printf "> %s\n{author=%q, caption=%q}" .content .name .title | $.Page.RenderString }}
+            {{ printf "> %s\n{author=%q, caption=%q, class=%q}" .content .name .title "in-view" | $.Page.RenderString }}
           {{ end }}
         </div>
       </div>

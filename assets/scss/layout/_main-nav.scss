@@ -10,9 +10,10 @@
       display: block;
       // Add clear border so nav doesn't jump on hover, if no menu items are selected
       border-bottom: solid 3px transparent;
+      color: abstracts.$white;
 
       &:hover {
-        border-bottom: abstracts.$border-primary;
+        border-color: abstracts.$white;
       }
     }
     @media (min-width: abstracts.breakpoint-min-width("sm")) {
@@ -25,7 +26,6 @@
 
     .main-nav--selected {
       a {
-        border-bottom: abstracts.$border-primary;
         border-color: abstracts.$magenta;
       }
     }

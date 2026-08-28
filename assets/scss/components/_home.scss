@@ -7,7 +7,7 @@
     gap: abstracts.$gap-lg;
 
     @media (min-width: abstracts.breakpoint-min-width("md")) {
-      padding-top: abstracts.$gap;
+      padding-top: abstracts.$gap-lg;
       gap: abstracts.$gap-xl;
     }
   }

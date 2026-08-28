@@ -1,4 +1,4 @@
-<blockquote{{ with .Attributes.cite }} cite="{{ . }}"{{ end }}>
+<blockquote{{ with .Attributes.cite }} cite="{{ . }}"{{ end }}{{ with .Attributes.class }} class="{{ . }}"{{ end }}>
   {{ .Text }}
   {{- if or .Attributes.author .Attributes.caption }}
     <footer>—

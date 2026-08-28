@@ -4,7 +4,8 @@
   .main-header {
     padding-top: abstracts.$gap-lg;
     padding-bottom: abstracts.$gap-lg;
-    background-color: abstracts.$yellow;
+    background-color: abstracts.$black;
+    color: abstracts.$white;
 
     [class^=container] {
       display: flex;

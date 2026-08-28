@@ -24,5 +24,17 @@
         text-align: right;
       }
     }
+
+    // Animation
+    &__heading {
+      &.in-view--start {
+        opacity: 0;
+
+        &.in-view--end {
+          opacity: 1;
+          transition: opacity 1s ease;
+        }
+      }
+    }
   }
 }
