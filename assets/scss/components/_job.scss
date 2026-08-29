@@ -47,7 +47,6 @@
       .job__description {
         transform: translate(0, abstracts.$gap);
       }
-
       &.in-view--end {
         opacity: 1;
         transform: translate(0, 0);

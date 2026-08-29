@@ -6,11 +6,11 @@
     flex-direction: column;
     gap: abstracts.$gap;
 
-    & > :last-child {
-      margin-bottom: 0;
-    }
-    .job {
+    > .job {
       margin-bottom: abstracts.size(6);
+    }
+    > .job:last-child {
+      margin-bottom: 0;
     }
   }
 }

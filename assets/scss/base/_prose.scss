@@ -3,7 +3,7 @@
 @layer base {
   .prose {
     // Only apply bottom margin if element is a direct child of .prose
-    & > {
+    > {
       h1, h2, h3, h4, h5, h6,
       p, ul, ol, dl, blockquote, figure,
       div {

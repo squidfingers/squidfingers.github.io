@@ -41,6 +41,14 @@
       &__tag-list {
         margin-top: 0;
       }
+      // Remove animation
+      &.in-view--start {
+        opacity: 1;
+
+        &.in-view--end {
+          transition: none;
+        }
+      }
     }
   }
 }

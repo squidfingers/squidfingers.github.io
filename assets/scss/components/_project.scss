@@ -27,7 +27,7 @@
       img {
         border: abstracts.$border-primary;
       }
-      & > .project-blurb:last-child {
+      > .project-blurb:last-child {
         padding-bottom: 0;
       }
     }

@@ -6,8 +6,15 @@
     flex-direction: column;
     gap: abstracts.$gap-lg;
 
+    @media (min-width: abstracts.breakpoint-min-width("md")) {
+      &__heading {
+        font-size: abstracts.$font-size-h3;
+        text-align: center;
+      }
+    }
+
+    // Animation
     &__heading {
-      // Animation
       &.in-view--start {
         opacity: 0;
         transform: translate(0, abstracts.$gap);
@@ -17,12 +24,6 @@
           transform: translate(0, 0);
           transition: opacity 0.5s ease, transform 1s abstracts.$easeOutQuad;
         }
-      }
-    }
-    @media (min-width: abstracts.breakpoint-min-width("md")) {
-      &__heading {
-        font-size: abstracts.$font-size-h3;
-        text-align: center;
       }
     }
   }
