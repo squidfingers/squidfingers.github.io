@@ -3,7 +3,7 @@ title: CV
 description: |-
   Travis Beckham is a designer who’s driven to find simplicity in complex problems and build things people love to use.
 params:
-  photo: images/me.webp
+  photo: images/me.jpg
   timeline: images/timeline.svg
   quotes:
     - name: Doug Aley
