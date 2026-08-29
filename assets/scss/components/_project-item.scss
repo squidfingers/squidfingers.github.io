@@ -56,6 +56,7 @@
           }
         }
       }
+
       // Animation
       &.in-view--start {
         transform: translate(0, abstracts.$gap);
@@ -88,7 +89,7 @@
     // Animation with card stacking effect
     &.in-view--start {
       position: sticky;
-      top: abstracts.size(14);
+      top: abstracts.$gap;
       opacity: 0;
       transform: translateY(abstracts.$gap);
       filter:
@@ -100,6 +101,16 @@
         opacity: calc(1 - var(--progress, 0));
         transform: scale(calc(1 - var(--progress, 0) * 0.1));
         transition: opacity 0.5s ease, transform 0.5s abstracts.$easeOutQuad;
+      }
+    }
+  }
+  // When the header is fixed, adjust the sticky point
+  @media (min-width: abstracts.breakpoint-min-width("lg")) {
+    body.js-enabled {
+      .project-item {
+        &.in-view--start {
+          top: abstracts.size(14);
+        }
       }
     }
   }
