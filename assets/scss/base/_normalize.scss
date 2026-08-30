@@ -96,4 +96,8 @@
   code {
     font-family: abstracts.$font-family-mono;
   }
+
+  input[type="radio"] {
+    accent-color: abstracts.$black;
+  }
 }

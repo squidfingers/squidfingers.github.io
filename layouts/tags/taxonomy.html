@@ -1,8 +1,19 @@
+{{ define "head" }}
+  {{ partial "utils/get-script" "js/taxonomy.js" }}
+{{ end }}
 {{ define "main" }}
   <div class="container--lg">
+    <div class="taxonomy-sort">
+      <label>
+        <input type="radio" name="taxonomy-sort" value="count" checked> Most Used
+      </label>
+      <label>
+        <input type="radio" name="taxonomy-sort" value="alpha"> Alphabetical
+      </label>
+    </div>
     <ul class="tag-list tag-list--lg">
       {{ range .Data.Terms.ByCount }}
-        <li>
+        <li data-name="{{ .Page.Name }}" data-count="{{ .Count }}">
           <a href="{{ .Page.RelPermalink }}" class="tag tag--lg">
             {{ .Page.Title  | humanize | title }} ({{ .Count }})
           </a>

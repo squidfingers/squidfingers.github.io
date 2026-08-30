@@ -1,0 +1,10 @@
+@use "../abstracts";
+
+@layer components {
+  .taxonomy-sort {
+    display: flex;
+    flex-direction: row;
+    gap: abstracts.$gap;
+    margin-bottom: abstracts.$gap;
+  }
+}
