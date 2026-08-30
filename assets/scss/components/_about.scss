@@ -2,17 +2,22 @@
 
 @layer components {
   .about {
-    display: flex;
-    flex-direction: column;
-    gap: abstracts.size(6);
-
     figure {
       display: flex;
       justify-content: center;
+      position: sticky;
+      top: abstracts.$gap;
+      z-index: 0;
 
       img {
         clip-path: circle(50% at 50% 50%);
       }
+    }
+    .prose {
+      position: relative;
+      z-index: 1;
+      padding-top: abstracts.size(6);
+      background-color: abstracts.$gray-50;
     }
 
     // Animation
@@ -26,6 +31,16 @@
         img.loaded--end {
           opacity: 1;
           transition: opacity 1s ease;
+        }
+      }
+    }
+  }
+  // When the header is fixed, adjust the sticky point
+  @media (min-width: abstracts.breakpoint-min-width("lg")) {
+    body.js-enabled {
+      .about {
+        figure {
+          top: var(--header-height, 0);
         }
       }
     }
