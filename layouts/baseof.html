@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+{{ if .IsHome }}
+{{ printf "<!-- Last deployed: %s -->" (now.Format "Jan 2, 2006 @ 3:04pm") | safeHTML }}
+{{ end }}
 <html lang="en">
   <head>
     <meta charset="utf-8">
