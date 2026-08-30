@@ -5,7 +5,7 @@
       <div class="about | in-view">
         {{ with .Resources.Get .Params.photo }}
           <figure>
-            <img src="{{ .RelPermalink }}" width="200" height="200" alt="Avatar">
+            <img src="{{ .RelPermalink }}" width="200" height="200" alt="Avatar" class="loaded">
           </figure>
         {{ end }}
         <div class="prose">

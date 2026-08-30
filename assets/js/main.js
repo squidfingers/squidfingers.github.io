@@ -17,6 +17,19 @@ function setupInView(){
   });
 }
 
+// Add `loaded--start` to all images with the `loaded` class, and `loaded--end` once the image has finished loading
+function setupImageLoad(){
+  if (prefersReducedMotion) return;
+  document.querySelectorAll("img.loaded").forEach(img => {
+    img.classList.add("loaded--start");
+    if (img.complete) {
+      img.classList.add("loaded--end");
+    } else {
+      img.addEventListener("load", () => img.classList.add("loaded--end"), { once: true });
+    }
+  });
+}
+
 // Set header height as CSS variable
 function updateHeaderHeight(){
   const header = document.querySelector(".main-header");
@@ -41,6 +54,7 @@ function updateScrolled(){
 window.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("js-enabled");
   setupInView();
+  setupImageLoad();
   updateHeaderHeight();
   updateFooterReveal();
   updateScrolled();
