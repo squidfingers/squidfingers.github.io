@@ -1,0 +1,4 @@
+minify:
+  tdewolff:
+    html:
+      keepComments: true
