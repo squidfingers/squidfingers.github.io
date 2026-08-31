@@ -9,6 +9,11 @@
     font-size: abstracts.$font-size-sm;
     white-space: nowrap;
 
+    &__count {
+      font-family: abstracts.$font-family-mono;
+      color: abstracts.tint-color(abstracts.$black, 50%);
+    }
+
     // @options
 
     &.tag--lg {

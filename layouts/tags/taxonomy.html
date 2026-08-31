@@ -15,7 +15,7 @@
       {{ range .Data.Terms.ByCount }}
         <li data-name="{{ .Page.Name }}" data-count="{{ .Count }}">
           <a href="{{ .Page.RelPermalink }}" class="tag tag--lg">
-            {{ .Page.Title  | humanize | title }} ({{ .Count }})
+            {{ .Page.Title  | humanize | title }} <span class="tag__count">({{ .Count }})<span>
           </a>
         </li>
       {{ end }}
