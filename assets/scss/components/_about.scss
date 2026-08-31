@@ -8,6 +8,10 @@
       position: sticky;
       top: abstracts.$gap;
       z-index: 0;
+      opacity: calc(1 - var(--about-progress, 0));
+      filter: blur(calc(var(--about-progress, 0) * abstracts.size(2)));
+      transform: scale(calc(1 + var(--about-progress, 0) * 0.2));
+      will-change: opacity, filter, transform;
 
       img {
         clip-path: circle(50% at 50% 50%);
