@@ -13,7 +13,7 @@
       // When the header is fixed, the body has a top padding equal to the header height.
       // This amount needs to be subtracted from 100vh, so main-body correctly fills the height of the window.
       .main-body {
-        min-height: calc(100vh - var(--header-height));
+        min-height: calc(100vh - abstracts.$initial-header-height);
       }
     }
   }

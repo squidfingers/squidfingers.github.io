@@ -33,12 +33,6 @@
     });
   }
 
-  // Set header height as CSS variable
-  function updateHeaderHeight(){
-    const header = document.querySelector(".main-header");
-    if (header) document.documentElement.style.setProperty("--header-height", `${header.offsetHeight}px`);
-  }
-
   // Set footer scroll progress as CSS variable
   // `--footer-progress` is 0 when the footer is at the start of being in view, and 1 when the page has been scrolled to the bottom
   function updateFooterReveal(){
@@ -58,13 +52,11 @@
     document.body.classList.add("js-enabled");
     setupInView();
     setupImageLoad();
-    updateHeaderHeight();
     updateFooterReveal();
     updateScrolled();
   });
 
   window.addEventListener("resize", () => {
-    updateHeaderHeight();
     updateFooterReveal();
   }, { passive: true });
 

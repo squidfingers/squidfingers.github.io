@@ -44,7 +44,7 @@
     body.js-enabled {
       .about {
         figure {
-          top: var(--header-height, 0);
+          top: abstracts.$initial-header-height;
         }
       }
     }
