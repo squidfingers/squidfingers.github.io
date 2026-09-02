@@ -6,7 +6,7 @@ version=0.17.0
 
 bindir=$( cd "${0%/*}" && pwd )
 targetbin=$( cd "$bindir"/.. && pwd )/target/bin
-bin=$targetbin/.htmltest-$version
+bin=$targetbin/htmltest-$version
 
 if [ ! -f "$bin" ]; then
   if [ "$(uname -s)" = Darwin ]; then
