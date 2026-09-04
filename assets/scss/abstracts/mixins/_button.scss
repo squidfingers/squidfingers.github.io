@@ -10,6 +10,9 @@
   color: variables.$black;
   text-align: center;
   text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgba(variables.$black, 0.2);
+  text-underline-offset: 15%;
   font-family: variables.$font-family-base;
   font-weight: variables.$font-weight-bold;
   font-size: variables.$font-size-base;

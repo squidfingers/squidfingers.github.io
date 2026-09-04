@@ -28,6 +28,9 @@
 
       &:hover {
         text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-decoration-color: rgba(abstracts.$white, 0.3);
+        text-underline-offset: 15%;
       }
     }
     ul {

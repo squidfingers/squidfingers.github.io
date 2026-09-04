@@ -2,8 +2,12 @@
 
 @mixin make-link {
   color: variables.$magenta;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgba(variables.$magenta, 0.1);
+  text-underline-offset: 15%;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration-color: rgba(variables.$magenta, 0.3);
   }
 }
