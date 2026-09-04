@@ -1,5 +1,30 @@
 <svg width="1050" height="82" viewBox="0 0 1050 82" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
+/* End-state shown unless motion is allowed and the browser supports scroll-driven animations */
+#lookandfeel { opacity: 1; }
+#Bernstein-Rein { opacity: 1; }
+#Liquid_9 { opacity: 1; }
+#MMGY { opacity: 1; }
+#Hitched_Up { opacity: 1; }
+#Minted { opacity: 1; }
+#Buoyant { opacity: 1; }
+#_2000 { opacity: 1; }
+#_2004 { opacity: 1; }
+#_2009 { opacity: 1; }
+#_2011 { opacity: 1; }
+#_2013 { opacity: 1; }
+#_2015 { opacity: 1; }
+#_2019 { opacity: 1; }
+#Marker_1 { opacity: 1; }
+#Marker_2 { opacity: 1; }
+#Marker_3 { opacity: 1; }
+#Marker_4 { opacity: 1; }
+#Marker_5 { opacity: 1; }
+#Marker_6 { opacity: 1; }
+#Marker_7 { opacity: 1; }
+#Mask { width: 1050px; }
+@media (prefers-reduced-motion: no-preference) {
+@supports (animation-timeline: view()) {
 @keyframes kf_lookandfeel_opacity_0 {
   0% {
     opacity: 0;
@@ -604,30 +629,7 @@
   animation-timeline: view();
   animation-range: cover 10% cover 70%;
 }
-@supports not (animation-timeline: view()) {
-  /* Show the animation end-state for browsers that don't support "animation-timeline: view()" */
-  #lookandfeel { animation: none; opacity: 1; }
-  #Bernstein-Rein { animation: none; opacity: 1; }
-  #Liquid_9 { animation: none; opacity: 1; }
-  #MMGY { animation: none; opacity: 1; }
-  #Hitched_Up { animation: none; opacity: 1; }
-  #Minted { animation: none; opacity: 1; }
-  #Buoyant { animation: none; opacity: 1; }
-  #_2000 { animation: none; opacity: 1; }
-  #_2004 { animation: none; opacity: 1; }
-  #_2009 { animation: none; opacity: 1; }
-  #_2011 { animation: none; opacity: 1; }
-  #_2013 { animation: none; opacity: 1; }
-  #_2015 { animation: none; opacity: 1; }
-  #_2019 { animation: none; opacity: 1; }
-  #Marker_1 { animation: none; opacity: 1; }
-  #Marker_2 { animation: none; opacity: 1; }
-  #Marker_3 { animation: none; opacity: 1; }
-  #Marker_4 { animation: none; opacity: 1; }
-  #Marker_5 { animation: none; opacity: 1; }
-  #Marker_6 { animation: none; opacity: 1; }
-  #Marker_7 { animation: none; opacity: 1; }
-  #Mask { animation: none; width: 1050px; }
+}
 }
 </style>
 <g clip-path="url(#timeline_clip)">
