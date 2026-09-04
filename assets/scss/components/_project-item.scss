@@ -49,10 +49,15 @@
         font-size: abstracts.$font-size-h2;
 
         a {
+          text-decoration: underline;
+          text-decoration-thickness: 2px;
+          text-decoration-color: rgba(abstracts.$black, 0.1);
+          text-underline-offset: 15%;
           transition: color .15s ease-in-out;
 
           &:hover {
             color: abstracts.$magenta;
+            text-decoration-color: rgba(abstracts.$magenta, 0.3);
           }
         }
       }
