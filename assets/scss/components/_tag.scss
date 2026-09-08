@@ -2,11 +2,11 @@
 
 @layer components {
   .tag {
+    @include abstracts.make-button--sm;// Use same padding and font size as small button
     display: inline-block;
-    padding: abstracts.size(0.25) abstracts.size(1.25);
-    border: abstracts.$border-primary;
+    outline: abstracts.$border-primary;
+    outline-offset: -3px;
     border-radius: 999px;
-    font-size: abstracts.$font-size-sm;
     white-space: nowrap;
 
     &__count {
@@ -17,14 +17,43 @@
     // @options
 
     &.tag--lg {
-      padding: abstracts.size(0.5) abstracts.size(2);
-      font-size: abstracts.$font-size-lg;
+      @include abstracts.make-button--lg;// Use same padding and font size as large button
     }
   }
   a.tag {
-    &:hover {
+    position: relative;
+   	z-index: 1;
+   	overflow: hidden;
+    text-decoration: none;
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: color 0.2s ease-out;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      height: 100%;
+      width: 100%;
       background-color: abstracts.$black;
+      transform: translate(-100%);
+      transform-origin: left;
+      border-radius: 999px;
+
+      @media (prefers-reduced-motion: no-preference) {
+        transition: transform 0.2s ease-out;
+      }
+    }
+    &:hover,
+    &:active {
       color: abstracts.$white;
+    }
+    &:hover::before,
+    &:active::before {
+      transform: translate(0);
     }
   }
 }

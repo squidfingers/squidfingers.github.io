@@ -1,9 +1,11 @@
 @use "../variables";
 
 @mixin make-button {
+  position: relative;
+ 	z-index: 1;
+ 	overflow: hidden;
   display: inline-block;
   padding: 8.5px 16px;
-  outline-width: 0;
   white-space: nowrap;
   vertical-align: middle;
   background-color: transparent;
@@ -19,11 +21,42 @@
   line-height: variables.$line-height-base;
   cursor: pointer;
 
-  &:hover,
-  &:active {
+  &::before {// Border
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    display: block;
+    height: 100%;
+    width: 100%;
     outline: variables.$border-primary;
     outline-offset: -3px;
+  }
+  &::after {// Fill
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: variables.$gray-50;
+    transform: translate(0, 0);
+    transform-origin: left;
+
+    @media (prefers-reduced-motion: no-preference) {
+      transition: transform 0.2s ease-out;
+    }
+  }
+  &:hover,
+  &:active {
     text-decoration: none;
+  }
+  &:hover::after,
+  &:active::after {
+    transform: translate(0, 100%);
   }
 }
 @mixin make-button--fill {
@@ -31,28 +64,41 @@
   background-color: variables.$black;
   text-decoration: none;
 
-  &:focus {
-    outline: 0;
+  @media (prefers-reduced-motion: no-preference) {
+    transition: color 0.2s ease-out;
+  }
+  &::before {
+    z-index: 1;
+  }
+  &::after {
+    transform: translate(0, -100%);
   }
   &:hover,
   &:active {
-    background-color: transparent;
-    outline: variables.$border-primary;
-    outline-offset: -3px;
     color: variables.$black;
+  }
+  &:hover::after,
+  &:active::after {
+    transform: translate(0, 0);
   }
 }
 @mixin make-button--outline {
-  color: variables.$black;
-  background-color: transparent;
-  outline: variables.$border-primary;
-  outline-offset: -3px;
   text-decoration: none;
 
+  @media (prefers-reduced-motion: no-preference) {
+    transition: color 0.2s ease-out;
+  }
+  &::after {
+    background-color: variables.$black;
+    transform: translate(0, -100%);
+  }
   &:hover,
   &:active {
-    background-color: variables.$black;
     color: variables.$white;
+  }
+  &:hover::after,
+  &:active::after {
+    transform: translate(0, 0);
   }
 }
 @mixin make-button--lg {
@@ -64,7 +110,7 @@
   font-size: variables.$font-size-base;
 }
 @mixin make-button--sm {
-  padding: 8px 14px;
+  padding: 6px 14px;
   font-size: variables.$font-size-sm;
 }
 @mixin make-button--block {
