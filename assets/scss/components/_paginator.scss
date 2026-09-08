@@ -10,6 +10,12 @@
     &__elipsis {
       padding-top: abstracts.size(2);
     }
+    &__current {
+      @include abstracts.make-button;
+      @include abstracts.make-button--fill;
+      @include abstracts.make-button--disabled;
+      opacity: 1;
+    }
     @media (max-width: abstracts.breakpoint-max-width("xs")) {
       &__prev,
       &__next {

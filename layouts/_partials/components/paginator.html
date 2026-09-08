@@ -30,7 +30,7 @@
           {{ if and (ge $pageNumber (sub $currentPage $window)) (le $pageNumber (add $currentPage $window)) }}
             <li>
               {{ if eq $pageNumber $currentPage }}
-                <a class="button button--fill">{{ $pageNumber }}</a>
+                <span class="paginator__current">{{ $pageNumber }}</span>
               {{ else }}
                 <a href="{{ $p.URL }}" class="button">{{ $pageNumber }}</a>
               {{ end }}
