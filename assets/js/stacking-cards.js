@@ -1,7 +1,7 @@
 (() => {
-"use strict";
-
-  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const prefersReducedMotion = window.matchMedia(
+    '(prefers-reduced-motion: reduce)',
+  ).matches;
 
   function throttleAnimation(callback) {
     let ticking = false;
@@ -27,19 +27,21 @@
         const cardRect = card.getBoundingClientRect();
         const nextRect = nextCard.getBoundingClientRect();
         const range = cardRect.bottom - cardRect.top;
-        const progress = range > 0 ? Math.min(Math.max((cardRect.bottom - nextRect.top) / range, 0), 1) : 0;
-        card.style.setProperty("--progress", progress);
+        const progress =
+          range > 0
+            ? Math.min(Math.max((cardRect.bottom - nextRect.top) / range, 0), 1)
+            : 0;
+        card.style.setProperty('--progress', progress);
       }
     };
     const requestCardUpdate = throttleAnimation(updateCardProgress);
-    window.addEventListener("scroll", requestCardUpdate, { passive: true });
-    window.addEventListener("resize", requestCardUpdate, { passive: true });
+    window.addEventListener('scroll', requestCardUpdate, { passive: true });
+    window.addEventListener('resize', requestCardUpdate, { passive: true });
     updateCardProgress();
   }
 
-  window.addEventListener("DOMContentLoaded", () => {
+  window.addEventListener('DOMContentLoaded', () => {
     if (prefersReducedMotion) return;
-    setupCards(document.querySelectorAll(".project-item"));
+    setupCards(document.querySelectorAll('.project-item'));
   });
-
 })();
