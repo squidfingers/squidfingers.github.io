@@ -43,13 +43,13 @@
     footer.style.setProperty("--footer-progress", progress);
   }
 
-  // Add `scrolled` class to body once the window has scrolled enough to trigger the header to collapse
+  // Add `scrolled` class once the window has scrolled enough to trigger the header to collapse
   function updateScrolled(){
-    document.body.classList.toggle("scrolled", window.scrollY > 64);
+    document.documentElement.classList.toggle("has-scrolled", window.scrollY > 64);
   }
 
   window.addEventListener("DOMContentLoaded", () => {
-    document.body.classList.add("js-enabled");
+    document.documentElement.classList.add("js-enabled");
     setupInView();
     setupImageLoad();
     updateFooterReveal();

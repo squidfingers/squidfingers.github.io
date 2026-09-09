@@ -9,7 +9,7 @@
     background-color: abstracts.$gray-50;
   }
   @media (min-width: abstracts.breakpoint-min-width("lg")) {
-    body.js-enabled {
+    html.js-enabled {
       // When the header is fixed, the body has a top padding equal to the header height.
       // This amount needs to be subtracted from 100vh, so main-body correctly fills the height of the window.
       .main-body {

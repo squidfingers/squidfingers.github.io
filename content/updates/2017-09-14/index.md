@@ -2,7 +2,6 @@
 date: 2017-09-14 10:15:00
 tags:
   - Product Design
-  - Watches
 ---
 
 {{< article "zenith-defy-lab.jpg" >}}

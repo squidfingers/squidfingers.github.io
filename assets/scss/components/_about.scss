@@ -41,7 +41,7 @@
   }
   // When the header is fixed, adjust the sticky point
   @media (min-width: abstracts.breakpoint-min-width("lg")) {
-    body.js-enabled {
+    html.js-enabled {
       .about {
         figure {
           top: abstracts.$initial-header-height;

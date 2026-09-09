@@ -2,7 +2,7 @@
   <div class="container--lg">
     <div class="update-list">
       <h2 class="update-list__heading">
-        Tag: {{ .Title | humanize | title }}
+        Tag: {{ .Title }}
       </h2>
       {{ range .Pages.ByDate.Reverse }}
         {{ .Render "_views/update" }}

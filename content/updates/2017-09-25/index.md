@@ -2,7 +2,6 @@
 date: 2017-09-25 8:45:00
 tags:
   - Product Design
-  - Watches
 ---
 
 {{< article "seiko-mod.jpg" >}}

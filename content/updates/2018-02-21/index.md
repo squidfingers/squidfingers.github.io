@@ -2,7 +2,6 @@
 date: 2018-02-21 10:45:00
 tags:
   - Product Design
-  - Watches
 ---
 
 {{< article "hamilton-khaki-field-mechanical.jpg" >}}

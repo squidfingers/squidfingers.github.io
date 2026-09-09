@@ -2,7 +2,6 @@
 date: 2017-10-06 10:25:00
 tags:
   - Product Design
-  - Watches
 ---
 
 {{< article "oris-chronoris-date.jpg" >}}

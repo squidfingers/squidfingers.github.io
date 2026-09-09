@@ -2,7 +2,6 @@
 date: 2019-06-17 21:30:00
 tags:
   - Product Design
-  - Watches
 ---
 
 {{< article "seiko-mod.jpg" >}}

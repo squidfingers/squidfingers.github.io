@@ -23,9 +23,10 @@
   // Only fix header on lg breakpoint and larger
   @media (min-width: abstracts.breakpoint-min-width("lg")) {
     // Only apply styles if JavaScript is enabled
-    body.js-enabled {
-      padding-top: abstracts.$initial-header-height;
-
+    html.js-enabled {
+      body {
+        padding-top: abstracts.$initial-header-height;
+      }
       .main-header {
         position: fixed;
         top: 0;
@@ -36,7 +37,7 @@
           transition: all 0.1s ease-out;
         }
       }
-      &.scrolled {
+      &.has-scrolled { // Classname set by JavaScript
         .main-header {
           padding-top: abstracts.size(2);
           padding-bottom: abstracts.size(2);
