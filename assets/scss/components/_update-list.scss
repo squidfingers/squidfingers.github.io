@@ -13,8 +13,18 @@
       font-size: abstracts.$font-size-lg;
     }
     > .update {
-      padding-bottom: abstracts.$gap-lg;
-      border-bottom: abstracts.$border-secondary;
+      //padding-bottom: abstracts.$gap-lg;
+      //border-bottom: abstracts.$border-secondary;
+      &::after {
+        content: "";
+        display: block;
+        height: 6px;
+        margin-top: abstracts.$gap;
+        background-color: abstracts.$black;
+        mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 6'%3E%3Cpath d='M0 3Q5 0 10 3Q15 6 20 3' fill='none' stroke='black' stroke-width='1.2'/%3E%3C/svg%3E");
+        mask-size: 20px 6px;
+        mask-repeat: repeat-x;
+      }
     }
   }
 }
