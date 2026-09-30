@@ -9,7 +9,7 @@ help:
 	@echo "  deep-clean    Removes all generated output, caches, and build tools."
 
 serve:
-	bin/hugo server --cleanDestinationDir
+	bin/hugo server --cleanDestinationDir --buildFuture
 
 build:
 	bin/hugo --gc --cleanDestinationDir --minify
