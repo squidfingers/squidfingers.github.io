@@ -2,7 +2,7 @@
 
 set -eu
 
-version=0.164.0
+version=0.167.0
 
 bindir=$( cd "${0%/*}" && pwd )
 targetbin=$( cd "$bindir"/.. && pwd )/target/bin
