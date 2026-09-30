@@ -1,0 +1,56 @@
+{{/*
+
+Returns css or transpiled scss from a global resource.
+
+@example
+
+Save output using source path (e.g.: `scss/main.scss` -> `css/main.css`):
+{{ partial "utils/get-css" "scss/main.scss" }}
+
+Save output to a specified destination:
+{{ partial "utils/get-css" (dict "src" "scss/main.scss" "dst" "assets/styles.css") }}
+
+*/}}
+
+{{ $src := "" }}
+{{ $dst := "" }}
+{{ $css := "" }}
+{{ $result := "" }}
+
+{{ if reflect.IsMap . }}
+  {{ $src = .src }}
+  {{ $dst = .dst }}
+{{ else }}
+  {{ $src = . }}
+{{ end }}
+
+{{ if ne (printf "%T" $src) "string" }}
+  {{ errorf "src must be a string, got %T" $src }}
+{{ end }}
+{{ if not $src }}
+  {{ errorf "src must not be empty" }}
+{{ end }}
+{{ if not $dst }}
+  {{ $dst = replace $src "scss" "css" }}
+{{ end }}
+{{ with resources.Get $src }}
+  {{ $ext := path.Ext $src }}
+  {{ if eq $ext ".scss" }}
+    {{ $css = . | toCSS (dict "transpiler" "dartsass" "targetPath" $dst) }}
+  {{ else if eq $ext ".css" }}
+    {{ $css = . }}
+  {{ end }}
+  {{ if $css }}
+    {{ if hugo.IsProduction }}
+      {{ $css = $css | minify | fingerprint }}
+    {{ end }}
+    {{ $result = printf `<link rel="stylesheet" href=%q>` $css.RelPermalink }}
+  {{ end }}
+{{ end }}
+
+{{/* Return result */}}
+{{ if ne $result "" }}
+  {{ return ($result | safeHTML) }}
+{{ else }}
+  {{ errorf "Unable to include stylesheet %q" $src }}
+{{ end }}

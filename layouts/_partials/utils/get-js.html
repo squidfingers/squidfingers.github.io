@@ -5,10 +5,10 @@ Returns a script tag for one or more global resources.
 @example
 
 Single script:
-{{ partial "utils/get-script" "js/script.js" }}
+{{ partial "utils/get-js" "js/script.js" }}
 
 Merge multiple scripts into a single file:
-{{ partial "utils/get-script" (dict "src" (slice "js/script-1.js" "js/script-2.js") "dst" "js/scripts.js") }}
+{{ partial "utils/get-js" (dict "src" (slice "js/script-1.js" "js/script-2.js") "dst" "js/scripts.js") }}
 
 */}}
 
