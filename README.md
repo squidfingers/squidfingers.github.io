@@ -11,5 +11,6 @@ then invoke it.
 
 - `make serve`: Starts the local Hugo development server with live reload.
 - `make build`: Builds the production site into `public/`, then runs `htmltest` against the output.
-- `make check`: Runs `htmltest` against the previously built `public/` directory.
-- `make clean`: Removes generated output and caches.
+- `make check`: Same as build; alias.
+- `make clean`: Removes Hugo generated output and caches.
+- `make deep-clean`: Removes all generated output, caches, and build tools.
