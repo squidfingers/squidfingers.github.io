@@ -1,11 +1,10 @@
-{{ $logo := readFile "/static/images/logo.svg" | htmlUnescape | safeHTML }}
 <div class="main-logo{{ if .IsHome }} main-logo--home{{ end }} | in-view">
-  {{ if .IsHome }}
-    {{ $logo }}
-  {{ else }}
-    <a href="/">
-      {{ $logo }}
-    </a>
+  {{ with resources.Get "images/logo.svg" }}
+    {{ $svg := .Content }}
+    {{ if not $.Page.IsHome }}
+      {{ $svg = printf `<a href="/">%s</a>` $svg }}
+    {{ end }}
+    {{ $svg | safeHTML }}
   {{ end }}
   <div>
     <h1>Travis Beckham</h1>

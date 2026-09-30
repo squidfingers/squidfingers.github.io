@@ -1,6 +1,5 @@
 {{ with resources.Match "fonts/*.woff2" }}
   {{ range . }}
     <link rel="preload" as="font" href="{{ .RelPermalink }}" type="font/woff2" crossorigin="anonymous">
-    {{/* .Publish */}}
   {{ end }}
 {{ end }}

@@ -2,9 +2,11 @@
 {{ define "main" }}
   <div class="container--xl">
     <div class="four0four">
-      <figure>
-        {{ readFile "/static/images/sad.svg" | htmlUnescape | safeHTML }}
-      </figure>
+      {{ with resources.Get "images/sad.svg" }}
+        <figure>
+          {{ .Content | safeHTML }}
+        </figure>
+      {{ end }}
       <h2>
         The page you're looking for doesn't exist.
       </h2>
