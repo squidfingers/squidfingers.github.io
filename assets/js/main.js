@@ -15,9 +15,7 @@
             observer.unobserve(entry.target);
           }
         });
-      },
-        { threshold: 0, rootMargin: "0px 0px -15% 0px" }
-      );
+      });
       observer.observe(target);
     });
   }
