@@ -3,74 +3,9 @@
 {{ end }}
 {{ define "main" }}
   <div class="cv">
-
-    <div class="container--lg">
-      <div class="about | in-view">
-        {{ with .Resources.Get .Params.photo }}
-          <figure>
-            <img src="{{ .RelPermalink }}" width="200" height="200" alt="Avatar" class="loaded">
-          </figure>
-        {{ end }}
-        <div class="prose">
-          {{ .Content }}
-        </div>
-      </div>
-    </div>
-
-    <div class="container--lg">
-      <div class="quote-list">
-        <h2 class="quote-list__heading | in-view">
-          Recommendations
-        </h2>
-        <div class="prose">
-          {{ range .Params.quotes }}
-            {{/* Use blockquote render hook */}}
-            {{ printf "> %s\n{author=%q, caption=%q, class=%q}" .content .name .title "in-view" | $.Page.RenderString }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
-
-    <div class="timeline | in-view">
-      <div class="container--xxl">
-        <h2 class="timeline__heading">
-          Experience
-        </h2>
-        {{ with .Resources.Get .Params.timeline }}
-          <figure aria-hidden="true">
-            {{ .Content | safeHTML }}
-          </figure>
-        {{ end }}
-      </div>
-    </div>
-
-    <div class="container--lg">
-      <div class="job-list">
-        {{ range .Params.jobs }}
-          <article class="job | in-view">
-            {{ with $.Page.Resources.Get .logo }}
-              <figure class="job__logo">
-                <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-              </figure>
-            {{ end }}
-            <div class="job__description">
-              <h2>
-                {{ .name }}
-              </h2>
-              <h3>
-                {{ .title }}
-              </h3>
-              <h4>
-                {{ .dateRange }}
-              </h4>
-              <div class="prose">
-                {{ .content | $.Page.RenderString (dict "display" "block") }}
-              </div>
-            </div>
-          </article>
-        {{ end }}
-      </div>
-    </div>
-
+    {{ .Render "_views/about" }}
+    {{ .Render "_views/quote-list" }}
+    {{ .Render "_views/timeline" }}
+    {{ .Render "_views/job-list" }}
   </div>
 {{ end }}

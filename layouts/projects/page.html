@@ -15,9 +15,13 @@
       <nav class="project__pager">
         {{ $pages := .Parent.RegularPages.ByWeight }}
         {{ with $pages.Prev . }}
-          <a href="{{ .RelPermalink }}" class="button button--fill button--block">Next: {{ .LinkTitle }} →</a>
+          <a href="{{ .RelPermalink }}" class="button button--fill button--block">
+            Next: {{ .LinkTitle }} →
+          </a>
         {{ else }}
-          <a href="/" class="button">Back to home</a>
+          <a href="/" class="button">
+            Back to home
+          </a>
         {{ end }}
       </nav>
     </div>

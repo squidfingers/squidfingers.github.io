@@ -1,0 +1,17 @@
+<div class="container--lg">
+  <div class="latest-update | in-view">
+    <h2 class="latest-update__heading">
+      Latest update
+    </h2>
+    {{ range first 1 (where site.RegularPages "Section" "updates") }}
+      <div class="latest-update__content | update--featured">
+        {{ .Render "_views/update" }}
+      </div>
+    {{ end }}
+    <p class="latest-update__footer">
+      <a href="/updates/">
+        More updates →
+      </a>
+    </p>
+  </div>
+</div>

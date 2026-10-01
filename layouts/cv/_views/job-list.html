@@ -1,0 +1,27 @@
+<div class="container--lg">
+  <div class="job-list">
+    {{ range .Params.jobs }}
+      <article class="job | in-view">
+        {{ with $.Page.Resources.Get .logo }}
+          <figure class="job__logo">
+            <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+          </figure>
+        {{ end }}
+        <div class="job__description">
+          <h2>
+            {{ .name }}
+          </h2>
+          <h3>
+            {{ .title }}
+          </h3>
+          <h4>
+            {{ .dateRange }}
+          </h4>
+          <div class="prose">
+            {{ .content | $.Page.RenderString (dict "display" "block") }}
+          </div>
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</div>

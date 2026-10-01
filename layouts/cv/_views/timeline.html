@@ -1,0 +1,12 @@
+<div class="timeline | in-view">
+  <div class="container--xxl">
+    <h2 class="timeline__heading">
+      Experience
+    </h2>
+    {{ with .Resources.Get .Params.timeline }}
+      <figure aria-hidden="true">
+        {{ .Content | safeHTML }}
+      </figure>
+    {{ end }}
+  </div>
+</div>

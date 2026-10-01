@@ -1,0 +1,5 @@
+<div class="container--xl">
+  {{ with .GetPage "/projects/" }}
+    {{ .Render "_views/project-list" }}
+  {{ end }}
+</div>
