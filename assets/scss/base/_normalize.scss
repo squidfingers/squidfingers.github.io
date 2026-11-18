@@ -3,7 +3,7 @@
 @layer base {
 
   ::selection {
-    background-color: rgba(abstracts.$yellow, 0.5);
+    background-color: rgba(abstracts.$accent2-500, 0.5);
   }
 
   :root {
@@ -27,8 +27,8 @@
   }
 
   body {
-    background-color: abstracts.$gray-50;
-    color: abstracts.$black;
+    background-color: abstracts.$light-500;
+    color: abstracts.$dark-500;
   }
 
   body,
@@ -70,7 +70,7 @@
     margin: 0;
     box-sizing: content-box;
     border: none;
-    border-top: solid 2px abstracts.$black;
+    border-top: solid 2px abstracts.$dark-500;
   }
 
   img {
@@ -78,7 +78,7 @@
   }
 
   a {
-    color: abstracts.$black;
+    color: abstracts.$dark-500;
     text-decoration: none;
   }
 
@@ -98,6 +98,6 @@
   }
 
   input[type="radio"] {
-    accent-color: abstracts.$black;
+    accent-color: abstracts.$dark-500;
   }
 }

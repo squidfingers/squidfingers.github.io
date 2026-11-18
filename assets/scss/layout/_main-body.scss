@@ -6,7 +6,7 @@
     position: relative;
     z-index: 1;
     min-height: 100vh;
-    background-color: abstracts.$gray-50;
+    background-color: abstracts.$light-500;
   }
   @media (min-width: abstracts.breakpoint-min-width("lg")) {
     html.js-enabled {

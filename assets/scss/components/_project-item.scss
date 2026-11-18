@@ -4,7 +4,7 @@
   .project-item {
     display: grid;
     border: abstracts.$border-primary;
-    background-color: abstracts.$white;
+    background-color: abstracts.$light-400;
 
     &__media {
       border-bottom: abstracts.$border-primary-thin;
@@ -29,8 +29,8 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: rgba(abstracts.$magenta, 0.85);
-        color: abstracts.$white;
+        background-color: rgba(abstracts.$accent1-500, 0.85);
+        color: abstracts.$light-400;
         opacity: 0;
         font-size: abstracts.$font-size-lg;
         font-weight: abstracts.$font-weight-bold;
@@ -51,13 +51,13 @@
         a {
           text-decoration: underline;
           text-decoration-thickness: 2px;
-          text-decoration-color: rgba(abstracts.$black, 0.1);
+          text-decoration-color: rgba(abstracts.$dark-500, 0.1);
           text-underline-offset: 15%;
           transition: color .15s ease-in-out;
 
           &:hover {
-            color: abstracts.$magenta;
-            text-decoration-color: rgba(abstracts.$magenta, 0.3);
+            color: abstracts.$accent1-500;
+            text-decoration-color: rgba(abstracts.$accent1-500, 0.3);
           }
         }
       }

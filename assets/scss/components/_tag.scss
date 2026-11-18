@@ -11,7 +11,7 @@
 
     &__count {
       font-family: abstracts.$font-family-mono;
-      color: abstracts.tint-color(abstracts.$black, 50%);
+      color: abstracts.tint-color(abstracts.$dark-500, 50%);
     }
 
     // @options
@@ -38,7 +38,7 @@
       display: block;
       height: 100%;
       width: 100%;
-      background-color: abstracts.$black;
+      background-color: abstracts.$dark-500;
       transform: translate(-100%);
       transform-origin: left;
       border-radius: 999px;
@@ -49,7 +49,7 @@
     }
     &:hover,
     &:active {
-      color: abstracts.$white;
+      color: abstracts.$light-400;
     }
     &:hover::before,
     &:active::before {

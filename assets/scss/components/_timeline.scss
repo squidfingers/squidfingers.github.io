@@ -14,7 +14,7 @@
     }
     @media (min-width: abstracts.breakpoint-min-width("lg")) {
       padding: abstracts.$gap-xl 0;
-      background-color: abstracts.$yellow;
+      background-color: abstracts.$accent2-500;
 
       &__heading {
         margin-bottom: abstracts.$gap;
