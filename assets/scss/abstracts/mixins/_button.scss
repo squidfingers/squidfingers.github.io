@@ -9,11 +9,11 @@
   white-space: nowrap;
   vertical-align: middle;
   background-color: transparent;
-  color: variables.$black;
+  color: variables.$dark-500;
   text-align: center;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-decoration-color: rgba(variables.$black, 0.2);
+  text-decoration-color: rgba(variables.$dark-500, 0.2);
   text-underline-offset: 15%;
   font-family: variables.$font-family-base;
   font-weight: variables.$font-weight-bold;
@@ -32,7 +32,7 @@
     width: 100%;
     outline: variables.$border-primary;
     outline-offset: -3px;
-    color: variables.$black;
+    color: variables.$dark-500;
   }
   &::after {// Fill
     content: "";
@@ -43,7 +43,7 @@
     display: block;
     height: 101%;
     width: 101%;
-    background-color: variables.$gray-50;
+    background-color: variables.$light-500;
     transform: translate(0, 0);
     transform-origin: left;
 
@@ -61,8 +61,8 @@
   }
 }
 @mixin make-button--fill {
-  color: variables.$white;
-  background-color: variables.$black;
+  color: variables.$light-400;
+  background-color: variables.$dark-500;
   text-decoration: none;
 
   @media (prefers-reduced-motion: no-preference) {
@@ -76,7 +76,7 @@
   }
   &:hover,
   &:active {
-    color: variables.$black;
+    color: variables.$dark-500;
   }
   &:hover::after,
   &:active::after {
@@ -90,12 +90,12 @@
     transition: color 0.2s ease-out;
   }
   &::after {
-    background-color: variables.$black;
+    background-color: variables.$dark-500;
     transform: translate(0, -100%);
   }
   &:hover,
   &:active {
-    color: variables.$white;
+    color: variables.$light-400;
   }
   &:hover::after,
   &:active::after {

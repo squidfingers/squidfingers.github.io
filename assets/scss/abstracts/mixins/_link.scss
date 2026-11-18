@@ -1,13 +1,13 @@
 @use "../variables";
 
 @mixin make-link {
-  color: variables.$magenta;
+  color: variables.$accent1-600;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-decoration-color: rgba(variables.$magenta, 0.1);
+  text-decoration-color: rgba(variables.$accent1-500, 0.2);
   text-underline-offset: 15%;
 
   &:hover {
-    text-decoration-color: rgba(variables.$magenta, 0.3);
+    text-decoration-color: rgba(variables.$accent1-500, 0.4);
   }
 }

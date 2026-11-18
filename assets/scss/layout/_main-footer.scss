@@ -8,8 +8,8 @@
     width: 100%;
     padding-top: abstracts.$gap-lg;
     padding-bottom: abstracts.$gap-lg;
-    background-color: abstracts.$black;
-    color: abstracts.$yellow;
+    background-color: abstracts.$dark-500;
+    color: abstracts.$accent2-500;
     text-align: center;
 
     [class^=container] {
@@ -24,12 +24,12 @@
       font-size: abstracts.$font-size-h1;
     }
     a {
-      color: abstracts.$white;
+      color: abstracts.$light-400;
 
       &:hover {
         text-decoration: underline;
         text-decoration-thickness: 2px;
-        text-decoration-color: rgba(abstracts.$white, 0.3);
+        text-decoration-color: rgba(abstracts.$light-400, 0.3);
         text-underline-offset: 15%;
       }
     }

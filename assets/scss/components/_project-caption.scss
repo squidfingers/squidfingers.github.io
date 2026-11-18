@@ -8,7 +8,7 @@
       display: inline-block;
       padding: abstracts.size(1.5) abstracts.size(2);
       border-radius: 999px;
-      background-color: abstracts.$white;
+      background-color: abstracts.$light-400;
       font-size: abstracts.$font-size-sm;
     }
     @media (min-width: abstracts.breakpoint-min-width("sm")) {

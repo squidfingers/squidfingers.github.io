@@ -24,18 +24,22 @@ $font-size-h6: 16px;
 
 // Colors
 
-$white: rgb(255, 255, 255);
-$black: rgb(20, 22, 26);
-$gray-50: rgb(248, 247, 246);
-$gray-100: rgb(238, 237, 236);
-$yellow: rgb(242, 232, 25);
-$magenta: rgb(240, 70, 170);
+$light-400: #f3ecde;
+$light-500: #eee4d0;
+$light-600: #e6d7bc;
+
+$dark-500: #405a62;
+
+$accent1-500: #fe845b;
+$accent1-600: #e35a39;
+
+$accent2-500: #f7d15f;
 
 // Styles
 
-$border-primary: solid 3px $black;
-$border-primary-thin: solid 1px $black;
-$border-secondary: solid 6px $gray-100;
+$border-primary: solid 3px $dark-500;
+$border-primary-thin: solid 1px $dark-500;
+$border-secondary: solid 6px $light-600;
 
 // Size
 

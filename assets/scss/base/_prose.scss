@@ -5,7 +5,7 @@
     // Only apply bottom margin if element is a direct child of .prose
     > {
       h1, h2, h3, h4, h5, h6,
-      p, ul, ol, dl, blockquote, figure,
+      p, ul, ol, dl, blockquote, figure, hr,
       div {
         margin-bottom: abstracts.$gap;
       }
@@ -46,7 +46,7 @@
     }
     blockquote {
       padding: abstracts.$gap;
-      background-color: abstracts.$white;
+      background-color: abstracts.$light-400;
       border-left: abstracts.$border-primary;
 
       p {
@@ -73,8 +73,8 @@
       font-style: italic;
     }
     img:not(.no-border) {
-      border: solid 1px rgba(abstracts.$black, 0.1);
-      box-shadow: 0 0 abstracts.size(6) rgba(abstracts.$black, 0.05);
+      border: solid 1px rgba(abstracts.$dark-500, 0.1);
+      box-shadow: 0 0 abstracts.size(6) rgba(abstracts.$dark-500, 0.05);
     }
   }
 }
