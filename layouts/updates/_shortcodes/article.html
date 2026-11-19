@@ -4,7 +4,7 @@
     {{/* Create anchor using link render hook with current page context */}}
     {{ printf "![%s](%s)" (path.BaseName .) . | $.Page.RenderString }}
   {{ end }}
-  <div>
+  <div class="prose">
     {{ .InnerDeindent | $.Page.RenderString (dict "display" "block") }}
   </div>
 </div>
