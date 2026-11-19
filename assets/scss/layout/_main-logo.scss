@@ -16,6 +16,12 @@
     }
     path, rect {
       fill: currentColor;
+      transition: fill 0.5s ease;
+    }
+    a:hover {
+      path, rect {
+        fill: abstracts.$accent2-500;
+      }
     }
     h1, h2 {
       line-height: abstracts.$line-height-display;
@@ -45,46 +51,48 @@
     // Animation
     &.main-logo--home {
       &.in-view--start {
-        rect {
-          transform: scale(0);
+        rect:nth-of-type(1) {
+          transform: scaleX(0);
+          transform-origin: center;
           transform-box: fill-box;
         }
-        rect:nth-child(1),
-        rect:nth-child(4) {
-          transform-origin: left center;
-          transform: scaleX(0);
-        }
-        rect:nth-child(2) {
+        rect:nth-of-type(2) {
+          transform: scaleY(0);
           transform-origin: center top;
-          transform: scaleY(0);
+          transform-box: fill-box;
         }
-        rect:nth-child(3) {
-          transform-origin: center bottom;
-          transform: scaleY(0);
+        path:nth-of-type(1) {
+          clip-path: inset(0 0 0 100%);
+        }
+        path:nth-of-type(2) {
+          clip-path: inset(0 100% 0 0);
         }
       }
       &.in-view--end {
         rect {
-          animation: main-logo-grow 150ms abstracts.$easeOutQuad forwards;
+          animation: main-logo-grow 200ms abstracts.$easeOutQuad forwards;
         }
-        rect:nth-child(1) {
+        rect:nth-of-type(1) {
           animation-delay: 0ms;
         }
-        rect:nth-child(2) {
-          animation-delay: 200ms;
+        rect:nth-of-type(2) {
+          animation-delay: 150ms;
         }
-        rect:nth-child(3) {
-          animation-delay: 400ms;
-        }
-        rect:nth-child(4) {
-          animation-delay: 600ms;
+        path {
+          animation: main-logo-reveal-horizontal 250ms abstracts.$easeOutQuad forwards;
+          animation-delay: 350ms;
         }
       }
     }
-  }
-  @keyframes main-logo-grow {
-    to {
-      transform: scale(1);
+    @keyframes main-logo-grow {
+      to {
+        transform: scale(1);
+      }
+    }
+    @keyframes main-logo-reveal-horizontal {
+      to {
+        clip-path: inset(0);
+      }
     }
   }
 }
