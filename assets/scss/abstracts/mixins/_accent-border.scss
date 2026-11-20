@@ -1,0 +1,12 @@
+@use "../variables";
+@use "../functions";
+
+@mixin make-accent-border {
+  &::before {
+    display: block;
+    content: "";
+    margin-bottom: variables.$gap;
+    border-top: variables.$border-accent;
+    width: functions.size(8);
+  }
+}

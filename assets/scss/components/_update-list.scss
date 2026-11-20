@@ -13,8 +13,6 @@
       font-size: abstracts.$font-size-lg;
     }
     > .update {
-      //padding-bottom: abstracts.$gap-lg;
-      //border-bottom: abstracts.$border-secondary;
       &::after {
         content: "";
         display: block;
