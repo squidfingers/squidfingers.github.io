@@ -25,14 +25,18 @@ Some other highlights include:
 - Streamlined configuration that help teams wire up Slack, DataDog, and PagerDuty alerting in minutes.
 {{< /blurb >}}
 
+{{< grid "2col-stacked" >}}
 ![Image 2](images/02.png)
 
-{{< grid "2col" >}}
 ![Image 3](images/03.png)
 
 ![Image 4](images/04.png)
+{{< /grid >}}
 
 ![Image 5](images/05.png)
 
+{{< grid "2col" >}}
 ![Image 6](images/06.png)
+
+![Image 7](images/07.png)
 {{< /grid >}}
