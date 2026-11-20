@@ -3,11 +3,11 @@
 @layer components {
   .intro {
     p {
+      @include abstracts.make-accent-border;
       font-size: abstracts.$font-size-h3;
 
       @media (min-width: abstracts.breakpoint-min-width("md")) {
         font-size: abstracts.$font-size-h2;
-        text-align: center;
       }
       @media (min-width: abstracts.breakpoint-min-width("lg")) {
         font-size: abstracts.$font-size-h1;

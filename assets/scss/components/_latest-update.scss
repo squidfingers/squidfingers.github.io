@@ -3,6 +3,7 @@
 @layer components {
   .latest-update {
     &__heading {
+      @include abstracts.make-accent-border;
       font-weight: abstracts.$font-weight-bold;
     }
     &__content {
